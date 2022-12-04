@@ -7,6 +7,8 @@
 `Wiki History`에 주제 기록  
 선택한 주제를 학습한 후 `주제.md` 파일 생성, 다음 날 스터디 전까지 `PR 생성`하기
 
+> 🚨 5일 이상 실패 시 퇴출
+
 ### 🌈 Convention Rule
 **PR** | `[카테고리] 주제`  
 ex) [Algorithm] DFS&BFS
