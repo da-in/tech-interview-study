@@ -6,8 +6,13 @@
 스터디에서는 전 날 `학습 내용 공유` 및 오늘 `주제 선정`  
 선택한 주제를 학습한 후 다음 날 스터디 전까지 `PR 생성`하기
 
-### 🌈 Commit Convention Rule
+### 🌈 Convention Rule
+**PR** | `[카테고리] 주제`  
+ex) [Algorithm] DFS&BFS
 
+**Commit** | `[카테고리] {커밋내용} 파일명.md`  
+ex) [Algorithm] Create DFS&BFS.md  
+ex) [Algorithm] Add Diagram DFS&BFS.md  
 
 ### 😊 Collaborator
 <div>
@@ -27,6 +32,12 @@
 
 ## 학습 주제
 ### 📌 Computer Science
+- Computer Architecture
+- Data Structure
+- Database
+- Network
+- Operating System
+- Software Engineering
 ### 📌 Algorithm
 ### 📌 Design Pattern
 ### 📌 Interview
