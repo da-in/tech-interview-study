@@ -1,4 +1,4 @@
-# 브라우저 동작 방법
+# 브라우저(Browser)와 렌더링(Rendering)
 
 ## 브라우저(Browser)
 
