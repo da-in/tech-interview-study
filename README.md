@@ -156,9 +156,9 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Web
 
-- [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EB%B2%95.md)
+- [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - 쿠키(Cookie) & 세션(Session)
-- HTTP Request Methods
+- [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - HTTP Status Code
 - REST API
 - 웹 서버와 WAS의 차이점
