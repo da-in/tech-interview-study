@@ -157,21 +157,29 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 ### 📌 Web
 
 - [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%99%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)
+- DOM
+- Reflow&Repaint
 - 쿠키(Cookie) & 세션(Session)
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - HTTP Status Code
+- CORS
 - REST API
 - 웹 서버와 WAS의 차이점
 - OAuth
 - JWT(JSON Web Token)
 - Authentication and Authorization
 - 로그 레벨
-- UI와 UX
+- UI/UX
 - CSR & SSR
+- 크로스브라우징
 - Vue.js vs React
 - 네이티브 앱 & 웹 앱 & 하이브리드 앱
 - PWA(Progressive Web App)
 - CSRF & XSS
+- 웹 성능 최적화
+- CSS Methodology
+- CSS Selector 우선순위
+- Normalize.css vs Reset.css
 
 ### 📌 Linux
 
