@@ -169,7 +169,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - JWT(JSON Web Token)
 - Authentication and Authorization
 - 로그 레벨
-- UI & UX
+- UI/UX
 - CSR & SSR
 - 크로스브라우징
 - Vue.js vs React
