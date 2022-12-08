@@ -32,28 +32,12 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 테스팅 기법
 
 서로 다른 브라우저여도 동일한 렌더링 엔진을 사용한다면 비슷한 결과를 얻을 수 있다.
 
-<table>
-  <tr>
-    <th>Trident</th>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <th>Gecko</th>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <th>Webkit</th>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <th>Presto</th>
-    <td>내용</td>
-  </tr>
-  <tr>
-    <th>Blink</th>
-    <td>내용</td>
-  </tr>
-</table>
+![화면 캡처 2022-12-09 041556](https://user-images.githubusercontent.com/66757141/206547114-5d26cf01-dfc0-4867-8641-3547e9e38570.png)
+_Comparison of browser engines [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_browser_engines)_
+
+**Active Status**는 새로운 웹 표준이 엔진에 추가되어 멀티미디어를 포함한 대다수의 웹사이트를 렌더링할 수 있음을 의미한다.  
+**Maintained Status**는 적어도 엔진이 여전히 컴파일 됨을 의미한다.  
+**Discontinued**는 엔진의 제공이 중단되었음을 의미한다.
 
 <br/>
 
