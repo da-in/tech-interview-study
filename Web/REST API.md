@@ -37,7 +37,7 @@ Representational State Transfer의 약자로,
   - 대량의 요청을 효율적으로 처리할 수 있음
 4. Layered-System(계층 구조)
   - REST 서버는 다중계층으로 구성될 수 있음
-    - 보안, 로드 밸런싱, 암호화 등을 위한 계층을 추가하여 주고를 변경할 수 있음
+    - 보안, 로드 밸런싱, 암호화 등을 위한 계층을 추가하여 구조를 변경할 수 있음
     - Proxy, Gateway와 같은 네트워크 기반의 중간매체 사용가능
 5. Uniform Interface(인터페이스 일관성)
   - URI로 지정한 자원에 대한 요청을 통일되고, 한정적으로 수행하는 아키텍처 스타일을 의미함
@@ -75,5 +75,5 @@ REST의 원리를 잘 따르는 시스템 = RESTful하다!
 
 ---
 ## 출처
-https://dev-coco.tistory.com/97#REST%EC%-D%--%--%EC%A-%--%EC%-D%--
+https://dev-coco.tistory.com/97#REST%EC%-D%--%--%EC%A-%--%EC%-D%--  
 https://meetup.toast.com/posts/92
