@@ -12,8 +12,10 @@
 Cross Browsing을 통해 보장하고자 하는 브라우저 간의 호환성을 의미한다.
 
 **Cross-browser Testing**  
-Cross-browser Compatibility를 보장하기 위해 진행하는 테스팅 기법을 뜻한다.  
-주로 QA 엔지니어에 의해 수행된다.  
+Cross-browser Compatibility를 보장하기 위해 진행하는 **테스팅 기법**을 뜻하며 일반적으로 **QA 엔지니어**에 의해 수행된다.  
+글꼴 및 이미지의 표시, 반응형 웹 디자인 작동 여부 등 **콘텐츠 및 레이아웃의 일관성**을 테스트한다.  
+기능, third-party services와의 통합, 모바일 또는 태블릿용 터치 입력과 같은 **유용성**을 확인한다.  
+이미지의 대체 텍스트, 비디오의 폐쇄 자막(표시 여부를 선택할 수 있는 자막) 등의 **접근성**을 테스트 한다.  
 [MDN Web Docs - Cross browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing#prerequisites)
 
 <br/>
