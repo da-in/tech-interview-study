@@ -38,6 +38,8 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 **테스팅 기�
 
 Browser Market Share Worldwide - November 2022 를 참고하면 Chrome 이 65.84%로 가장 높았고 Safari 18.7%, Edge 4.44%가 뒤를 이었다.
 
+<br/>
+
 ## 렌더링 엔진(레이아웃 엔진)
 
 서로 다른 브라우저여도 동일한 렌더링 엔진을 사용한다면 비슷한 결과를 얻을 수 있다.
