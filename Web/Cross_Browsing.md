@@ -8,14 +8,13 @@
 
 국내 블로그 자료들에서는 **크로스-브라우징**(Cross Browsing)이라는 표현을 많이 사용하였으나, 해외에서는 아래의 **크로스-브라우저 테스팅**(Cross-browser Testing), **크로스-브라우저 호환성**(Cross-browser Compatibility)의 표현을 주로 사용하였다.
 
-#### Cross-browser Compatibility
-
+**Cross-browser Compatibility**  
 Cross Browsing을 통해 보장하고자 하는 브라우저 간의 호환성을 의미한다.
 
-#### Cross-browser Testing
-
+**Cross-browser Testing**  
 Cross-browser Compatibility를 보장하기 위해 진행하는 테스팅 기법을 뜻한다.  
-주로 QA 엔지니어에 의해 수행된다.
+주로 QA 엔지니어에 의해 수행된다.  
+[MDN Web Docs - Cross browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing#prerequisites)
 
 <br/>
 
@@ -27,6 +26,12 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 테스팅 기법
 > ex - Modern Browser에서의 입체 애니메이션과, 구형 브라우저에서의 평면 그래픽.
 
 <br/>
+
+## 브라우저 점유율
+
+<div id="all-browser-ww-monthly-202111-202211" width="600" height="400" style="width:600px; height: 400px;"></div><p>Source: <a href="https://gs.statcounter.com/">StatCounter Global Stats - Browser Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?all-browser-ww-monthly-202111-202211&chartWidth=600"></script>
+
+Browser Market Share Worldwide - November 2022 를 참고하면 Chrome 이 65.84%로 가장 높았고 Safari 18.7%, Edge 4.44%가 뒤를 이었다.
 
 ## 렌더링 엔진(레이아웃 엔진)
 
@@ -46,5 +51,5 @@ _Comparison of browser engines [Wikipedia](https://en.wikipedia.org/wiki/Compari
 ## Reference
 
 📄 https://blog.naver.com/insaweb/221926915225  
-📄 https://github.com/Songwonseok/CS-Study/blob/main/Web/%ED%81%AC%EB%A1%9C%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95.md
+📄 https://github.com/Songwonseok/CS-Study/blob/main/Web/%ED%81%AC%EB%A1%9C%EC%8A%A4%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95.md  
 📄 https://mulder21c.github.io/2019/01/30/what-is-cross-browsing/
