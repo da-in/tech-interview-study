@@ -36,7 +36,8 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 **테스팅 기�
 </div>
 <p>Source: <a href="https://gs.statcounter.com/">StatCounter Global Stats - Browser Market Share</a></p>
 
-Browser Market Share Worldwide - November 2022 를 참고하면 Chrome 이 65.84%로 가장 높았고 Safari 18.7%, Edge 4.44%가 뒤를 이었다.
+Browser Market Share Worldwide - November 2022 를 참고하면 Chrome 이 65.84%로 가장 높았고 Safari 18.7%, Edge 4.44%가 뒤를 이었다.  
+Cross Browsing 시에 점유율이 높은 브라우저의 대응에 먼저 초점을 맞추는 것이 좋다.
 
 <br/>
 
