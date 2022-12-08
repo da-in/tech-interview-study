@@ -42,5 +42,5 @@ UI와 UX는 긴밀하게 상호작용하는 관계이다. UX를 바탕으로 유
 
 ## Reference
 
-📄 https://modulabs.co.kr/blog/uxui-design/
+📄 https://modulabs.co.kr/blog/uxui-design/  
 📄 https://pipelinemaker.tistory.com/51
