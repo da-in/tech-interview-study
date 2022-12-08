@@ -29,7 +29,10 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 테스팅 기법
 
 ## 브라우저 점유율
 
-<div id="all-browser-ww-monthly-202111-202211" width="600" height="400" style="width:600px; height: 400px;"></div><p>Source: <a href="https://gs.statcounter.com/">StatCounter Global Stats - Browser Market Share</a></p><script type="text/javascript" src="https://www.statcounter.com/js/fusioncharts.js"></script><script type="text/javascript" src="https://gs.statcounter.com/chart.php?all-browser-ww-monthly-202111-202211&chartWidth=600"></script>
+<div id="all-browser-ww-monthly-202111-202211" width="600" height="400">
+  <img style="width:600px; height: 400px;" src="https://user-images.githubusercontent.com/66757141/206550905-14fc2633-181d-4229-b8b4-fa84f66f7b19.png" alt="StatCounter-browser-ww-monthly-202111-202211"/>
+</div>
+<p>Source: <a href="https://gs.statcounter.com/">StatCounter Global Stats - Browser Market Share</a></p>
 
 Browser Market Share Worldwide - November 2022 를 참고하면 Chrome 이 65.84%로 가장 높았고 Safari 18.7%, Edge 4.44%가 뒤를 이었다.
 
