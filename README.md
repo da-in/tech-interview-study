@@ -161,9 +161,9 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Reflow&Repaint
 - 쿠키(Cookie) & 세션(Session)
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
-- HTTP Status Code
+- [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
 - CORS
-- REST API
+- [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
 - 웹 서버와 WAS의 차이점
 - OAuth
 - JWT(JSON Web Token)
