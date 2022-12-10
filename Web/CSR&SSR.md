@@ -44,7 +44,9 @@ XMLHttpRequest API / jQuery / fetch API(ES2015 표준 등장) 등을 이용해 �
 클라이언트는 서버로부터 페이지 요청 초기에 **모든 화면 표시에 필요한 모든 자원**을 받아와 렌더링한다.
 페이지 이동 및 변화시, **Ajax를 통해 변화한 부분의 데이터만 받아오고 동일한 파일 상에서 DOM을 변경**하여 View를 업데이트한다.
 
-![SSR & CSR](https://linked2ev.github.io/assets/img/devlog/201808/2018-08-01-SPA-step1.png)
+<br/>
+
+<img src="https://linked2ev.github.io/assets/img/devlog/201808/2018-08-01-SPA-step1.png" alt="SSR & CSR" width="450px" />
 
 <br/>
 
