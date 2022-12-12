@@ -175,7 +175,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Vue.js vs React
 - 네이티브 앱 & 웹 앱 & 하이브리드 앱
 - PWA(Progressive Web App)
-- CSRF & XSS
+- [CSRF & XSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSRF%26XSS.md)
 - 웹 성능 최적화
 - CSS Methodology
 - CSS Selector 우선순위
