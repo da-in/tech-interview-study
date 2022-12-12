@@ -159,7 +159,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%99%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)
 - DOM
 - Reflow&Repaint
-- 쿠키(Cookie) & 세션(Session)
+- [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/Web/Cookie%26Session.md)
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
 - CORS
