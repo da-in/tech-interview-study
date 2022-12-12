@@ -170,7 +170,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Authentication and Authorization
 - 로그 레벨
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
-- CSR & SSR
+- [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
 - [Cross Browsing](https://github.com/da-in/tech-interview-study/blob/main/Web/Cross_Browsing.md)
 - Vue.js vs React
 - 네이티브 앱 & 웹 앱 & 하이브리드 앱
