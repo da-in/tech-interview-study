@@ -42,13 +42,13 @@ JWT는 `Header`, `Payload`, `Signature` 세 부분으로 이루어져있다.
 
 JWT는 세 부분의 인코딩된 문자열을 `.`으로 연결한 형태이다.
 
-```
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhaW4iLCJyb2xlIjpbImFkbWluIiwidXNlciJdLCJ0ZWFtIjoicm91bmRzaG91bGRlciJ9.lhMolD40R2Lk1moWcUP_AHQ3BpF1hdB-eMWFljZaVzI
-```
+> ```eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhaW4iLCJyb2xlIjpbImFkbWluIiwidXNlciJdLCJ0ZWFtIjoicm91bmRzaG91bGRlciJ9.lhMolD40R2Lk1moWcUP_AHQ3BpF1hdB-eMWFljZaVzI```
 
-![사진]()
+![화면 캡처 2022-12-13 220132](https://user-images.githubusercontent.com/66757141/207366083-9303f328-89e1-486c-8475-cdc8f4177041.png)
 
 [JWT Online Debugger (jwt.io)](https://jwt.io/) 를 통해 위 JWT 토큰을 확인하면 아래와 같이 내용을 확인할 수 있다. BASE64Url은 암호화가 아닌 단순 인코딩이기 때문에 동일한 정보에 대하여 항상 동일한 문자열을 반환한다.
+
+<br/>
 
 #### Header
 
@@ -145,7 +145,7 @@ _\* Authorization의 value는 인증 타입을 구분하기 위한 prefix를 앞
 ## Reference
 
 📄https://jwt.io/introduction  
-📄http://bcho.tistory.com/999
-📄https://mangkyu.tistory.com/56
-📄https://etloveguitar.tistory.com/101
-📄https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-JWTjson-web-token-%EB%9E%80-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC
+📄http://bcho.tistory.com/999  
+📄https://mangkyu.tistory.com/56  
+📄https://etloveguitar.tistory.com/101  
+📄https://inpa.tistory.com/entry/WEB-📚-JWTjson-web-token-란-💯-정리
