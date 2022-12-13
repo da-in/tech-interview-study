@@ -16,47 +16,54 @@ ex | image, html, css, javascript 파일과 같이 하드웨어에 저장되어 
 
 클라이언트의 요청 인자에 따라 스크립트에 의해 동적으로 생성 후 반환되는 페이지를 의미한다.
 
-![static-vs-dynamic](https://gmlwjd9405.github.io/images/web/static-vs-dynamic.png)
+![68747470733a2f2f676d6c776a64393430352e6769746875622e696f2f696d616765732f7765622f7374617469632d76732d64796e616d69632e706e67](https://user-images.githubusercontent.com/66757141/207196961-3209cb84-7a12-455f-b496-3dae343526e6.png)
 
 <br/>
 
 ## Web Server
 
-웹 서버란 HTTP 프로토콜을 기반으로 클라이언트의 요청을 받아 **정적 컨텐츠**를 제공하는 서버이다. 정적 컨텐츠란 위에서 설명한 것과 같이 단순 HTML 문서, CSS, 이미지, 파일 등 즉시 응답 가능한 컨텐츠이다.
+웹 서버란 HTTP 프로토콜을 기반으로 클라이언트의 요청을 받아 **정적 컨텐츠**를 제공하는 서버이다.  
+정적 컨텐츠란 위에서 설명한 것과 같이 단순 HTML 문서, CSS, 이미지, 파일 등 즉시 응답 가능한 컨텐츠이다.
 
 웹 서버가 정적 컨텐츠가 아닌 동적 컨텐츠를 요청받으면 WAS에 해당 요청을 넘겨주고, WAS에서 처리한 결과를 클라이언트에게 전달하는 역할도 한다.
 
-이러한 웹 서버에는 Apache, NginX 등이 있다.
+웹 서버에는 Apache, Nginx, IIS, WebtoB 등이 있다.
 
 <br/>
 
-## WAS
+## WAS(Web Application Server)
 
-![WAS](https://gmlwjd9405.github.io/images/web/webserver-vs-was1.png)
+![68747470733a2f2f676d6c776a64393430352e6769746875622e696f2f696d616765732f7765622f7765627365727665722d76732d776173312e706e67](https://user-images.githubusercontent.com/66757141/207196948-32b1f31c-1ccc-4a54-a375-6690f49657a9.png)
 
-WAS란 DB 조회 혹은 다양한 로직 처리를 요구하는 동적 컨텐츠를 제공하기 위해 만들어진 Application 서버이다.
-
-WAS는 Web Server + Web Container 이다.
-_\* Container란 JSP, Servlet을 실행시킬 수 있는 소프트웨어를 말한다._
-
+WAS(Web Application Server)란 DB 조회 혹은 다양한 로직 처리를 요구하는 동적 컨텐츠를 제공하기 위해 만들어진 Application 서버이다.  
 HTTP 프로토콜을 기반으로 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어로서, 주로 데이터베이스 서버와 같이 수행된다.
-WAS는 JSP, Servlet 구동환경을 제공해주기 때문에 **서블릿 컨테이너\*** 혹은 **웹 컨테이너\*** 로 불린다.
+
+WAS는 `Web Server` + `Web Container*` 이다.  
+WAS 별로 다양한 종류의 컨테이너를 내장하고 있으며, 이들 중 서블릿에 관련된 기능을 모아 놓은 것을 서블릿 컨테이너라 부른다. 
+
+_\* **Container**란 JSP, Servlet을 실행시킬 수 있는 소프트웨어를 말한다._  
+_\* **Web Container**는 Java 서블렛과 상호작용하는 WAS의 구성요소이다. 서블릿의 생명 주기를 관리(초기화, 메소드 호출, 가비지 컬렉션)하고, 서블릿과 웹서버의 통신과 멀티스레딩을 지원하며 선언적 보안 관리가 가능하게 한다._  
+_\* Java가 아닌 PHP, Perl, Python등의 언어는 Apache를 통해 CGI(Common Gateway Interface)를 적용시켜 컨테이너의 역할을 수행할 수 있다._
 
 WAS는 웹 서버의 기능들을 구조적으로 분리하여 처리하고자 하는 목적으로 제시되었다. 분산 트랜잭션, 보안, 메시징, 쓰레드 처리 등의 기능을 처리하는 분산 환경에서 사용된다. WAS는 프로그램 실행 환경과 DB 접속 기능을 제공하고, 여러 개의 트랜잭션을 관리 가능하다. 또한 비즈니스 로직을 수행할 수 있다.
 
-WAS에는 Tomcat, JBoss, WebSphere 등이 있다.
+WAS에는 Tomcat\*, WebLogic, WebSphere, Jeus, JBoss 등이 있다.
+
+_\*Apache Tomcat 은 WAS(Tomcat)가 웹 서버(Apache) 기능을 포함하고 있기 때문에 Apache Tomcat 이라고 부르기도 하고, 실제로 WAS 앞에 웹 서버를 두어서 Apache Tomcat 이라고 부르기도 한다._
 
 <br/>
 
-## WAS와 Web Server를 분리하는 이유.
+## Web Server와 WAS를 분리하는 이유.
 
-WAS도 웹 서버의 역할을 할 수 있지만 분리하는 이유는 다음과 같다.
+대부분의 WAS는 정적인 컨텐츠를 제공하기 때문에 웹 서버를 포함하는 개념이고, 웹 서버 없이 존재할 수 있다. 그럼에도 웹서버와 WAS를 분리하여 사용하는 이유는 다음과 같다.
 
 1. **서버 부하 방지**  
    WAS와 웹 서버는 분리하여 서버의 부하를 방지해야 한다. WAS는 DB 조회나 다양한 로직을 처리하고, 단순한 정적 컨텐츠는 웹 서버에서 처리해줘야 한다. 만약 정적 컨텐츠까지 WAS가 처리한다면 부하가 커지고 수행 속도가 느려질 것이다.
 
 2. **보안 강화**  
-   SSL에 대한 암호화, 복호화 처리에 웹 서버를 사용 가능
+   SSL에 대한 암호화, 복호화 처리에 웹 서버를 사용 가능.  
+   클라이언트와 연결하는 포트가 직접 WAS에 연결이 되어 있다면 중요한 설정 파일들이 노출될 수 있기 때문에 WAS 설정 파일을 외부에 노출시키지 않는다.
+   웹 서버와 WAS에 접근하는 포트가 다르기 때문에 WAS에 들어오는 포트에는 방화벽을 쳐서 보안을 강화할 수도 있다.
 
 3. **여러 대의 WAS 연결 가능**  
    `로드 밸런싱`을 위해 웹 서버를 사용할 수 있다. 여러 개의 서버를 사용하는 대용량 웹 어플리케이션의 경우 웹 서버와 WAS를 분리하여 `무중단 운영을 위한 장애 극복`에 쉽게 대응할 수 있다.
@@ -73,7 +80,7 @@ WAS도 웹 서버의 역할을 할 수 있지만 분리하는 이유는 다음�
 (2) Client - WAS - DB  
 (3) Client - 웹 서버 - WAS - DB
 
-![web-service-architecture](https://gmlwjd9405.github.io/images/web/web-service-architecture.png)
+![68747470733a2f2f676d6c776a64393430352e6769746875622e696f2f696d616765732f7765622f7765622d736572766963652d6172636869746563747572652e706e67](https://user-images.githubusercontent.com/66757141/207196924-7ef2ded5-aa38-43a5-962a-fe0fbbdb288b.png)
 
 <br/>
 
@@ -83,4 +90,5 @@ WAS도 웹 서버의 역할을 할 수 있지만 분리하는 이유는 다음�
 
 👍 https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html  
 📄 https://code-lab1.tistory.com/199  
-📄 https://yozm.wishket.com/magazine/detail/1780/
+📄 https://yozm.wishket.com/magazine/detail/1780/  
+📄 https://doozi316.github.io/web/2020/09/13/WEB26/
