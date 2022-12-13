@@ -164,7 +164,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
 - CORS
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
-- 웹 서버와 WAS의 차이점
+- [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
 - OAuth
 - JWT(JSON Web Token)
 - Authentication and Authorization
