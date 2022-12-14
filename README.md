@@ -166,7 +166,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
 - OAuth
-- JWT(JSON Web Token)
+- [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
 - Authentication and Authorization
 - 로그 레벨
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
