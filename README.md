@@ -165,8 +165,8 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - CORS
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
-- OAuth
-- JWT(JSON Web Token)
+- [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
+- [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
 - [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
 - 로그 레벨
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
@@ -180,6 +180,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - CSS Methodology
 - CSS Selector 우선순위
 - Normalize.css vs Reset.css
+- 클라우드
 
 ### 📌 Linux
 
