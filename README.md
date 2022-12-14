@@ -167,7 +167,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
 - OAuth
 - JWT(JSON Web Token)
-- Authentication and Authorization
+- [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
 - 로그 레벨
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
 - [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
