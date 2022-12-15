@@ -1,17 +1,22 @@
 # TDD(Test-Driven-Development)
 
-TDD(테스트 주도 개발)는 반복 테스트를 이용한 소프트웨어 방법론이다.  
-[기존 프로세스 사진]  
+TDD(테스트 주도 개발)는 반복 테스트를 이용한 소프트웨어 방법론이다.
+
+<img width="520" alt="스크린샷 2022-12-15 오후 1 13 59" src="https://user-images.githubusercontent.com/70997596/207771066-c33d6f92-5c21-43b6-97e8-82e53f0247d0.png">  
+[기존 프로세스]
+  
 기존의 일반적인 개발 프로세스와 다르게 테스트케이스를 작성 한 후 실제 코드를 개발하는 절차를 따른다. 
 
 ## TDD 개발주기
-[사진]
+<img width="500" alt="스크린샷 2022-12-15 오후 1 14 25" src="https://user-images.githubusercontent.com/70997596/207771168-2e376119-acb0-4bd7-b8b9-3d2bca6f3265.png">
+
 
 **Red** 단계에서는 실패하는 테스트 코드를 먼저 작성한다.  
 **Green** 단계에서는 테스트 코드를 성공시키기 위한 실제 코드를 작성한다.  
 **Blue** 단계에서는 중복 코드 제거, 일반화 등의 리팩토링을 수행한다.
 
-[TDD 프로세스 사진]  
+<img width="532" alt="스크린샷 2022-12-15 오후 1 14 12" src="https://user-images.githubusercontent.com/70997596/207771222-d50183e3-c514-42c8-abf3-15d813b0878b.png">  
+
 >TDD와 일반적인 개발 방식의 가장 큰 차이점은 테스트 코드를 작성한 뒤에 실제 코드를 작성한다는 것이다.  
 >디자인(설계) 단계에서 프로그래밍 목적을 미리 정의하고, 테스트 케이스 작성을 해야한다.  
 >테스트 코드를 작성하는 도중 발생하는 예외 사항(버그 및 수정사항)은 테스트 케이스에 추가하고 설계를 개선한다.  
@@ -53,3 +58,6 @@ TDD는 코드의 재사용 보장을 명시하므로 TDD를 통한 소프트웨�
 ## TDD 예시
 [프론트엔드](https://www.youtube.com/watch?v=L1dtkLeIz-M)  
 [Java](https://www.youtube.com/watch?v=bIeqAlmNRrA)
+
+## 출처
+https://hanamon.kr/tdd%EB%9E%80-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C/
