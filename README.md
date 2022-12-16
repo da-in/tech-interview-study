@@ -93,7 +93,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - Operating System
 
-  - 운영체제란
+  - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - 프로세스 vs 스레드
   - 프로세스 주소 공간
   - 인터럽트(Interrupt)
