@@ -96,16 +96,17 @@ class MaxHeap {
     this.heap = [null];
   }
 
+  swap(a, b) {
+    [this.heap[a], this.heap[b]] = [this.heap[b], this.heap[a]];
+  }
+
   push(value) {
     this.heap.push(value);
     let currentIndex = this.heap.length - 1;
     let parentIndex = Math.floor(currentIndex / 2);
 
     while (parentIndex !== 0 && this.heap[parentIndex] < value) {
-      const temp = (this.heap[parentIndex] = value);
-      this.heap[parentIndex] = value;
-      this.heap[currentIndex] = temp;
-
+      swap(currentIndex, parentIndex);
       currentIndex = parentIndex;
       parentIndex = Math.floor(currentIndex / 2);
     }
@@ -122,14 +123,10 @@ class MaxHeap {
       this.heap[currentIndex] < this.heap[rightIndex]
     ) {
       if (this.heap[leftIndex] < this.heap[rightIndex]) {
-        const temp = this.heap[currentIndex];
-        this.heap[currentIndex] = this.heap[rightIndex];
-        this.heap[rightIndex] = temp;
+        swap(currentIndex, rightIndex);
         currentIndex = rightIndex;
       } else {
-        const temp = this.heap[currentIndex];
-        this.heap[currentIndex] = this.heap[leftIndex];
-        this.heap[leftIndex] = temp;
+        swap(currentIndex, leftIndex);
         currentIndex = leftIndex;
       }
       leftIndex = currentIndex * 2;
