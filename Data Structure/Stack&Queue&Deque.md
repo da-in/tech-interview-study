@@ -6,16 +6,14 @@
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/66757141/208415097-eecbd6bc-9fcd-4f5a-9a05-316733cca84c.png" alt="stack-and-queue" width="800px"/>
-
-<br/>
-
 ## 스택(Stack)
 
 **Stack** 이라는 이름은 쌓아올린다는 의미를 가지고 있다. 그래서 Stack은 쌓아올린 형태의 자료구조를 의미한다.  
 스택은 한 쪽 방향에만 자료를 추가 및 삭제 할 수 있으며 가장 마지막에 삽입된 자료의 위치를 `top`이라 한다.  
 스택은 `top`에만 접근이 가능하기 때문에 그 외의 위치에 대한 데이터 추가 및 삭제가 불가능하다.
 **후입선출(Last-In-First-Out, LIFO)** 방식으로 동작한다.
+
+<img width="330px" src="https://user-images.githubusercontent.com/66757141/208432228-d060964a-44ff-4c77-860e-dda2b7b8a873.png" alt="difference-between-stack-and-queue1" />
 
 #### ADT Stack의 연산
 
@@ -47,6 +45,8 @@
 Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽입이 이루어지는 쪽을 `rear`, 데이터가 삭제되는 쪽은 `front`라고 한다.  
 **선입선출(First-In-First-Out, FIFO)** 방식이다.
 
+<img width="400px" src="https://user-images.githubusercontent.com/66757141/208432243-3b54920f-2305-463a-9f4e-248b127b2252.png" alt="difference-between-stack-and-queue2" />
+
 #### ADT Queue의 연산
 
 1. `enqueue(item)` : queue에 item을 삽입한다. `O(1)`
@@ -74,6 +74,8 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 
 **덱(Deque)** 은 **Double-Ended Queue**의 약어이다.  
 큐의 앞(front, left)과 뒤(back, right) 모두에서 삽입과 삭제가 가능한 큐를 말하며, 때문에 Stack 처럼도 Queue처럼도 사용이 가능하다.
+
+![anod](https://user-images.githubusercontent.com/66757141/208432148-60954075-b7cd-46d6-9b05-efd5e197320d.png)
 
 #### ADT Deque의 연산
 
