@@ -23,8 +23,6 @@
 4. `ifFull()` : stack이 가득 차있다면 true, 아니라면 false를 반환한다. `O(1)`
 5. `isEmpty()` : stack에 item이 없다면 true, 아니라면 false를 반환한다. `O(1)`
 
-스택이 비어있을 때 pop()을 시도하면 `stack underflow`, 스택의 공간이 가득 찼을 때 push()를 시도하면 `stack overflow` 되며 오류를 야기한다.
-
 #### Stack의 장단점
 
 1. `top` 위치의 데이터에 바로 접근하므로 데이터 삽입, 삭제의 시간 복잡도가 `O(1)`로 빠르다.
@@ -42,7 +40,7 @@
 ## 큐(Queue)
 
 **Queue** 라는 이름은 대기열을 의미한다. 줄을 서서 기다리는 사람들과 유사하다.  
-Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽입이 이루어지는 쪽을 `rear`, 데이터가 삭제되는 쪽은 `front`라고 한다.  
+Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽입이 이루어지는 쪽을 `rear`, 데이터가 삭제되는 쪽은 `front`라고 한다.
 **선입선출(First-In-First-Out, FIFO)** 방식이다.
 
 <img width="400px" src="https://user-images.githubusercontent.com/66757141/208432243-3b54920f-2305-463a-9f4e-248b127b2252.png" alt="difference-between-stack-and-queue2" />
@@ -73,25 +71,38 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 ## 덱(Deque)
 
 **덱(Deque)** 은 **Double-Ended Queue**의 약어이다.  
-큐의 앞(front, left)과 뒤(back, right) 모두에서 삽입과 삭제가 가능한 큐를 말하며, 때문에 Stack 처럼도 Queue처럼도 사용이 가능하다.
+큐의 앞(front)과 뒤(rear, back) 모두에서 삽입과 삭제가 가능한 큐를 말하며, 때문에 Stack 처럼도 Queue처럼도 사용이 가능하다.
 
 ![anod](https://user-images.githubusercontent.com/66757141/208432148-60954075-b7cd-46d6-9b05-efd5e197320d.png)
 
 #### ADT Deque의 연산
 
-1. `push_front(item)` : queue의 front에 item을 추가한다.
-2. `pop_front()` : front의 item을 삭제 및 반환한다.
-3. `push_back(item)` : queue의 back에 item을 추가한다.
-4. `pop_back()` : back의 item을 삭제 및 반환한다.
+1. `push_front(item)` : queue의 front에 item을 추가한다. `O(1)`
+2. `pop_front()` : front의 item을 삭제 및 반환한다. `O(1)`
+3. `push_rear(item)` : queue의 rear에 item을 추가한다. `O(1)`
+4. `pop_rear()` : rear의 item을 삭제 및 반환한다. `O(1)`
 
 #### Deque의 장단점
 
-#### Deque의 활용
+1. 데이터의 앞, 뒤 모두에서 삽입 삭제가 모두 가능하며 O(1)의 빠른 시간복잡도를 갖는다.
+2. 스택, 큐에 비해 구현이 어렵다.
+
+\+
+
+3. 크기가 가변적이다.
+4. index 를 통해 임의의 원소에 O(1)시간복잡도로 바로 접근이 가능하다.
+5. 새로운 원소 삽입 시, 메모리를 재할당하고 복사하지 않고 새로운 단위의 메모리 블록(chunk)을 할당하여 삽입한다.
 
 #### Deque의 활용
 
 - 데이터를 앞, 뒤 모두에서 삽입 삭제하는 과정이 필요한 경우
 - 데이터의 크기가 가변적일 경우
+
+<br/>
+
+#### Underflow & Overflow
+
+자료구조가 비어있을 때 pop()과 같은 출력을 시도하면 `underflow`, 자료구조의 공간이 가득 찼을 때 push()와 같은 삽입을 시도하면 `overflow` 되며 오류를 야기한다.
 
 <br/>
 
@@ -106,3 +117,4 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 📄https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm?key=queue
 📄https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm
 📄https://www.geeksforgeeks.org/deque-in-python/
+📄https://en.cppreference.com/w/cpp/container/deque
