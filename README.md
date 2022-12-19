@@ -57,7 +57,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - Array
   - LinkedList
   - Array & ArrayList & LinkedList
-  - 스택(Stack) & 큐(Queue)
+  - [스택(Stack) & 큐(Queue)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - 트리(Tree)
   - 이진탐색트리(Binary Search Tree)
@@ -103,7 +103,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - CPU 스케줄링
   - 데드락(DeadLock)
   - Race Condition
-  - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md)
+  - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
   - 페이징 & 세그먼테이션 (PDF)
   - 페이지 교체 알고리즘
   - 메모리(Memory)
