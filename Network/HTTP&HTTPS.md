@@ -1,5 +1,8 @@
 # **HTTP & HTTPS**
 
+<img width="678" alt="스크린샷 2022-12-19 오후 8 25 35" src="https://user-images.githubusercontent.com/70997596/208444128-bd5296d4-54d5-4e5e-8938-08e0b87bf5dd.png">
+
+
 ## **HTTP**(Hypertext Transfer Protocol)  
 서버/클라이언트 모델을 따라 데이터를 주고 받기 위한 프로토콜이다.  
 HTTP는 인터넷에서 하이퍼텍스트를 교환하기 위한 통신 규약으로, 80번 포트를 사용하고 있다.  
