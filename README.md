@@ -85,9 +85,9 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - TCP/IP 흐름제어 & 혼잡제어
   - UDP
   - 대칭키 & 공개키
-  - HTTP & HTTPS
+  - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
   - TLS/SSL handshake
-  - 로드 밸런싱(Load Balancing)
+  - [로드 밸런싱(Load Balancing)](https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md)
   - Blocking,Non-blocking & Synchronous,Asynchronous
   - Blocking & Non-Blocking I/O
 
