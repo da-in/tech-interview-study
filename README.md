@@ -54,16 +54,18 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - ARM 프로세서
 
 - Data Structure
+
   - Array
   - LinkedList
   - Array & ArrayList & LinkedList
-  - [스택(Stack) & 큐(Queue)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue.md)
+  - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - 트리(Tree)
   - 이진탐색트리(Binary Search Tree)
   - 해시(Hash)
   - 트라이(Trie)
   - B-Tree & B+Tree
+
 - Database
 
   - 키(Key) 정리
@@ -121,6 +123,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Algorithm
 
+- 시간복잡도와 공간복잡도
 - 거품 정렬(Bubble Sort)
 - 선택 정렬(Selection Sort)
 - 삽입 정렬(Insertion Sort)
