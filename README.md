@@ -71,7 +71,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - SQL Injection
   - SQL vs NoSQL
   - 정규화(Nomalization)
-  - 이상(Anomaly)
+  - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
   - 인덱스(INDEX)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
