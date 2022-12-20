@@ -18,15 +18,24 @@
 <p/>
 
 ## INNER JOIN
+
 ## LEFT OUTER JOIN
+
 ## RIGHT OUTER JOIN
+
 ## FULL OUTER JOIN
+
 ## CROSS JOIN
+
 ## SELF JOIN
 
 ---
 
 ## Reference
 
+생활코딩 유튜브에서 데이터 예시를 기반으로 정말 잘 설명해줍니다!  
+▶️ https://www.youtube.com/watch?v=pJqBR2TNe24
+
 📄https://advenoh.tistory.com/23  
 📄https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
+📄https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDatabase%20SQL%5D%20JOIN.md
