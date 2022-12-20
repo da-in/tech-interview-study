@@ -84,7 +84,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - TCP 3 way handshake & 4 way handshake
   - TCP/IP 흐름제어 & 혼잡제어
   - UDP
-  - 대칭키 & 공개키
+  - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
   - HTTP & HTTPS
   - TLS/SSL handshake
   - 로드 밸런싱(Load Balancing)
