@@ -151,7 +151,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 옵저버 패턴
 - 스트레티지 패턴
 - 컴포지트 패턴
-- SOLID
+- [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 
 ### 📌 Interview
 
