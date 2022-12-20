@@ -54,16 +54,18 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - ARM 프로세서
 
 - Data Structure
+
   - Array
   - LinkedList
   - Array & ArrayList & LinkedList
-  - 스택(Stack) & 큐(Queue)
+  - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - 트리(Tree)
   - 이진탐색트리(Binary Search Tree)
   - 해시(Hash)
   - 트라이(Trie)
   - B-Tree & B+Tree
+
 - Database
 
   - 키(Key) 정리
@@ -103,7 +105,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - CPU 스케줄링
   - 데드락(DeadLock)
   - Race Condition
-  - [세마포어(Semaphore) & 뮤텍스(Mutex)](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md)
+  - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
   - 페이징 & 세그먼테이션 (PDF)
   - 페이지 교체 알고리즘
   - 메모리(Memory)
@@ -121,6 +123,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Algorithm
 
+- 시간복잡도와 공간복잡도
 - 거품 정렬(Bubble Sort)
 - 선택 정렬(Selection Sort)
 - 삽입 정렬(Insertion Sort)
