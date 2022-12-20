@@ -18,12 +18,16 @@
 <p/>
 
 ## INNER JOIN
+<img src="https://user-images.githubusercontent.com/66757141/208737969-3bc5524e-b23f-499f-8541-4621250fb91e.png" alt="INNER_JOIN" width="180px"/>
 
 ## LEFT OUTER JOIN
+<img src="https://user-images.githubusercontent.com/66757141/208738055-ca9ca9c0-4d64-4fb2-aacc-6fcac2183a02.png" alt="LEFT_JOIN" width="180px" />
 
 ## RIGHT OUTER JOIN
+<img src="https://user-images.githubusercontent.com/66757141/208738091-c01277ef-59d5-4fe2-9dd2-5b392f282789.png" alt="RIGHT_JOIN" width="180px" />
 
 ## FULL OUTER JOIN
+<img src="https://user-images.githubusercontent.com/66757141/208738130-fc842d97-527a-4dc2-81dc-bc7dbcbde3c6.png" alt="FULL_OUTER_JOIN" width="180px" />
 
 ## CROSS JOIN
 
