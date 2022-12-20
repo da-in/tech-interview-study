@@ -4,8 +4,6 @@
 
 관계형 데이터베이스에서는 조인(JOIN) 연산을 사용해 두 개의 이상의 테이블을 합쳐 SELECT 한다. 조인에는 여러 종류가 있다.
 
-<br/>
-
 ## SQL JOIN의 종류
 
 - INNER JOIN
@@ -14,6 +12,17 @@
 - FULL OUTER JOIN
 - CROSS JOIN
 - SELF JOIN
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66757141/208731520-fc274729-7dfc-48a2-9ace-c4e568ba751e.jpg" alt="Visual_SQL_JOINS_orig" width="600px"/>
+<p/>
+
+## INNER JOIN
+## LEFT OUTER JOIN
+## RIGHT OUTER JOIN
+## FULL OUTER JOIN
+## CROSS JOIN
+## SELF JOIN
 
 ---
 
