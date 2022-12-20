@@ -15,8 +15,10 @@
 - SELF JOIN
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66757141/208731520-fc274729-7dfc-48a2-9ace-c4e568ba751e.jpg" alt="Visual_SQL_JOINS_orig" width="600px"/>
+  <img src="https://user-images.githubusercontent.com/66757141/208731520-fc274729-7dfc-48a2-9ace-c4e568ba751e.jpg" alt="Visual_SQL_JOINS_orig" width="500px"/>
 <p/>
+
+<br/>
 
 ## INNER JOIN
 
@@ -80,6 +82,8 @@ FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 
 > Table A의 행이 3개, B가 4개이면 총 3\*4 = 12개의 데이터가 검색된다.
 
+<img src="https://user-images.githubusercontent.com/66757141/208748788-ff23dd11-2461-4602-a8e8-e8d258811896.png" alt="CROSS_JOIN" width="200px" />
+
 ```sql
 SELECT
 A.NAME, B.AGE
@@ -92,6 +96,8 @@ CROSS JOIN JOIN_TABLE B
 1개의 테이블을 사용하여 자기자신과 조인하는 것이다.
 하나의 테이블을 여러번 복사해서 조인한다고 생각하면 편하다.
 자신이 갖고 있는 칼럼을 다양하게 변형시켜 활용할 때 자주 사용한다.
+
+<img src="https://user-images.githubusercontent.com/66757141/208748797-7a0742c5-44c1-4933-919e-5638c8dc7b18.png" alt="SELF_JOIN" width="200px" />
 
 ```sql
 SELECT
