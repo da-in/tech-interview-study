@@ -91,7 +91,8 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 
 3. 크기가 가변적이다.
 4. index 를 통해 임의의 원소에 O(1)시간복잡도로 바로 접근이 가능하다.
-5. 새로운 원소 삽입 시, 메모리를 재할당하고 복사하지 않고 새로운 단위의 메모리 블록(chunk)을 할당하여 삽입한다.
+5. 새로운 원소 삽입 시, 메모리를 재할당하고 복사하지 않고 새로운 단위의 메모리 블록(chunk)을 할당하여 삽입한다.  
+   _(3은 연결리스트로 구현했을 경우를 생각하면 쉽게 이해되는 부분이나 4~5에서는 C++의 std::Deque에 관한 설명과 혼용 된 것 같다.)_
 
 #### Deque의 활용
 
@@ -100,7 +101,7 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 
 <br/>
 
-#### Underflow & Overflow
+## Underflow & Overflow
 
 자료구조가 비어있을 때 pop()과 같은 출력을 시도하면 `underflow`, 자료구조의 공간이 가득 찼을 때 push()와 같은 삽입을 시도하면 `overflow` 되며 오류를 야기한다.
 
@@ -114,7 +115,7 @@ Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽�
 📄https://devuna.tistory.com/22  
 📄https://2jinishappy.tistory.com/134  
 📄https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D-Stack-%ED%81%90-Queue-%EB%8D%B1-Deque  
-📄https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm?key=queue
-📄https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm
-📄https://www.geeksforgeeks.org/deque-in-python/
+📄https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm?key=queue  
+📄https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm  
+📄https://www.geeksforgeeks.org/deque-in-python/  
 📄https://en.cppreference.com/w/cpp/container/deque
