@@ -69,7 +69,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Database
 
   - 키(Key) 정리
-  - SQL - JOIN
+  - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
   - SQL Injection
   - SQL vs NoSQL
   - 정규화(Nomalization)
@@ -89,7 +89,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
   - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
   - TLS/SSL handshake
-  - [로드 밸런싱(Load Balancing)](https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md)
+  - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
   - Blocking,Non-blocking & Synchronous,Asynchronous
   - Blocking & Non-Blocking I/O
 
@@ -151,7 +151,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 옵저버 패턴
 - 스트레티지 패턴
 - 컴포지트 패턴
-- SOLID
+- [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 
 ### 📌 Interview
 
