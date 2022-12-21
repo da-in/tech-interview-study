@@ -9,7 +9,8 @@
 
 - 표준(호환성)과 학습도구에 의미로 제작
 
-[사진]
+<img width="754" alt="스크린샷 2022-12-21 오후 7 38 14" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
+
 
 ## **L1 물리계층(Physical Layer)**
 - 7계층 중 최하위 계층.  
