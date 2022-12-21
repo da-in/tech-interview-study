@@ -94,8 +94,8 @@ CROSS JOIN JOIN_TABLE B
 ## SELF JOIN
 
 1개의 테이블을 사용하여 자기자신과 조인하는 것이다.
-하나의 테이블을 여러번 복사해서 조인한다고 생각하면 편하다.
-자신이 갖고 있는 칼럼을 다양하게 변형시켜 활용할 때 자주 사용한다.
+자신이 갖고 있는 칼럼을 다양하게 변형시켜 활용할 때 자주 사용한다.  
+별도의 SELF JOIN 연산이 있는 것이 아니라, INNER JOIN, OUTER JOIN 등에서 두 대상을 자기 자신으로 조인하는 경우가 SELF JOIN이 된다.
 
 <img src="https://user-images.githubusercontent.com/66757141/208748797-7a0742c5-44c1-4933-919e-5638c8dc7b18.png" alt="SELF_JOIN" width="200px" />
 
