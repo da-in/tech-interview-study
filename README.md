@@ -56,7 +56,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Data Structure
 
   - Array
-  - LinkedList
+  - [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
