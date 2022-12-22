@@ -56,7 +56,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Data Structure
 
   - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
-  - LinkedList
+  - [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
@@ -68,7 +68,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - Database
 
-  - [키(Key) 정리](https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md)
+  - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
   - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
   - SQL Injection
   - SQL vs NoSQL
