@@ -79,3 +79,8 @@ NoSQL 데이터베이스의 종류는 키-값 데이터베이스, 도큐먼트 �
 - 정확한 데이터 구조를 알 수 없거나 변경, 확장 될 수 있는 경우  
 - 읽기(read)처리를 자주하지만, 데이터를 자주 변경(update)하지 않는 경우 (한번의 변경으로 여러 문서를 업데이트 할 필요가 없는 경우)  
 - 데이터베이스를 수평으로 확장해야 하는 경우 (막대한 양의 데이터를 다뤄야 하는 경우)
+
+## 출처
+https://velog.io/@thms200/SQL-vs-NoSQL  
+https://academind.com/tutorials/sql-vs-nosql  
+https://siyoon210.tistory.com/130  
