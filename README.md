@@ -55,7 +55,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - Data Structure
 
-  - Array
+  - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
   - [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
@@ -68,7 +68,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - Database
 
-  - 키(Key) 정리
+  - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
   - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
   - SQL Injection
   - SQL vs NoSQL
@@ -82,7 +82,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - Network
 
-  - OSI 7 계층
+  - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
   - TCP 3 way handshake & 4 way handshake
   - TCP/IP 흐름제어 & 혼잡제어
   - UDP
