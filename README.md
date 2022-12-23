@@ -60,7 +60,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
-  - 트리(Tree)
+  - 트리(Tree)(https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md)
   - 이진탐색트리(Binary Search Tree)
   - 해시(Hash)
   - 트라이(Trie)
