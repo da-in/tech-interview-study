@@ -124,7 +124,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 ### 📌 Algorithm
 
 - 시간복잡도와 공간복잡도
-- 거품 정렬(Bubble Sort)
+- [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
 - 선택 정렬(Selection Sort)
 - 삽입 정렬(Insertion Sort)
 - 퀵 정렬(Quick Sort)
