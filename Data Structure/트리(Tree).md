@@ -58,13 +58,17 @@
 - m원 탐색 트리에서 높이 균형을 유지하는 트리</br>
 
 
-## 트리 순회 방식
+## 트리 순회 방식 (중요!)
 
-- **Preorder (전위 순회)** : 루트 노드 -> 왼쪽 서브 트리 -> 오른쪽 서브 트리
+- **Preorder (전위 순회)** : 루트 노드 -> 왼쪽 서브 트리 -> 오른쪽 서브 트리</br>
+![Preorder-traversal](https://user-images.githubusercontent.com/102718303/209254137-f1ef93ab-63bc-4d36-95a0-93384b30e37b.gif)
 
-- **Inorder (중위 순회)** : 왼쪽 서브 트리 -> 노드 -> 오른쪽 서브 트리
+- **Inorder (중위 순회)** : 왼쪽 서브 트리 -> 노드 -> 오른쪽 서브 트리 </br>
+![Inorder-traversal](https://user-images.githubusercontent.com/102718303/209254209-d21324df-c98d-4387-b894-d7045169146e.gif)
 
 - **Postorder (후위 순회)** : 왼쪽 서브 트리 -> 오른쪽 서브 트리 -> 노드 </br>
+![Postorder-traversal](https://user-images.githubusercontent.com/102718303/209254265-04bfe1b3-0087-4c7a-9b49-790cc66c47a8.gif)
+
 
 ## 어디에 쓰이는가?
 
