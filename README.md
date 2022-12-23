@@ -60,7 +60,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
-  - [트리(Tree)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md)
+  - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
   - 이진탐색트리(Binary Search Tree)
   - 해시(Hash)
   - 트라이(Trie)
@@ -123,7 +123,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Algorithm
 
-- 시간복잡도와 공간복잡도
+- [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
 - 선택 정렬(Selection Sort)
 - 삽입 정렬(Insertion Sort)
