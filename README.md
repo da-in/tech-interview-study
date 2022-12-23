@@ -71,7 +71,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
   - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
   - SQL Injection
-  - SQL vs NoSQL
+  - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
   - 정규화(Nomalization)
   - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
   - 인덱스(INDEX)
