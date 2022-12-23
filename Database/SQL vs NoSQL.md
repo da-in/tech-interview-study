@@ -2,6 +2,12 @@
 취업 공고를 보면 SQL, NoSQL 관련 경험을 우대해준다거나 면접때 사용경험을 물어보는 경우가 있다.  
 이때 사용되는 SQL, NoSQL들이 뭐하는 친구들인지 알아보자!
 
+**개요**
+- SQL은 Structured Query Language의 약자로, 그 자체가 DB가 아니다.
+- SQL은 관계형 데이터베이스 관리 시스템(RDBMS : relational database management system)의 데이터를 관리하기 위해 설계된 특수 목적의 프로그래밍 언어라고 위키백과는 설명한다.
+- 예전부터 DB는 SQL로 만들어졌기 때문에 SQL이 관계형 DB라는 의미로 사용되는 것이라 추측된다.
+- SQL DB, NoSQL DB라고 표현해야 정확하지만 아래 정리되는 내용에는 SQL, NoSQL로 언급한다.
+
 ## **SQL (관계형 데이터베이스)**  
 SQL은 '구조화된 쿼리 언어(Structured Query Language)'의 약자이다.  
 SQL을 사용하면 관계형 데이터베이스 관리 시스템(RDBMS)에서 데이터를 저장, 수정, 삭제 및 검색할 수 있다.  
