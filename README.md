@@ -119,7 +119,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - 함수형 프로그래밍(Fuctional Programming)
   - 데브옵스(DevOps)
   - 서드 파티(3rd party)란?
-  - 마이크로서비스 아키텍처(MSA)
+  - [마이크로서비스 아키텍처(MSA)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md)
 
 ### 📌 Algorithm
 
