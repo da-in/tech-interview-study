@@ -28,6 +28,7 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 이러한 해시 충돌에 대한 해결 방법은 아래와 같다.
 
 #### Separate chaining
+<img src="https://user-images.githubusercontent.com/66757141/209569742-f6642f8e-4383-4102-9c5e-7fbff62be191.png" alt="1280px-Hash_table_5_0_1_1_1_1_1_LL svg" width="500px"/>
 
 #### Open addressing
 
