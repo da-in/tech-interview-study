@@ -27,12 +27,15 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 이러한 해시 충돌에 대한 해결 방법은 아래와 같다.
 
-#### Separate chaining
+#### Separate chaining(Open Hashing)
+
+해시 충돌이 발생하면 새로운 공간을 할당해서 연결리스트 형태로 연결하여 저장한다. 이러한 개방적 특성으로 개방 해싱(Open Hashing)이라고도 한다.
+
 <img src="https://user-images.githubusercontent.com/66757141/209569742-f6642f8e-4383-4102-9c5e-7fbff62be191.png" alt="1280px-Hash_table_5_0_1_1_1_1_1_LL svg" width="500px"/>
 
-#### Open addressing
+#### Open addressing(Closed Hashing)
 
-#### Cache-conscious collision resolution
+해시 충돌이 발생하면 해시 테이블 내에서 주어진 조건에 따라 probing(탐색)하여 다음 버킷을 찾아 저장한다. 주어진 해시 테이블 내에서 저장되는 특징으로 폐쇄 해싱(Closed Hashing) 이라고도 한다.
 
 <br/>
 
@@ -58,4 +61,7 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 📄https://ko.wikipedia.org/wiki/해시_함수  
 📄https://en.wikipedia.org/wiki/Hash_table  
-📄https://go-coding.tistory.com/30
+📄https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Hash_collision  
+📄https://en.wikipedia.org/wiki/Open_addressing  
+📄https://go-coding.tistory.com/30  
+📄https://galid1.tistory.com/170
