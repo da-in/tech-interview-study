@@ -29,6 +29,10 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 #### Separate chaining
 
+#### Open addressing
+
+#### Cache-conscious collision resolution
+
 <br/>
 
 ## Hash Table 시간복잡도
@@ -37,7 +41,7 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 엄밀하게는 아래의 worst case에서는 **O(n)** 의 시간복잡도를 갖을 수 있다.
 
-- 너무 많은 요소들이 동일한 해시값으로 매핑될 경우, 추가적으로 살피는데 O(n)이 소요될 수 있다.
+- 너무 많은 요소들이 동일한 해시값으로 매핑될 경우, 동일한 인덱스에 대한 탐색을 하는데에 O(n)이 소요될 수 있다.
 - 해시테이블이 로드밸런서를 이미 거쳤을 경우, it has to rehash [create a new bigger table, and re-insert each element to the table].
 
 그럼에도 평균적으로 **O(1)** 이라고 하는 이유는 아래와 같다.
