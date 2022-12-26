@@ -60,8 +60,8 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
-  - [트리(Tree)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md)
-  - [이진탐색트리(Binary Search Tree)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/이진탐색트리(Binary Search Tree).md)
+  - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
+  - 이진탐색트리(Binary Search Tree)
   - 해시(Hash)
   - 트라이(Trie)
   - B-Tree & B+Tree
@@ -119,11 +119,11 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - 함수형 프로그래밍(Fuctional Programming)
   - 데브옵스(DevOps)
   - 서드 파티(3rd party)란?
-  - 마이크로서비스 아키텍처(MSA)
+  - [마이크로서비스 아키텍처(MSA)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md)
 
 ### 📌 Algorithm
 
-- 시간복잡도와 공간복잡도
+- [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
 - 선택 정렬(Selection Sort)
 - 삽입 정렬(Insertion Sort)
