@@ -13,6 +13,8 @@
 
 해시테이블은 해시함수 통해 키를 매핑하여 얻은 해시 값을 인덱스로 사용한다. 그리고 데이터가 저장되는 곳을 `버킷`, `슬롯` 이라고 한다.
 
+<img src="https://user-images.githubusercontent.com/66757141/209565531-841fcd27-814f-4982-8d30-0dc94619a5e8.png" alt="Hash_table_3_1_1_0_1_0_0_SP svg" width="500px"/>
+
 <br/>
 
 ## Hash Collision(해시 충돌)
@@ -20,6 +22,8 @@
 해시 충돌은 서로 다른 키에 대하여 동일한 버킷이 할당되었을 경우, 즉 해시 함수에 의해 동일한 해시 값이 매핑되는 경우를 의미한다. 이는 해시 테이블의 특성에 위배되며 버킷 오버플로우\*를 발생시킬 수 있다.
 
 _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
+
+<img src="https://user-images.githubusercontent.com/66757141/209569409-554034de-543d-4816-a3af-18b278f6fed4.png" alt="Hash_table_4_1_1_0_0_1_0_LL svg" width="500px"/>
 
 이러한 해시 충돌에 대한 해결 방법은 아래와 같다.
 
@@ -40,8 +44,6 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 - 좋은 해시 함수를 선택했고, 큰 로드밸런스를 필요로 하지 않는다면 많은 요소가 동일한 값으로 해싱되는 경우는 드물다.
 - The rehash operation, which is O(n), can at most happen after n/2 ops, which are all assumed O(1): Thus when you sum the average time per op, you get : (n\*O(1) + O(n)) / n) = O(1)
-
-<img src="https://user-images.githubusercontent.com/66757141/209565531-841fcd27-814f-4982-8d30-0dc94619a5e8.png" alt="Hash_table_3_1_1_0_1_0_0_SP svg" width="500px"/>
 
 <br/>
 
