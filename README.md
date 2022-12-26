@@ -62,7 +62,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
   - 이진탐색트리(Binary Search Tree)
-  - 해시(Hash)
+  - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
   - 트라이(Trie)
   - B-Tree & B+Tree
 
