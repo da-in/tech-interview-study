@@ -61,8 +61,9 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
-  - 이진탐색트리(Binary Search Tree)
-  - 해시(Hash)
+  - [이진탐색트리(Binary Search Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/이진탐색트리(Binary Search Tree).md>)
+  - 레드-블랙트리(Red-Black Tree)
+  - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
   - 트라이(Trie)
   - B-Tree & B+Tree
 
@@ -145,7 +146,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - 디자인패턴 개요(Overview)
 - 어댑터 패턴
-- 싱글톤 패턴
+- [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
 - 탬플릿 메소드 패턴
 - 팩토리 메소드 패턴
 - 옵저버 패턴
