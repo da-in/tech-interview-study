@@ -27,15 +27,39 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 이러한 해시 충돌에 대한 해결 방법은 아래와 같다.
 
-#### Separate chaining(Open Hashing)
+### Separate chaining(Open Hashing)
 
-해시 충돌이 발생하면 새로운 공간을 할당해서 연결리스트 형태로 연결하여 저장한다. 이러한 개방적 특성으로 개방 해싱(Open Hashing)이라고도 한다.
+해시 충돌이 발생하면 새로운 공간을 할당해서 연결리스트 형태로 연결하여 저장한다.  
+이러한 개방적 특성으로 개방 해싱(Open Hashing)이라고도 한다.
+
+하지만 이는 키가 몰리는 경우, 키 내에서의 탐색을 위해 worst case로 O(n)의 시간복잡도를 가질 수 있다. 이를 해결하는 방법은 다음과 같다.
+
+- 일정 적재율을 넘어서면 버킷의 크기를 동적으로 늘린다.
+- 연결리스트가 아닌 비선형적 자료구조를 사용하여 저장한다. 이때 $O(logn)$의 Red-Black Tree 형태를 사용할 수 있다.
 
 <img src="https://user-images.githubusercontent.com/66757141/209569742-f6642f8e-4383-4102-9c5e-7fbff62be191.png" alt="1280px-Hash_table_5_0_1_1_1_1_1_LL svg" width="500px"/>
 
-#### Open addressing(Closed Hashing)
+### Open addressing(Closed Hashing)
 
-해시 충돌이 발생하면 해시 테이블 내에서 주어진 조건에 따라 probing(탐색)하여 다음 버킷을 찾아 저장한다. 주어진 해시 테이블 내에서 저장되는 특징으로 폐쇄 해싱(Closed Hashing) 이라고도 한다.
+해시 충돌이 발생하면 해시 테이블 내에서 주어진 조건에 따라 probing(탐사)하여 다음 버킷을 찾아 저장한다.  
+주어진 해시 테이블 내에서 저장되는 특징으로 폐쇄 해싱(Closed Hashing) 이라고도 한다.
+
+- **Linear Probing(선형 탐사)**  
+  기존 해시값에 1을 더하는 형태로 바로 다음 버킷을 탐색한다.  
+   h(6) mod 5 = 7 mod 5 = 2 _충돌 가정_  
+   h(6)+1 mod 5 = 8 mod 5 = 3 _저장, 또 충돌시 다음 탐색_
+
+  선형 탐사법은 군집화의 문제를 가지고있다. 군집화란 충돌시 바로 다음 인덱스에 접근하기 때문에 충돌한 부분이 계속해서 길게 증가하는 것을 말하고, 해당 구간에서 선형탐색이 빈번하게 일어나게 된다.
+
+- **Quadratic Probing(이차 탐사)**  
+  선형탐사의 문제를 해결하기 위해 고안되었다. 1이 아닌 상수를 제곱한 값을 더하는 방식으로 군집화를 해결할 수 있다. 그러나 약한 군집화가 존재하고, bucket의 비어있는 공간이 있어도 찾지 못할 수 있다.
+
+- **Double Hashing(이중 해싱)**  
+  앞의 두 방법은 해시 충돌의 발생 시 일정한 규칙에 따라 인덱스를 증가시키기 때문에, 규칙에 따른 군집이 발생한다는 문제를 해결하지 못했다.
+
+  이중 해싱은 충돌시 추가적인 해시 함수를 사용하여 해당 버킷에 저장하는 방식이다. 충돌시 h(key) + i\*J(key)의 형태로 탐색순서를 추가적으로 곱해주어 충돌 확률을 매우 낮출 수 있다.
+
+  그러나 이는 추가적인 해시 함수를 사용하므로 함수의 성능이 해시 테이블 전체에 큰 영향을 주게된다.
 
 <br/>
 
@@ -59,10 +83,8 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 ## Reference
 
-📄https://ko.wikipedia.org/wiki/해시_함수  
-📄https://en.wikipedia.org/wiki/Hash_table  
-📄https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Hash_collision  
-📄https://en.wikipedia.org/wiki/Open_addressing  
+📄https://you88.tistory.com/36
+📄https://en.wikipedia.org/
 📄https://go-coding.tistory.com/30  
 📄https://galid1.tistory.com/170  
 📄https://modeling-languages.com/robust-hashing-models/
