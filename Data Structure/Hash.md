@@ -44,7 +44,7 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 해시 충돌이 발생하면 해시 테이블 내에서 주어진 조건에 따라 probing(탐사)하여 다음 버킷을 찾아 저장한다.  
 주어진 해시 테이블 내에서 저장되는 특징으로 폐쇄 해싱(Closed Hashing) 이라고도 한다.
 
-<img src="[https://user-images.githubusercontent.com/66757141/209569742-f6642f8e-4383-4102-9c5e-7fbff62be191.png](https://user-images.githubusercontent.com/66757141/209595178-a7ea3c2a-00e4-4fb2-bc2f-084bf1f8a341.png)" alt="linear-and-quadratic-probing" width="500px"/>
+<img src="https://user-images.githubusercontent.com/66757141/209595178-a7ea3c2a-00e4-4fb2-bc2f-084bf1f8a341.png" alt="linear-and-quadratic-probing" width="500px"/>
 
 - **Linear Probing(선형 탐사)**  
   기존 해시값에 1을 더하는 형태로 바로 다음 버킷을 탐색한다.  
@@ -85,8 +85,8 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 ## Reference
 
-📄https://you88.tistory.com/36
-📄https://en.wikipedia.org/
+📄https://you88.tistory.com/36  
+📄https://en.wikipedia.org/  
 📄https://go-coding.tistory.com/30  
 📄https://galid1.tistory.com/170  
 📄https://modeling-languages.com/robust-hashing-models/
