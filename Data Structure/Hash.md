@@ -3,7 +3,7 @@
 해시 함수(hash function) 혹은 해시 알고리즘(hash algorithm)은 **임의의 길이의 데이터** 를 **고정된 길이의 데이터** 로 매핑하는 함수이며, 이를 해싱(hashing)한다고 한다.  
 해시 함수에 의해 얻어지는 값을 `해시 값`, `해시 코드`, `해시 체크섬` 또는 간단하게 `해시`라고 한다.
 
-<img src="https://user-images.githubusercontent.com/66757141/209565523-a7740995-1133-48db-90d4-110798930f96.png" alt="Hash_table_4_1_1_0_0_1_0_LL svg" width="500px"/>
+<img src="https://user-images.githubusercontent.com/66757141/209589990-cfc7e5dd-4276-464d-a36f-2a5137eab444.png" alt="hash" width="500px"/>
 
 <br/>
 
@@ -64,4 +64,5 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 📄https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Hash_collision  
 📄https://en.wikipedia.org/wiki/Open_addressing  
 📄https://go-coding.tistory.com/30  
-📄https://galid1.tistory.com/170
+📄https://galid1.tistory.com/170  
+📄https://modeling-languages.com/robust-hashing-models/
