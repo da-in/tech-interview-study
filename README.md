@@ -145,7 +145,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - 디자인패턴 개요(Overview)
 - 어댑터 패턴
-- 싱글톤 패턴
+- [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
 - 탬플릿 메소드 패턴
 - 팩토리 메소드 패턴
 - 옵저버 패턴
