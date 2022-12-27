@@ -67,17 +67,22 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 
 ## Hash Table 시간복잡도
 
-해시테이블은 key와 value가 1:1 쌍을 이루므로 삽입, 삭제, 검색 등의 과정에서 모두 평균적으로 **O(1)\***의 시간복잡도를 갖는다.
+해시테이블은 key와 value가 1:1 쌍을 이루므로 삽입, 삭제, 검색 등의 과정에서 모두 평균적으로 **O(1)\* **의 시간복잡도를 갖는다.
 
 엄밀하게는 아래의 worst case에서는 **O(n)** 의 시간복잡도를 갖을 수 있다.
 
 - 너무 많은 요소들이 동일한 해시값으로 매핑될 경우, 동일한 인덱스에 대한 탐색을 하는데에 O(n)이 소요될 수 있다.
-- 해시테이블이 로드밸런서를 이미 거쳤을 경우, it has to rehash [create a new bigger table, and re-insert each element to the table].
+- 해시테이블이 로드밸런서를 이미 거쳤을 경우 rehash\*가 일어난다.
+
+  _\* **rehash** 는 기존 HashTable 크기를 늘리고 새로이 데이터를 복사하는 과정._
 
 그럼에도 평균적으로 **O(1)** 이라고 하는 이유는 아래와 같다.
 
 - 좋은 해시 함수를 선택했고, 큰 로드밸런스를 필요로 하지 않는다면 많은 요소가 동일한 값으로 해싱되는 경우는 드물다.
-- The rehash operation, which is O(n), can at most happen after n/2 ops, which are all assumed O(1): Thus when you sum the average time per op, you get : (n\*O(1) + O(n)) / n) = O(1)
+- O(n)의 시간복잡도를 갖는 rehash 연산은, n/2회 이상의 O(1) 연산이 수행된 후에나 발생한다._(Java에서는 threshold가 기본 0.75, 즉 75% 이상 입력되었을 때 rehash가 실행된다.)_
+  때문에 평균 시간복잡도를 구한다면 다음과 같은 형태가 된다.
+
+  (k \* O(1) + n-k \* O(n)) / n = O(1)
 
 <br/>
 
@@ -89,4 +94,5 @@ _\* 버킷 오버플로우 - 버킷의 크기를 넘어서 저장_
 📄https://en.wikipedia.org/  
 📄https://go-coding.tistory.com/30  
 📄https://galid1.tistory.com/170  
-📄https://modeling-languages.com/robust-hashing-models/
+📄https://modeling-languages.com/robust-hashing-models/  
+📄https://stackoverflow.com/questions/9214353/hash-table-runtime-complexity-insert-search-and-delete
