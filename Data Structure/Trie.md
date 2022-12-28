@@ -4,7 +4,10 @@
 
 트라이의 어원은 re<b>tri</b>eval tree(검색트리)의 tri(트리)라고 불렸으나, tree와 발음상 구분되지 않아 trie(트라이)라고 부르게 되었다.
 
-<img src="https://user-images.githubusercontent.com/66757141/209826134-e6663efd-01f1-4a18-a472-212120fdca0c.png" alt="Trie_example svg" width="500px" />
+<img src="https://user-images.githubusercontent.com/66757141/209826134-e6663efd-01f1-4a18-a472-212120fdca0c.png" alt="Trie_example svg" width="400px" />
+
+<img src="https://user-images.githubusercontent.com/66757141/209834538-7e137cd7-1363-4778-b6f9-30f23551dfc9.png" alt="Trie_example svg" width="300px" />
+
 
 [_예시 이미지 출처 - youseop.github.io_](https://youseop.github.io/2020-11-09-BAEKJOON-14425_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%A7%91%ED%95%A9/)
 
