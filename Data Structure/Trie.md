@@ -6,6 +6,10 @@
 
 <img src="https://user-images.githubusercontent.com/66757141/209826134-e6663efd-01f1-4a18-a472-212120fdca0c.png" alt="Trie_example svg" width="500px" />
 
+[_예시 이미지 출처 - youseop.github.io_](https://youseop.github.io/2020-11-09-BAEKJOON-14425_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%A7%91%ED%95%A9/)
+
+트라이 자료구조의 각 노드는 아래와 같이 `key`, `data`, `child` 값을 갖는다. `key`는 현재 노드에서 추가된 문자열, `data`는 현재 노드에서 완성된 문자열, `child`는 자식 노드를 의미한다.
+
 ![p3GjBIm](https://user-images.githubusercontent.com/66757141/209830220-44c2ee5a-1070-4885-92a9-401fd07a4cde.jpg)
 
 ![6fux7GL](https://user-images.githubusercontent.com/66757141/209830236-6a70ba2b-de64-4e3a-9fd7-34dafe808482.jpg)
