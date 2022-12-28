@@ -61,10 +61,11 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
-  - 이진탐색트리(Binary Search Tree)
+  - [이진탐색트리(Binary Search Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/이진탐색트리(Binary Search Tree).md>)
+  - 레드-블랙트리(Red-Black Tree)
   - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
   - [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Trie.md)
-  - B-Tree & B+Tree
+  - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
 
 - Database
 
@@ -72,7 +73,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
   - SQL Injection
   - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
-  - 정규화(Nomalization)
+  - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
   - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
   - 인덱스(INDEX)
   - 트랜잭션(Transaction)
@@ -125,7 +126,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
-- 선택 정렬(Selection Sort)
+- [선택 정렬(Selection Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
 - 삽입 정렬(Insertion Sort)
 - 퀵 정렬(Quick Sort)
 - 병합 정렬(Merge Sort)
