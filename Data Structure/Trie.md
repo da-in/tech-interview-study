@@ -12,13 +12,23 @@
 
 ![p3GjBIm](https://user-images.githubusercontent.com/66757141/209830220-44c2ee5a-1070-4885-92a9-401fd07a4cde.jpg)
 
+## Trie 삽입
+
+다음은 이 노드를 사용하여 문자열을 Trie 자료구조에 삽입하는 경우이다. 'abc'를 삽입하면 아래와 같이 'a', 'b', 'c'를 키로 갖는 노드들이 생성되고, 마지막 노드인 'c' 노드의 `data`에 완성된 값인 'abc'가 입력된다.
+
 ![6fux7GL](https://user-images.githubusercontent.com/66757141/209830236-6a70ba2b-de64-4e3a-9fd7-34dafe808482.jpg)
+
+위 예시에 이어서 문자열 'ab'를 삽입한 예시이다.
 
 ![6IA9gxP](https://user-images.githubusercontent.com/66757141/209830242-95512a9f-c0f4-4172-aec0-39fdb2126725.jpg)
 
+다음으로 문자열 'car'을 삽입한 예시이다.
+
 <img src="https://user-images.githubusercontent.com/66757141/209830251-8ca01cc2-8fa5-4f1b-8062-af22fb2077b6.jpg" alt="mqprLVa" width="500px" />
 
-## Trie 삽입과 탐색
+<br/>
+
+## Trie 탐색
 
 ## Trie 장단점
 
