@@ -65,7 +65,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - 레드-블랙트리(Red-Black Tree)
   - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
   - 트라이(Trie)
-  - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree & B+ tree.md)
+  - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
 
 - Database
 
