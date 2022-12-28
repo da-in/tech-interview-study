@@ -22,9 +22,11 @@
 오른쪽은 위 예시에 이어서 문자열 'ab'를 삽입한 예시이다.
 
 <div>
-  <img src="https://user-images.githubusercontent.com/66757141/209830236-6a70ba2b-de64-4e3a-9fd7-34dafe808482.jpg" alt="6fux7GL">
-  <img src="https://user-images.githubusercontent.com/66757141/209830242-95512a9f-c0f4-4172-aec0-39fdb2126725.jpg" alt="6IA9gxP">
+  <img src="https://user-images.githubusercontent.com/66757141/209830236-6a70ba2b-de64-4e3a-9fd7-34dafe808482.jpg" alt="6fux7GL" >
+  <img src="https://user-images.githubusercontent.com/66757141/209830242-95512a9f-c0f4-4172-aec0-39fdb2126725.jpg" alt="6IA9gxP" >
 </div>
+
+<br/>
 
 다음으로 문자열 'car'을 삽입한 예시이다.
 
@@ -68,14 +70,17 @@ class Trie:
     # Trie data structure class
     def __init__(self):
         self.root = self.getNode()
+        
     def getNode(self):
         # Returns new trie node (initialized to NULLs)
         return TrieNode()
+        
     def _charToIndex(self,ch):
         # private helper function
         # Converts key current character into index
         # use only 'a' through 'z' and lower case
         return ord(ch)-ord('a')
+        
     def insert(self,key):
         # If not present, inserts key into trie
         # If the key is prefix of trie node,
@@ -90,6 +95,7 @@ class Trie:
             pCrawl = pCrawl.children[index]
         # mark last node as leaf
         pCrawl.isEndOfWord = True
+        
     def search(self, key):
         # Search key in the trie
         # Returns true if key presents
