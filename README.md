@@ -190,6 +190,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [Java] Composition
 
 - Javascript
+  - [Javascript] Javascript 기초
   - [Javascript] ES2015+ 요약 정리
   - [Javascript] Object Prototype
   - [Javascript] Closure
