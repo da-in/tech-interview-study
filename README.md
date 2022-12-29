@@ -156,7 +156,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Interview
 
-###📌 Language
+### 📌 Language
 - C
   - [C] C언어 컴파일 과정
   - [C] 구조체 메모리 크기 계산
@@ -193,7 +193,8 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [Javascript] ES2015+ 요약 정리
   - [Javascript] Object Prototype
   - [Javascript] Closure
-  - Python
+  
+- Python
   - [Python] 매크로 사용법
 
 
