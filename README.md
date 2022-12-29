@@ -156,7 +156,46 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### 📌 Interview
 
-### 📌 Language
+###📌 Language
+- C
+  - [C] C언어 컴파일 과정
+  - [C] 구조체 메모리 크기 계산
+  - [C] 포인터(Pointer)
+  - [C] 동적할당
+
+- C++
+  - [C++] 얕은 복사 vs 깊은 복사
+  - [C++] 가상 함수(Virtual Function)
+  - [C++] 입출력 최적화하기
+  - [C++] Vector Container
+
+- Java
+  - [Java] Java 컴파일 과정
+  - [Java] Call by Value vs Call by Reference
+  - [Java] String & StringBuffer & StringBuilder
+  - [Java] 자바 가상 머신(Java Virtual Machine)
+  - [Java] Casting(업캐스팅 & 다운캐스팅)
+  - [Java] 오토 박싱 & 오토언박싱
+  - [Java] Thread 활용
+  - [Java] 고유 락(Intrinsic Lock)
+  - [Java] 문자열 클래스
+  - [Java] Garbage Collection
+  - [Java] Promotion & Casting
+  - [Java] Primitive type & Reference type
+  - [Java] 직렬화(Serialization)
+  - [Java] Error & Exception
+  - [Java] Stream API
+  - [Java] Record
+  - [Java] Interend String in Java
+  - [Java] Composition
+
+- Javascript
+  - [Javascript] ES2015+ 요약 정리
+  - [Javascript] Object Prototype
+  - [Javascript] Closure
+  - Python
+  - [Python] 매크로 사용법
+
 
 ### 📌 Web
 
