@@ -214,7 +214,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
 - [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
 - [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
-- 로그 레벨
+- [로그레벨](https://github.com/da-in/tech-interview-study/blob/main/Web/로그레벨.md)
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
 - [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
 - [Cross Browsing](https://github.com/da-in/tech-interview-study/blob/main/Web/Cross_Browsing.md)
