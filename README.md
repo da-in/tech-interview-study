@@ -128,7 +128,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
 - [선택 정렬(Selection Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
 - [삽입 정렬(Insertion Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md)
-- 퀵 정렬(Quick Sort)
+- [퀵 정렬(Quick Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md)
 - 병합 정렬(Merge Sort)
 - 힙 정렬(Heap Sort)
 - 기수 정렬(Radix Sort)
