@@ -127,7 +127,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
 - [선택 정렬(Selection Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
-- 삽입 정렬(Insertion Sort)
+- [삽입 정렬(Insertion Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md)
 - 퀵 정렬(Quick Sort)
 - 병합 정렬(Merge Sort)
 - 힙 정렬(Heap Sort)
