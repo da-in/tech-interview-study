@@ -190,11 +190,11 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [Java] Composition
 
 - Javascript
-  - [Javascript] Javascript 기초
+  - [Javascript 기초](https://github.com/bright-affection/tech-interview-study/blob/main/Language/Javascript%20%EA%B8%B0%EC%B4%88.md)
   - [Javascript] ES2015+ 요약 정리
   - [Javascript] Object Prototype
   - [Javascript] Closure
-  
+
 - Python
   - [Python] 매크로 사용법
 
