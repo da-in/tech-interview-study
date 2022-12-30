@@ -65,7 +65,7 @@ const BFS = (graph, startNode) => {
   visited.push(startNode);
 
   while (queue.length > 0) { // 탐색해야할 노드가 남아있다면
-    const node = needVisit.shift(); // queue이기 때문에 선입선출, shift()를 사용한다.
+    const node = queue.shift(); // queue이기 때문에 선입선출, shift()를 사용한다.
     for (let nextNode of graph[node]) {
       if(visited.includes(nextNode)) continue;
       queue.push(nextNode)
