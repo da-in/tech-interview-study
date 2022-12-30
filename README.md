@@ -97,11 +97,11 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - Operating System
 
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
-  - 프로세스 vs 스레드
+  - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
   - 프로세스 주소 공간
   - 인터럽트(Interrupt)
   - 시스템 콜(System Call)
-  - PCB와 Context Switching
+  - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
   - IPC(Inter Process Communication)
   - CPU 스케줄링
   - 데드락(DeadLock)
@@ -157,19 +157,23 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 ### 📌 Interview
 
 ### 📌 Language
+
 - C
+
   - [C] C언어 컴파일 과정
   - [C] 구조체 메모리 크기 계산
   - [C] 포인터(Pointer)
   - [C] 동적할당
 
 - C++
+
   - [C++] 얕은 복사 vs 깊은 복사
   - [C++] 가상 함수(Virtual Function)
   - [C++] 입출력 최적화하기
   - [C++] Vector Container
 
 - Java
+
   - [Java] Java 컴파일 과정
   - [Java] Call by Value vs Call by Reference
   - [Java] String & StringBuffer & StringBuilder
@@ -193,10 +197,8 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [Javascript] ES2015+ 요약 정리
   - [Javascript] Object Prototype
   - [Javascript] Closure
-  
 - Python
   - [Python] 매크로 사용법
-
 
 ### 📌 Web
 
@@ -212,7 +214,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
 - [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
 - [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
-- 로그 레벨
+- [로그레벨](https://github.com/da-in/tech-interview-study/blob/main/Web/로그레벨.md)
 - [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
 - [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
 - [Cross Browsing](https://github.com/da-in/tech-interview-study/blob/main/Web/Cross_Browsing.md)
