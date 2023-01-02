@@ -12,7 +12,8 @@
 특정 인터페이스를 지원하지 않는 대상 객체를 인터페이스를 지원하는 Adapter에 집어넣어서 사용하는 방법이라 할 수 있다.
 
 다음은 헤드 퍼스트 디자인 패턴에서의 예시 다이어그램이다.  
-[사진]
+<img width="548" alt="스크린샷 2023-01-02 오후 4 44 02" src="https://user-images.githubusercontent.com/70997596/210206077-92761944-bced-41b3-be63-a1f0d9c354d9.png">
+
 - Client는 Target 인터페이스를 구현한 Adaptee가 필요하다.
 - Adaptee는 Target인터페이스를 구현하지 않고 있다.
     - Adaptee는 이미 개발이 완료되어 사용중이다.
@@ -79,8 +80,13 @@ class TurkeyAdapter implements Duck {
   }
 }
 ```
+<img width="531" alt="스크린샷 2023-01-02 오후 4 50 39" src="https://user-images.githubusercontent.com/70997596/210206096-06bac66e-5a77-49b8-98c8-08f2a6f7322e.png">
+
+
 
 사용예시
 - Enumeration
 - 상속을 사용하는 기법
 
+##출처
+https://johngrib.github.io/wiki/pattern/adapter/#fn:joshua-334
