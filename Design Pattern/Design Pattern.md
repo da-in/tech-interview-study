@@ -36,7 +36,7 @@ GoF의 Design Patterns에서는 객체지향적 디자인 패턴을 `생성 패�
 
 |                                             생성 패턴                                              | 구조 패턴 |        행동 패턴        |
 | :------------------------------------------------------------------------------------------------: | :-------: | :---------------------: |
-| [Singleton](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md) |  Adapter  | Chain-of-responsibility |
+| [Singleton](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md) |  [Adapter](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)  | Chain-of-responsibility |
 |                                          Abstract Factory                                          |  Bridge   |         Command         |
 |                                           Factory Method                                           | Composite |       Interpreter       |
 |                                              Builder                                               | Decorator |        Iterator         |
