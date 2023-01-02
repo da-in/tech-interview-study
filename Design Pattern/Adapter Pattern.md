@@ -88,5 +88,5 @@ class TurkeyAdapter implements Duck {
 - Enumeration
 - 상속을 사용하는 기법
 
-##출처
+## 출처
 https://johngrib.github.io/wiki/pattern/adapter/#fn:joshua-334
