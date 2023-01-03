@@ -147,7 +147,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [Design Pattern](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Design%20Pattern.md)
 - [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
 - [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
-- 탬플릿 메소드 패턴
+- [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 - 팩토리 메소드 패턴
 - 옵저버 패턴
 - 스트레티지 패턴
