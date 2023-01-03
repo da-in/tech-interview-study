@@ -105,7 +105,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - IPC(Inter Process Communication)
   - CPU 스케줄링
   - 데드락(DeadLock)
-  - Race Condition
+  - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Race%20Condition.md)
   - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
   - 페이징 & 세그먼테이션 (PDF)
   - 페이지 교체 알고리즘
@@ -135,7 +135,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 계수 정렬(Count Sort)
 - 이분 탐색(Binary Search)
 - 해시 테이블 구현
-- DFS & BFS
+- [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
 - 동적 계획법(Dynamic Programming)
@@ -151,7 +151,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 팩토리 메소드 패턴
 - 옵저버 패턴
 - 스트레티지 패턴
-- 컴포지트 패턴
+- [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
 - [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 
 ### 📌 Interview
