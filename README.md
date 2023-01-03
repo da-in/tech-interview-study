@@ -135,7 +135,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 계수 정렬(Count Sort)
 - 이분 탐색(Binary Search)
 - 해시 테이블 구현
-- DFS & BFS
+- [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
 - 동적 계획법(Dynamic Programming)
