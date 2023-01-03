@@ -26,7 +26,7 @@
 - 구조의 Leaf 인 `File` 클래스 구현
 - 구조의 Composite 인 `Directory` 클래스 구현
 - 구조의 Component 인 `Node` 인터페이스 구현
-```
+```java
 interface Node {
   public String getName();
 }
