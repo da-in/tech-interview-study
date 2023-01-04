@@ -98,7 +98,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
-  - 프로세스 주소 공간
+  - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
   - 인터럽트(Interrupt)
   - 시스템 콜(System Call)
   - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
@@ -126,9 +126,9 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
-- [선택 정렬(Selection Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
-- [삽입 정렬(Insertion Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md)
-- [퀵 정렬(Quick Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md)
+- [선택 정렬(Selection Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md>)
+- [삽입 정렬(Insertion Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md>)
+- [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
 - 병합 정렬(Merge Sort)
 - 힙 정렬(Heap Sort)
 - 기수 정렬(Radix Sort)
