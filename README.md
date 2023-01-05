@@ -39,6 +39,14 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 <br/>
 
+### Contributer
+
+
+<a href="https://github.com/da-in/tech-interview-study/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=da-in/tech-interview-study" />
+</a>
+
+
 ## 학습 주제
 
 ### 📌 Computer Science
