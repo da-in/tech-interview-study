@@ -41,11 +41,13 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### Contributer
 
+Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 <a href="https://github.com/da-in/tech-interview-study/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=da-in/tech-interview-study" />
 </a>
 
+<br/>
 
 ## 학습 주제
 
