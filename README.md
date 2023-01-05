@@ -98,13 +98,13 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
-  - 프로세스 주소 공간
+  - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
   - 인터럽트(Interrupt)
   - 시스템 콜(System Call)
   - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
   - IPC(Inter Process Communication)
   - CPU 스케줄링
-  - 데드락(DeadLock)
+  - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/데드락(Dead%20Lock).md>)
   - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Race%20Condition.md)
   - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
   - 페이징 & 세그먼테이션 (PDF)
@@ -145,14 +145,15 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 ### 📌 Design Pattern
 
 - [Design Pattern](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Design%20Pattern.md)
-- [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
+- [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 - [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
-- [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 - 팩토리 메소드 패턴
+- [프로토타입 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Prototype%20Pattern.md)
+- [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
+- [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
 - 옵저버 패턴
 - 스트레티지 패턴
-- [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
-- [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
+- [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
 ### 📌 Interview
 
