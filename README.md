@@ -169,21 +169,26 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 ### 📌 Language
 
-- C
-
+<details>
+  <summary>C</summary>
+  
   - [C] C언어 컴파일 과정
   - [C] 구조체 메모리 크기 계산
   - [C] 포인터(Pointer)
   - [C] 동적할당
-
-- C++
+  
+</details>
+<details>
+  <summary>C++</summary>
 
   - [C++] 얕은 복사 vs 깊은 복사
   - [C++] 가상 함수(Virtual Function)
   - [C++] 입출력 최적화하기
   - [C++] Vector Container
-
-- Java
+  
+</details>
+<details>
+  <summary>Java</summary>
 
   - [Java] Java 컴파일 과정
   - [Java] Call by Value vs Call by Reference
@@ -203,13 +208,22 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [Java] Record
   - [Java] Interend String in Java
   - [Java] Composition
-
-- Javascript
+  
+</details>
+<details>
+  <summary>Javascript</summary>
+  
   - [Javascript] ES2015+ 요약 정리
   - [Javascript] Object Prototype
   - [Javascript] Closure
-- Python
+  
+</details>
+<details>
+  <summary>Python</summary>
+  
   - [Python] 매크로 사용법
+  
+</details>
 
 ### 📌 Web
 
