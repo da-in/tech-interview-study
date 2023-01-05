@@ -32,12 +32,12 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 <img src="https://user-images.githubusercontent.com/66757141/210782186-d6313700-834a-49ec-bf5d-f00cbe577817.png" alt="Blocking / Non-blocking / Synchronous / Asynchronous" width="700px" />
 
-Blocking / Non-blocking과 Synchronous / Asynchronous 를 조합하면 위의 그림처럼 4가지 방식이 생긴다.
+`Blocking` / `Non-blocking`과 `Synchronous` / `Asynchronous` 를 조합하면 위의 그림처럼 4가지 방식이 생긴다.
 
-- Sync-Blocking
-- Sync-Nonblocking
-- Async-Blocking
-- Async-Nonblocking
+- **Sync-Blocking**
+- **Sync-Nonblocking**
+- **Async-Blocking**
+- **Async-Nonblocking**
 
 <br/>
 
