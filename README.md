@@ -101,8 +101,6 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
   - TLS/SSL handshake
   - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
-  - Blocking,Non-blocking & Synchronous,Asynchronous
-  - Blocking & Non-Blocking I/O
 
 - Operating System
 
@@ -117,7 +115,8 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/데드락(Dead%20Lock).md>)
   - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Race%20Condition.md)
   - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
-  - [페이징 & 세그먼테이션 (PDF)](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/페이징%20세그먼테이션(PDF).md)
+  - [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/페이징%20세그먼테이션(PDF).md>)
+  - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
   - 페이지 교체 알고리즘
   - 메모리(Memory)
   - 파일 시스템
@@ -136,10 +135,10 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
-- [선택 정렬(Selection Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md)
-- [삽입 정렬(Insertion Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md)
-- [퀵 정렬(Quick Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md)
-- [병합 정렬(Merge Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md)
+- [선택 정렬(Selection Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC(Selection%20Sort).md>)
+- [삽입 정렬(Insertion Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md>)
+- [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
+- [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
 - 힙 정렬(Heap Sort)
 - 기수 정렬(Radix Sort)
 - 계수 정렬(Count Sort)
@@ -181,34 +180,34 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 <details>
   <summary>C++</summary>
 
-  - [C++] 얕은 복사 vs 깊은 복사
-  - [C++] 가상 함수(Virtual Function)
-  - [C++] 입출력 최적화하기
-  - [C++] Vector Container
-  
+- [C++] 얕은 복사 vs 깊은 복사
+- [C++] 가상 함수(Virtual Function)
+- [C++] 입출력 최적화하기
+- [C++] Vector Container
+
 </details>
 <details>
   <summary>Java</summary>
 
-  - [Java] Java 컴파일 과정
-  - [Java] Call by Value vs Call by Reference
-  - [Java] String & StringBuffer & StringBuilder
-  - [Java] 자바 가상 머신(Java Virtual Machine)
-  - [Java] Casting(업캐스팅 & 다운캐스팅)
-  - [Java] 오토 박싱 & 오토언박싱
-  - [Java] Thread 활용
-  - [Java] 고유 락(Intrinsic Lock)
-  - [Java] 문자열 클래스
-  - [Java] Garbage Collection
-  - [Java] Promotion & Casting
-  - [Java] Primitive type & Reference type
-  - [Java] 직렬화(Serialization)
-  - [Java] Error & Exception
-  - [Java] Stream API
-  - [Java] Record
-  - [Java] Interend String in Java
-  - [Java] Composition
-  
+- [Java] Java 컴파일 과정
+- [Java] Call by Value vs Call by Reference
+- [Java] String & StringBuffer & StringBuilder
+- [Java] 자바 가상 머신(Java Virtual Machine)
+- [Java] Casting(업캐스팅 & 다운캐스팅)
+- [Java] 오토 박싱 & 오토언박싱
+- [Java] Thread 활용
+- [Java] 고유 락(Intrinsic Lock)
+- [Java] 문자열 클래스
+- [Java] Garbage Collection
+- [Java] Promotion & Casting
+- [Java] Primitive type & Reference type
+- [Java] 직렬화(Serialization)
+- [Java] Error & Exception
+- [Java] Stream API
+- [Java] Record
+- [Java] Interend String in Java
+- [Java] Composition
+
 </details>
 <details>
   <summary>Javascript</summary>
