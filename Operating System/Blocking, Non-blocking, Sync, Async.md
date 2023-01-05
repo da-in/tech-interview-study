@@ -48,6 +48,10 @@ Blocking / Non-blocking과 Synchronous / Asynchronous 를 조합하면 위의 �
 I/O는 데이터의 Input과 Output을 일컫는 말로 네트워크를 통한 데이터의 전송, 콘솔의 입출력 등 모든 데이터의 입출력을 포함하는 개념이다.
 Kernel level에서의 입출력에 Blocking과 Non-blocking을 적용하여 생각한다면, Process, Thread가 기존 함수이고 커널의 I/O 호출하는 형태로 이해할 수 있다.
 
+![img (1)](https://user-images.githubusercontent.com/66757141/210787511-bbffdbb2-2789-48c5-b912-3092d5242e96.png)
+
+![img (2)](https://user-images.githubusercontent.com/66757141/210787522-9d7663b5-df27-44de-9813-06c382350b45.png)
+
 <br/>
 
 ---
