@@ -16,8 +16,6 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
   호출된 함수가 제어권을 바로 반환하여 기존 함수가 다른 작업을 수행할 수 있다.  
   호출된 함수가 기존 함수를 **Block 하지 않는다**.
 
-**Blocking / Non-blocking** 내용을 운영체제에서 `Blocking I/O`, `Non-blocking I/O`로, 네트워크에서 `Blocking API`, `Non-blocking API` 등으로 소개되기도 하는데 근본적인 내용은 같다. **Blocking / Non-blocking** 은 각 분야들에 적용되는 개념으로 입출력의 두 가지 방식을 구분하기도 하고, 네트워크에도 적용되는 것이다.
-
 <br/>
 
 ## Synchronous / Asynchronous
@@ -34,6 +32,22 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 <img src="https://user-images.githubusercontent.com/66757141/210782186-d6313700-834a-49ec-bf5d-f00cbe577817.png" alt="Blocking / Non-blocking / Synchronous / Asynchronous" width="700px" />
 
+Blocking / Non-blocking과 Synchronous / Asynchronous 를 조합하면 위의 그림처럼 4가지 방식이 생긴다.
+
+- Sync-Blocking
+- Sync-Nonblocking
+- Async-Blocking
+- Async-Nonblocking
+
+<br/>
+
+**Blocking / Non-blocking** 내용을 운영체제에서 `Blocking I/O`, `Non-blocking I/O`로, 네트워크에서 `Blocking API`, `Non-blocking API` 등으로 소개되기도 하는데 근본적인 내용은 같다. **Blocking / Non-blocking** 은 각 분야들에 적용되는 개념으로 입출력의 두 가지 방식을 구분하기도 하고, 네트워크에도 적용되는 것이다.
+
+## Blocking I/O, Non-blocking I/O
+
+I/O는 데이터의 Input과 Output을 일컫는 말로 네트워크를 통한 데이터의 전송, 콘솔의 입출력 등 모든 데이터의 입출력을 포함하는 개념이다.
+Kernel level에서의 입출력에 Blocking과 Non-blocking을 적용하여 생각한다면, Process, Thread가 기존 함수이고 커널의 I/O 호출하는 형태로 이해할 수 있다.
+
 <br/>
 
 ---
@@ -42,4 +56,6 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 📄https://interconnection.tistory.com/141  
 📄https://jaehoney.tistory.com/242  
-📄https://steady-coding.tistory.com/531
+📄https://steady-coding.tistory.com/531  
+📄https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%5BNetwork%5D%20Blocking%20Non-Blocking%20IO.md  
+📄https://etloveguitar.tistory.com/140
