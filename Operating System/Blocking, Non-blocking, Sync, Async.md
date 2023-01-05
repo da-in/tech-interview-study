@@ -18,6 +18,8 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 **Blocking / Non-blocking** 내용을 운영체제에서 `Blocking I/O`, `Non-blocking I/O`로, 네트워크에서 `Blocking API`, `Non-blocking API` 등으로 소개되기도 하는데 근본적인 내용은 같다. **Blocking / Non-blocking** 은 각 분야들에 적용되는 개념으로 입출력의 두 가지 방식을 구분하기도 하고, 네트워크에도 적용되는 것이다.
 
+<br/>
+
 ## Synchronous / Asynchronous
 
 동기(Synchronous)와 비동기(Asynchronous)는 프로세스 수행 순서 보장에 관한 서로 다른 매커니즘이다.
@@ -29,6 +31,10 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 - **Asynchronous**
   동기는 수행 순서가 보장되지 않는 것을 의미한다.  
   기존 함수는 수행 순서를 확인하지 않는다. 호출된 함수에게 Callback을 전달해서 작업을 완료하면 실행하도록 하는 등의 방식이다.
+
+<img src="https://user-images.githubusercontent.com/66757141/210782186-d6313700-834a-49ec-bf5d-f00cbe577817.png" alt="Blocking / Non-blocking / Synchronous / Asynchronous" width="700px" />
+
+<br/>
 
 ---
 
