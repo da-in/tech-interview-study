@@ -34,19 +34,20 @@ _\* Design Patterns 책의 저자 Erich Gamma, Richard Helm, Ralph Johnson, John
 
 GoF의 Design Patterns에서는 객체지향적 디자인 패턴을 `생성 패턴(Creational Pattern)`, `구조 패턴(Structural Pattern)`, `행동 패턴(Behavioral Pattern)` 3가지로 구분한다.
 
-|                                             생성 패턴                                              | 구조 패턴 |        행동 패턴        |
-| :------------------------------------------------------------------------------------------------: | :-------: | :---------------------: |
-| [Singleton](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md) |  [Adapter](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)  | Chain-of-responsibility |
-|                                          Abstract Factory                                          |  Bridge   |         Command         |
-|                                           Factory Method                                           | Composite |       Interpreter       |
-|                                              Builder                                               | Decorator |        Iterator         |
-|                                             Prototype                                              |  Facade   |        Mediator         |
-|                                                                                                    | Flyweight |         Memento         |
-|                                                                                                    |   Proxy   |        Observer         |
-|                                                                                                    |           |          State          |
-|                                                                                                    |           |        Strategy         |
-|                                                                                                    |           |     Template Method     |
-|                                                                                                    |           |         Visitor         |
+<!-- prettier-ignore -->
+|생성 패턴|구조 패턴|행동 패턴|
+|:-:|:-:|:-:|
+|[Singleton](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)|[Adapter](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)|Chain-of-responsibility|
+| Abstract Factory | Bridge | Command |
+| Factory Method |[Composite](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)|     Interpreter |
+| Builder | Decorator | Iterator |
+| [Prototype](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Prototype%20Pattern.md) | Facade |          Mediator |
+| | Flyweight | Memento |
+| | Proxy | Observer |
+| | | State |
+| | | Strategy |
+| | | [Template Method](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md) |
+| | | Visitor |
 
 <br/>
 
