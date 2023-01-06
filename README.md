@@ -160,7 +160,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [프로토타입 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Prototype%20Pattern.md)
 - [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
 - [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
-- 옵저버 패턴
+- [옵저버 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/옵저버%20패턴.md)
 - 스트레티지 패턴
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
