@@ -4,12 +4,17 @@
 이 두 가지 패턴의 기본이 되는 `Simple Factory`가 있다. 객체지향 프로그래밍을 할 때에 관용구 처럼 사용되는 개념으로 디자인 패턴으로 취급되지는 않는다.
 그래서 `Simple Factory`를 이해한 후 팩토리 메소드 패턴과 [추상 팩토리 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Abstract%20Factory%20Pattern.md)을 알아본다.
 
+<br/>
+
 ## Simple Factory
 
 객체를 생성할 때 직접 생성자를 호출하면, 생성 로직에 변화가 생겼을 때 객체를 생성한 모든 부분의 코드를 수정해야한다.  
 그래서 생성자 호출을 담당하는 `Factory` 클래스를 둔 후 이를 통해서 객체를 생성하는 방식이다.
 
+<img src="https://user-images.githubusercontent.com/66757141/211150071-0ffa299b-bf7a-4ec8-ade4-ea0bdf34a7e8.png" alt="simplefactorystructure11_waifu2x_art_noise2_scale" width="700px" /><br/>
 [_UML Reference_](https://sites.google.com/site/haithamraik/Home/design-pattern-list/simple-factory)
+
+<br/>
 
 ```java
 public interface Laptop {
@@ -75,6 +80,9 @@ public class Client {
 
 **팩토리 메소드 패턴** 은 생성 패턴 중 하나로, 객체를 생성할 때 어떤 클래스의 인스턴스를 만들 지 서브 클래스에서 결정하도록 한다. 즉 인스턴스의 생성을 서브클래스에게 위임한다.
 
+<img src="https://user-images.githubusercontent.com/66757141/211150215-5fbda378-c195-4da4-b002-542b4a75490e.png" alt="N3mC1_waifu2x_art_noise2_scale" width="700px" /><br/>
+[_UML Reference_](https://www.dofactory.com/net/factory-method-design-pattern)
+
 앞선 `Simple Factory` 예제의 `Laptop` 인터페이스와 `NormalLaptop`, `GamingLaptop` 클래스가 있다고 했을 때 팩토리 메소드 패턴을 적용하면 아래와 같다.
 
 ```java
@@ -128,4 +136,5 @@ public class Client {
 📄https://bcp0109.tistory.com/366  
 📄https://bcp0109.tistory.com/367  
 📄https://sites.google.com/site/haithamraik/Home/ design-pattern-list/simple-factory  
-📄https://dragonprogrammer.com/design-patterns-java-simple-factory/
+📄https://dragonprogrammer.com/design-patterns-java-simple-factory/  
+📄https://www.dofactory.com/net/factory-method-design-pattern
