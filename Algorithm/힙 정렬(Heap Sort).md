@@ -1,14 +1,16 @@
 # 힙 정렬(Heap Sort)
 힙 정렬은 기본적으로 힙 자료구조를 기반으로 한 정렬방식이다.    
-[힙 자료구조가 뭐에요?](링크)
+[힙 자료구조가 뭐에요?](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
 
 힙 정렬은 불안정 정렬에 속하며, 다음과 같은 과정을 거친다.
 1. 최대 힙을 구성
 2. 현재 힙 루트는 가장 큰 값이 존재함. 루트의 값을 마지막 요소와 바꾼 후, 힙의 사이즈 하나 줄임
 3. 힙의 사이즈가 1보다 크면 위 과정 반복
 
-사진  
-사진
+<img width="793" alt="스크린샷 2023-01-08 오후 4 19 15" src="https://user-images.githubusercontent.com/70997596/211185358-df2dce35-c7e3-4c89-8744-70666571fc14.png">
+
+<img width="759" alt="스크린샷 2023-01-08 오후 4 19 24" src="https://user-images.githubusercontent.com/70997596/211185362-02753693-92fa-4368-947e-99eedab5d8d7.png">
+
 
 ### 시간 복잡도
 최악, 최선, 평균 모두 nlogn의 시간 복잡도를 가짐.
