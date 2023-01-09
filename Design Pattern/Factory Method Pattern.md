@@ -135,6 +135,6 @@ public class Client {
 
 📄https://bcp0109.tistory.com/366  
 📄https://bcp0109.tistory.com/367  
-📄https://sites.google.com/site/haithamraik/Home/ design-pattern-list/simple-factory  
+📄https://sites.google.com/site/haithamraik/Home/design-pattern-list/simple-factory  
 📄https://dragonprogrammer.com/design-patterns-java-simple-factory/  
 📄https://www.dofactory.com/net/factory-method-design-pattern
