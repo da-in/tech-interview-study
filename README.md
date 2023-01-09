@@ -156,7 +156,8 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [Design Pattern](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Design%20Pattern.md)
 - [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 - [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
-- 팩토리 메소드 패턴
+- [팩토리 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Factory%20Method%20Pattern.md)
+- 추상 팩토리 패턴
 - [프로토타입 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Prototype%20Pattern.md)
 - [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
 - [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
