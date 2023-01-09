@@ -99,7 +99,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - UDP
   - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
   - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
-  - TLS/SSL handshake
+  - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20&SSL%20Handshake.md)
   - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
 
 - Operating System
