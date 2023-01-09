@@ -6,6 +6,9 @@
 
 **추상 팩토리 패턴** 은 이와 유사하지만, 연관 관계를 가진 **객체의 집합** 을 생성하는데에 중점을 둔다.
 
+![abstract](https://user-images.githubusercontent.com/66757141/211338561-e3b4a4c8-5126-4561-bc88-ff4d1962afa0.png)
+_[Reference]()_
+
 ```java
 public interface Monitor { }
 public class NormalMonitor implements Monitor { }
@@ -69,4 +72,5 @@ public class Client {
 📄https://bcp0109.tistory.com/368  
 📄https://kotlinworld.com/366  
 📄https://whereami80.tistory.com/211  
-📄https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns
+📄https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns  
+📄https://www.dofactory.com/net/abstract-factory-design-pattern  
