@@ -6,6 +6,8 @@
 
 **추상 팩토리 패턴** 은 이와 유사하지만, 연관 관계를 가진 **객체의 집합** 을 생성하는데에 중점을 둔다.
 
+<br/>
+
 ```java
 public interface Monitor { }
 public class NormalMonitor implements Monitor { }
@@ -59,6 +61,8 @@ public class Client {
     }
 }
 ```
+
+<br/>
 
 <br/>
 
