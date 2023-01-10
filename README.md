@@ -142,7 +142,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [힙 정렬(Heap Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
 - 기수 정렬(Radix Sort)
 - 계수 정렬(Count Sort)
-- 이분 탐색(Binary Search)
+- [이분 탐색(Binary Search)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md)
 - 해시 테이블 구현
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
