@@ -71,7 +71,7 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
 
 위의 설명은 CORS의 기본적인 흐름이고, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은[MDN - CORS#functional_overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
 
-**Simple Request**  
+### Simple Request  
 첫 번째는 `단순 요청(Simple Request)`이다. 아래의 예비 요청을 보내지 않고 바로 본 요청을 보내어, 위의 기본 흐름과 같이 동작한다. Simple Request는 예비 요청 없이 바로 본 요청을 보내기에, 안전하다고 판단되는 아래의 조건들을 만족하는 경우에만 가능하다.
 
 1.  HTTP `GET`, `HEAD`, `POST` 메소드를 사용해야한다.
@@ -82,7 +82,7 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
 
 <br/>
 
-**Preflight Request**  
+### Preflight Request
 브라우저가 요청을 보내기 전 스스로 안전한 요청인지를 확인하기 위해 `예비 요청(Preflight Request)`을 보내는 경우이다. 예비 요청은 `OPTIONS` HTTP 메소드를 사용한다.
 
 1. Client가 CORS 요청을 보내려고 한다.
@@ -105,7 +105,7 @@ _[image reference](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC
 
 <br/>
 
-**Credentialed Request**  
+### Credentialed Request
 Client가 보내려는 요청에 `자격 인증 정보(Credential)`이 담겨있는 경우 위의 두 시나리오와는 다른 `인증된 요청(Credentialed Request)`을 전송한다.
 
 _\* 자격 인증 정보는 세션 Id가 담긴 쿠키(Cookie), Authorization 헤더의 토큰 값 등을 말한다._
