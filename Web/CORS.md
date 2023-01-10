@@ -41,6 +41,8 @@ _[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9
 
 _\+ `<img>`, `<video>`, `<object>`, `<embed>`, `@font-face`, `<iframe>` 등은 일반적으로 허용된다._
 
+<img src="https://user-images.githubusercontent.com/66757141/211583854-6fe49229-7a6a-4b9f-8c3c-60e622a7161f.png" alt="cors_principle" width="500px" />
+
 <br/>
 
 ##
