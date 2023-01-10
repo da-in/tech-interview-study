@@ -13,7 +13,7 @@ _[image reference](https://blog.container-solutions.com/a-guide-to-solving-those
 
 CORS(Cross-Origin Resource Sharing)는 직역하면 교차-출처 리소스 공유이다. 출처가 다른 자원들에 접근하도록 하는 개념이다.
 
-**동일-출처 보안 정책(same-origin security policy)** 는 교차-출처 접근을 제한한다. 이 때 CORS는 웹 서버가 교차-출처 접근을 선택적으로 허용할 수 있도록 해준다.
+**동일-출처 보안 정책(same-origin security policy, SOP)** 는 교차-출처 접근을 제한한다. 이 때 CORS는 웹 서버가 교차-출처 접근을 선택적으로 허용할 수 있도록 해준다.
 
 <br/>
 
@@ -32,6 +32,18 @@ _[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9
 | `https://store.company.com/page.html` | Failure | `protocol`이 다르다 |
 | `http://store.company.com:81/dir/page.html` | Failure | `port`가 다르다 |
 | `http://news.company.com/dir/page.html` | Failure | `host`가 다르다 |
+
+<br/>
+
+다른 출처의 요청에 대한 제약이 존재하지 않는다면 `CSRF(Cross-Site Request Forgery)`나 `XSS(Cross-Site Scripting)`공격을 사용해서 정보를 탈취하고 서버에 요청을 보낼 것이다. 동일-출처 정책(SOP)는 다른 출처의 요청을 차단하여 공격을 방어한다.
+
+하지만 다른 출처의 리소스 요청이 필요할 경우가 있다. 이 경우 CORS 정책을 준수하여 요청해야 정상적으로 응답을 받을 수 있다.
+
+_\+ `<img>`, `<video>`, `<object>`, `<embed>`, `@font-face`, `<iframe>` 등은 일반적으로 허용된다._
+
+<br/>
+
+##
 
 ---
 
