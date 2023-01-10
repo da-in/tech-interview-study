@@ -72,13 +72,13 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
 위의 설명은 CORS의 기본적인 흐름이고, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은[MDN - CORS#functional_overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
 
 **Simple Request**  
-첫 번째는 단순 요청(Simple Request)이다. 아래의 예비 요청을 보내지 않고 바로 본 요청을 보내어, 위의 기본 흐름과 같이 동작한다. Simple Request는 예비 요청 없이 바로 본 요청을 보내기에, 안전하다고 판단되는 아래의 조건들을 만족하는 경우에만 가능하다.
+첫 번째는 `단순 요청(Simple Request)`이다. 아래의 예비 요청을 보내지 않고 바로 본 요청을 보내어, 위의 기본 흐름과 같이 동작한다. Simple Request는 예비 요청 없이 바로 본 요청을 보내기에, 안전하다고 판단되는 아래의 조건들을 만족하는 경우에만 가능하다.
 
 1.  HTTP `GET`, `HEAD`, `POST` 메소드를 사용해야한다.
 2.  `Accept`, `Accept-Language`, `Content-Language`, `Content-Type`, `DPR`, `Downlink`, `Save-Data`, `Viewport-Width`, `Width` 헤더일 경우 에만 적용된다.
 3.  Content-Type 헤더가 `application/x-www-form-urlencoded`, `multipart/form-data`, `text/plain`중 하나여야한다.
 
-조건이 까다롭기에 사실상 대부분의 경우 예비 요청을 보내어 안전성을 확인한다.
+대부분의 API 요청이 `text/xml`, `application/json` Content-Type을 갖는 등 사실상 위 조건을 만족하는 경우가 많지 않기에 대부분의 경우 예비 요청을 보내어 안전성을 확인한다.
 
 <br/>
 
@@ -97,15 +97,29 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
    - `Access-Control-Max-Age` : 해당 예비 요청의 초단위 브라우저 캐싱 시간
 4. 요청과 응답 정책을 확인하여 안전하면 본 요청을 보낸다.
 
-<
-
+<br/>
 <img src="https://user-images.githubusercontent.com/66757141/211611529-a81dba8b-5da6-46c2-ab01-e214afd68876.png" alt="1920px-Flowchart_showing_Simple_and_Preflight_XHR svg" width="800px" /><br/>
+
 <!-- prettier-ignore -->
 _[image reference](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC%B2%98*%EB%A6%AC%EC%86%8C%EC%8A%A4*%EA%B3%B5%EC%9C%A0) 브라우저가 Simple Request를 보낼지 Preflight Request를 보낼지 결정하는 방식 플로우차트_
 
 <br/>
 
-**Credentialed Request**
+**Credentialed Request**  
+Client가 보내려는 요청에 `자격 인증 정보(Credential)`이 담겨있는 경우 위의 두 시나리오와는 다른 `인증된 요청(Credentialed Request)`을 전송한다.
+
+_\* 자격 인증 정보는 세션 Id가 담긴 쿠키(Cookie), Authorization 헤더의 토큰 값 등을 말한다._
+
+1. Client가 Request에 Credential 옵션을 설정한다.
+   ```js
+   credentials: 'include',
+   ```
+   - `same-origin(default)` : 같은 출처의 요청에만 인증 정보를 담을 수 있다.
+   - `include` : 인증 정보를 담는다.
+   - `omit` : 인증 정보를 담지 않는다.
+2. Server가 인증된 요청에 대한 응답 헤더를 설정한다.
+   - `Access-Control-Allow-Credentials`을 `true`로 설정한다.
+   - `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`에 와일드카드 문자" \* "를 사용할 수 없다.
 
 <br>
 
