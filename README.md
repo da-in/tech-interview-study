@@ -85,7 +85,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
   - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
   - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
-  - 인덱스(INDEX)
+  - [인덱스(INDEX)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
   - 저장 프로시저(Stored PROCEDURE)
@@ -157,7 +157,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
 - [싱글톤 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SingleTon.md)
 - [팩토리 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Factory%20Method%20Pattern.md)
-- 추상 팩토리 패턴
+- [추상 팩토리 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Abstract%20Factory%20Pattern.md)
 - [프로토타입 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Prototype%20Pattern.md)
 - [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
 - [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
