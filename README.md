@@ -233,7 +233,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/Web/Cookie%26Session.md)
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
-- CORS
+- [CORS](https://github.com/da-in/tech-interview-study/blob/main/Web/CORS.md)
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
 - [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
