@@ -97,8 +97,11 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
    - `Access-Control-Max-Age` : 해당 예비 요청의 초단위 브라우저 캐싱 시간
 4. 요청과 응답 정책을 확인하여 안전하면 본 요청을 보낸다.
 
+<
+
+<img src="https://user-images.githubusercontent.com/66757141/211611529-a81dba8b-5da6-46c2-ab01-e214afd68876.png" alt="1920px-Flowchart_showing_Simple_and_Preflight_XHR svg" width="800px" /><br/>
 <!-- prettier-ignore -->
-_[image reference](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC%B2%98*%EB%A6%AC%EC%86%8C%EC%8A%A4*%EA%B3%B5%EC%9C%A0)_
+_[image reference](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC%B2%98*%EB%A6%AC%EC%86%8C%EC%8A%A4*%EA%B3%B5%EC%9C%A0) 브라우저가 Simple Request를 보낼지 Preflight Request를 보낼지 결정하는 방식 플로우차트_
 
 <br/>
 
