@@ -19,10 +19,11 @@ CORS(Cross-Origin Resource Sharing)는 직역하면 교차-출처 리소스 공�
 
 ## 출처(Origin)
 
-_[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9781789349863/6/ch06lvl1sec60/what-s-in-a-url)_
-
 동일한 출처란 `protocol`, `port`, `host`가 동일한 URL을 말한다.
 `http://store.company.com/dir/page.html`와 아래 URL들이 동일한 출처인지 확인해본다.
+
+<img src="https://user-images.githubusercontent.com/66757141/211576962-20aee656-5bff-48d5-8de2-c541e8c87048.png" alt="71d250c0-2b41-43b9-8579-0f129e115bc8" width="450px" /><br/>
+_[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9781789349863/6/ch06lvl1sec60/what-s-in-a-url)_
 
 <!-- prettier-ignore -->
 | URL | 결과 | 이유 |
