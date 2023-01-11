@@ -89,7 +89,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
   - 저장 프로시저(Stored PROCEDURE)
-  - 레디스(Redis)
+  - [레디스(Redis)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md)
 
 - Network
 
@@ -147,7 +147,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
-- 동적 계획법(Dynamic Programming)
+- [동적 계획법(Dynamic Programming)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%8F%99%EC%A0%81%20%EA%B3%84%ED%9A%8D%EB%B2%95(Dynamic%20Programming).md)
 - 다익스트라(Dijkstra) 알고리즘
 - 비트마스크(BitMask)
 
