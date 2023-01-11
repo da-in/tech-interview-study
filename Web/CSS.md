@@ -99,11 +99,14 @@ _https://specifishity.com/ 가중치를 확인할 수 있는 사이트라고 공
 
 가중치는 일반적으로 `X-Y-Z` 의 형태로 나타낸다.
 
-- **X-0-0** : `ID Selectors` 의 수
-- **0-Y-0** : `Class Selectors`, Attributes Selectors, Pseudo-Classes의 수
-- **0-0-Z** : `Element(type) Selectors`와 Pseudo-elements의 수
-- **1-0-0-0** : `인라인 스타일(inline style)`의 Rule은 더 큰 가중치를 갖는다.
-- **1-0-0-0-0** : `!important`규칙을 사용하면 다른 선언보다도 우선시 된다.
+<!-- prettier-ignore -->
+|Specificity|Calculate|
+|-:|-|
+|**X-0-0**| `ID Selectors` 의 수 |
+|**0-Y-0**| `Class Selectors`, Attributes Selectors, Pseudo-Classes의 수 |
+|**0-0-Z**| `Element(type) Selectors`와 Pseudo-elements의 수 |
+|**1-0-0-0**| `인라인 스타일(inline style)`의 Rule은 더 큰 가중치를 갖는다. |
+|**1-0-0-0-0**| `!important`규칙을 사용하면 다른 선언보다도 우선시 된다. |
 
 ```html
 <!-- inline style -->
