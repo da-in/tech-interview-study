@@ -54,14 +54,14 @@ _[image reference](https://web.dev/critical-rendering-path-render-tree-construct
 
 ### 선택자 유형
 
-유형 선택자(Type Selector)
+**유형 선택자(Type Selector)**
 
 <!-- prettier-ignore -->
 ```css
 a { color: red; }
 ```
 
-클래스 선택자(Class Selectors)
+**클래스 선택자(Class Selectors)**
 
 <!-- prettier-ignore -->
 ```
@@ -69,7 +69,7 @@ a { color: red; }
 .class_value { color: red; }
 ```
 
-ID 선택자(ID Selectors)
+**ID 선택자(ID Selectors)**
 
 <!-- prettier-ignore -->
 ```
@@ -77,14 +77,14 @@ ID 선택자(ID Selectors)
 #id_value { color: red; }
 ```
 
-특성 선택자(Attribute Selectors)
+**특성 선택자(Attribute Selectors)**
 
 <!-- prettier-ignore -->
 ```
 a[href="https://example.org"] { color: red; }
 ```
 
-전체 선택자(Universal Selectors)
+**전체 선택자(Universal Selectors)**
 
 ```
 * { color: red; }
