@@ -89,7 +89,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
   - 저장 프로시저(Stored PROCEDURE)
-  - 레디스(Redis)
+  - [레디스(Redis)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md)
 
 - Network
 
