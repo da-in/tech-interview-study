@@ -1,4 +1,4 @@
-# (추상 팩토리 패턴)Abstract Factory Pattern
+# 추상 팩토리 패턴(Abstract Factory Pattern)
 
 **추상 팩토리 패턴** 은 생성 패턴으로, [팩토리 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Factory%20Method%20Pattern.md)과 함께 [Simple Factory](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Factory%20Method%20Pattern.md)와 관련있는 패턴이다. 구체적인 클래스에 의존하지 않고 서로 연관되거나 의존적인 객체들의 조합을 만드는 인터페이스를 제공하는 패턴이다. `싱글톤`, `팩토리 메소드 패턴`을 사용한다.
 

@@ -107,7 +107,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
   - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
-  - 인터럽트(Interrupt)
+  - [인터럽트(Interrupt)](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/안터럽트(Interrupt).md)
   - 시스템 콜(System Call)
   - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
   - IPC(Inter Process Communication)
@@ -142,7 +142,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [힙 정렬(Heap Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
 - 기수 정렬(Radix Sort)
 - 계수 정렬(Count Sort)
-- 이분 탐색(Binary Search)
+- [이분 탐색(Binary Search)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md)
 - 해시 테이블 구현
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
@@ -233,7 +233,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/Web/Cookie%26Session.md)
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
-- CORS
+- [CORS](https://github.com/da-in/tech-interview-study/blob/main/Web/CORS.md)
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
 - [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
