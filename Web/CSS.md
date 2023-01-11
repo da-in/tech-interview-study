@@ -4,10 +4,38 @@
 
 _\* XHTML(Extensible Hypertext Markup Language)은 HTML과 동등한 표현 능력을 지닌 XML 마크업 언어로, HTML보다 엄격한 문법을 가진다._
 
-## CSS rule set
+<br/>
+
+## CSS Rule Set
+
+**Rule Set** 은 어떤 요소에 어떤 스타일링을 할 것인지 브라우저에 알리는 하나의 CSS 문장으로 축약하여 **Set** 이라고도 한다. 말 그대로 Rule의 집합이다.
+
+CSS Rule Set은 아래와 같은 형태를 갖는다.
 
 <img src="https://user-images.githubusercontent.com/66757141/211829987-c0e204e9-259d-4a2c-8fe7-f8b6daa76371.jpg" alt="css rule set" width="300px" /><br/>
-_[image reference](https://www.codeproject.com/Articles/599997/CSS-Architectures-Part-3-Refactor-Your-CSS-with-th)_
+_[image reference](https://puzzleweb.ru/en/css/1_css_syntax.php)_
+
+- **선택자(Selector)** : rule set의 맨 앞에 위치하는 HTML 요소 이름으로 꾸밀 요소를 선택한다.
+- **선언(Declaration)** : 단일 규칙이다. 꾸미려는 속성과 값을 명시합니다.
+- **속성(Property)** : 선택한 요소를 꾸밀 수 있는 방법이다. 예시에서는 color는 p 요소가 갖는 속성이다. rule 내에서 영향을 줄 속성을 선택한다.
+- **값(Value)** : 주어진 속성이 가질 수 있는 형태의 값을 지정한다.
+
+여러 Rule Set을 작성했을 때 Selector를 기준으로 구분하며, `{` , `}`로 감싸야한다. 각 선언을 구분하기 위해서 `;` 를 사용하고, 속성과 값은 `:`로 구분한다.
+
+<br/>
+
+## CSS의 작동
+
+브라우저가 문서를 표시할 때, 문서의 콘텐츠와 해당 스타일 정보를 결합해야 한다. 그 과정을 단순화하면 아래와 같은 여러 단계를 거쳐 문서를 처리한다.
+
+1. 브라우저는 HTML (예: 네트워크에서 HTML 을 수신) 을 로드합니다.
+2. HTML 을 DOM (Document Object Model) 로 변환합니다. DOM 은 컴퓨터 메모리의 문서를 나타냅니다. DOM 은 다음 섹션에서 좀 더 자세히 설명됩니다.
+3. 그런 다음 브라우저는 포함된 이미지 및 비디오와 같은 HTML 문서에 연결된 대부분의 리소스와 연결된 CSS 를 가져옵니다! JavaScript 는 작업에서 나중에 처리되므로 더 간단하게 하기위해 여기에서는 다루지 않습니다.
+4. 브라우저는 가져온 CSS 를 구문 분석하고 선택자 유형별로 다른 규칙을 다른 "buckets" 으로 정렬합니다. 예: 요소, class, ID 등 찾은 선택자를 기반으로 DOM 의 어느 노드에 어떤 규칙을 적용해야 하는지 결정하고, 필요에 따라 스타일을 첨부합니다 (이 중간 단계를 render tree 라고 합니다).
+5. render tree 는 규칙이 적용된 후에 표시되어야 하는 구조로 배치됩니다.
+6. 페이지의 시각적 표시가 화면에 표시됩니다 (이 단계를 painting 이라고 함).
+
+<br/>
 
 ## CSS의 작동
 
