@@ -12,7 +12,7 @@ _\* XHTML(Extensible Hypertext Markup Language)은 HTML과 동등한 표현 능�
 
 CSS Rule Set은 아래와 같은 형태를 갖는다.
 
-<img src="https://user-images.githubusercontent.com/66757141/211829987-c0e204e9-259d-4a2c-8fe7-f8b6daa76371.jpg" alt="css rule set" width="300px" /><br/>
+<img src="https://user-images.githubusercontent.com/66757141/211836370-9f61a231-2988-42e0-8891-9bd827198877.png" alt="css rule set" width="500px" /><br/>
 _[image reference](https://puzzleweb.ru/en/css/1_css_syntax.php)_
 
 - **선택자(Selector)** : rule set의 맨 앞에 위치하는 HTML 요소 이름으로 꾸밀 요소를 선택한다.
@@ -27,6 +27,9 @@ _[image reference](https://puzzleweb.ru/en/css/1_css_syntax.php)_
 ## CSS의 작동
 
 브라우저가 문서를 표시할 때, 문서의 콘텐츠와 해당 스타일 정보를 결합해야 한다. 그 과정을 단순화하면 아래와 같은 여러 단계를 거쳐 문서를 처리한다.
+
+<img src="https://user-images.githubusercontent.com/66757141/211836326-4fb32b83-5d75-472c-b297-34fb9e44d32d.svg" alt="css works" width="600px" /><br/>
+_[image reference](https://puzzleweb.ru/en/css/1_css_syntax.php)_
 
 1. 브라우저는 HTML (예: 네트워크에서 HTML 을 수신) 을 로드합니다.
 2. HTML 을 DOM (Document Object Model) 로 변환합니다. DOM 은 컴퓨터 메모리의 문서를 나타냅니다. DOM 은 다음 섹션에서 좀 더 자세히 설명됩니다.
