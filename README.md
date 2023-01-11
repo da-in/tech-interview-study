@@ -85,7 +85,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
   - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
   - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
-  - [인덱스(INDEX)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md)
+  - [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
   - 트랜잭션(Transaction)
   - 트랜잭션 격리 수준(Transaction Isolation Level)
   - 저장 프로시저(Stored PROCEDURE)
@@ -107,7 +107,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
   - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
-  - [인터럽트(Interrupt)](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/안터럽트(Interrupt).md)
+  - [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/안터럽트(Interrupt).md>)
   - 시스템 콜(System Call)
   - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
   - IPC(Inter Process Communication)
@@ -139,10 +139,10 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [삽입 정렬(Insertion Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC(Insertion%20Sort).md>)
 - [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
 - [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
-- [힙 정렬(Heap Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
+- [힙 정렬(Heap Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md>)
 - 기수 정렬(Radix Sort)
 - 계수 정렬(Count Sort)
-- [이분 탐색(Binary Search)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md)
+- [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md>)
 - 해시 테이블 구현
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/BFS%26DFS.md)
 - 최장 증가 수열(LIS)
@@ -249,7 +249,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [CSRF & XSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSRF%26XSS.md)
 - 웹 성능 최적화
 - CSS Methodology
-- CSS Selector 우선순위
+- [CSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSS.md)
 - Normalize.css vs Reset.css
 - 클라우드
 
