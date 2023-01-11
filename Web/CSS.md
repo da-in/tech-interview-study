@@ -6,6 +6,7 @@ _\* XHTML(Extensible Hypertext Markup Language)은 HTML과 동등한 표현 능�
 
 ## CSS rule set
 
+<img src="https://user-images.githubusercontent.com/66757141/211829987-c0e204e9-259d-4a2c-8fe7-f8b6daa76371.jpg" alt="css rule set" width="300px" /><br/>
 _[image reference](https://www.codeproject.com/Articles/599997/CSS-Architectures-Part-3-Refactor-Your-CSS-with-th)_
 
 ## CSS의 작동
