@@ -39,7 +39,7 @@ _[image reference](https://puzzleweb.ru/en/css/1_css_syntax.php)_
 5. DOM 트리에 스타일 정보를 첨부(Attach)하여 `Render Tree`를 생성한다. 따라서 `Render Tree`는 규칙이 적용된 후에 표시되어야 하는 구조로 배치됩니다.
 6. 페이지의 시각적 표시가 화면에 표시(`Painting`)된다.
 
-<img src="" alt="" width=""><br/>
+<img src="https://user-images.githubusercontent.com/66757141/211843953-026bdfd9-58f5-44a6-a7f2-b4a2e5971bd1.png" alt="dom, cssom, render tree" ><br/>
 _[image reference](https://web.dev/critical-rendering-path-render-tree-construction/)_
 
 <br/>
