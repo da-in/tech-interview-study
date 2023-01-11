@@ -44,11 +44,88 @@ _[image reference](https://web.dev/critical-rendering-path-render-tree-construct
 
 <br/>
 
+## CSS 명시도(Specificity)
+
+**CSS 명시도(Specificity)** 는 동일한 요소 속성에 중첩하여 스타일을 선언하는 경우 어떠한 선언을 최종적으로 적용할지 **우선순위** 를 결정하는데 사용된다.
+
+명시도는 CSS 선언(Declaration)에 적용되는 가중치(weight)로, 선언의 선택자가 갖는 **선택자 유형의 수** 에 의해 결정된다.
+
+<br/>
+
+### 선택자 유형
+
+유형 선택자(Type Selector)
+
+<!-- prettier-ignore -->
+```css
+a { color: red; }
+```
+
+클래스 선택자(Class Selectors)
+
+<!-- prettier-ignore -->
+```
+<div class='class_value'>...<div>
+.class_value { color: red; }
+```
+
+ID 선택자(ID Selectors)
+
+<!-- prettier-ignore -->
+```
+<div id='id_value'>...<div>
+#id_value { color: red; }
+```
+
+특성 선택자(Attribute Selectors)
+
+<!-- prettier-ignore -->
+```
+a[href="https://example.org"] { color: red; }
+```
+
+전체 선택자(Universal Selectors)
+
+```
+* { color: red; }
+* [lang^=en] { color: green; }
+```
+
+<br/>
+
+### 명시도 산출
+
+_https://specifishity.com/ 가중치를 확인할 수 있는 사이트라고 공식문서에 소개되어있는데 이게 뭐지 링크의 상태가 재미있다🤔_
+
+가중치는 일반적으로 `X-Y-Z` 의 형태로 나타낸다.
+
+- **X-0-0** : `ID Selectors` 의 수
+- **0-Y-0** : `Class Selectors`, Attributes Selectors, Pseudo-Classes의 수
+- **0-0-Z** : `Element(type) Selectors`와 Pseudo-elements의 수
+- **1-0-0-0** : `인라인 스타일(inline style)`의 Rule은 더 큰 가중치를 갖는다.
+- **1-0-0-0-0** : `!important`규칙을 사용하면 다른 선언보다도 우선시 된다.
+
+```html
+<!-- inline style -->
+<div style="color: red;">Hello</div>
+<!-- !important -->
+.foo[style*="color: red"] { color: firebrick !important; }
+```
+
+_\*, \+, \>, ~ 등의 Universal Selector는 가중치를 증가시키지 않는다._
+
+여러 선언의 명시도가 같은 경우 CSS에서 맨 끝에 오는, 즉 나중에 명시된 선언이 적용된다.  
+명시도는 같은 요소가 여러 선언의 대상이 되는 경우에만 적용되며, CSS 규칙에 따라 부모로부터 상속받는 선언보다 요소를 직접 선택한 선언이 항상 우선된다.
+
+<br/>
+
 ---
 
 ## Reference
 
 📄https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/CSS_basics  
+📄https://developer.mozilla.org/ko/docs/Web/CSS/Specificity  
+📄https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works  
 📄https://ko.wikipedia.org/wiki/CSS
 
 **브라우저 엔진을 직접 구현하며 원리를 설명하는 글**  
