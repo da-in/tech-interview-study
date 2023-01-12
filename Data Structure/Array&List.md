@@ -58,11 +58,15 @@ Array는 연속적인 메모리에 데이터를 저장하고, List는 비연속�
 
 ## List(Python)
 
-다른 언어에서는 배열과 리스트가 비교적 명확하게 구분되어 사용된다. 하지만 파이썬(Python)의 리스트는 배열의 특성도 함께 내포하여 구현되어있다.
+다른 언어에서는 배열과 리스트가 비교적 명확하게 구분되어 사용된다. 하지만 파이썬(Python)의 리스트는 배열의 특성도 함께 내포하여 구현되어있다. 파이썬의 리스트는 연속적인 메모리 공간에 데이터를 저장하고, 인덱스로 접근할 수 있다.
 
 <br/>
 
-## Array List (JS)
+## Array List (Java)
+
+Java의 `java.util` 패키지는 크기가 조정가능한 Array인 ArrayList 클래스를 제공한다. ArrayList는 저장 가능한 용량(Capacity)와 현재 사용중인 용량(Size)가 있고, 가능한 용량 이상을 사용하려고 하면 더 큰 공간의 메모리를 새로 할당한다.
+
+<br/>
 
 ---
 
@@ -72,4 +76,5 @@ Array는 연속적인 메모리에 데이터를 저장하고, List는 비연속�
 📄https://opentutorials.org/module/1335/8636  
 📄https://ongveloper.tistory.com/403  
 📄https://ndlessrain.tistory.com/entry/캐시메모리-적중률Hit-Rate
-📄https://zion830.tistory.com/46
+📄https://zion830.tistory.com/46  
+📄https://www.w3schools.com/java/java_arraylist.asp
