@@ -31,6 +31,11 @@
 
 <br/>
 
+![array-vs-ll](https://user-images.githubusercontent.com/66757141/212114948-d0b2142b-b4d9-4e3e-82e9-913bbdc0ff24.png)<br/>
+_[image reference](https://www.interviewbit.com/courses/programming/linked-lists/arrays-vs-linked-lists/)_
+
+<br/>
+
 ## 캐시 메모리 적중률(Cache Hit Ratio)
 
 **캐시 메모리** 는 CPU와 메모리의 속도 차이를 줄이기 위해 사용하는 고속 버퍼 메모리이다. 자주 사용하는 데이터를 캐시 메모리에 저장하여 빠르게 꺼내써, 메모리 접근 횟수를 줄이고 성능을 향상시킨다._(빠르고 비싸다)_
