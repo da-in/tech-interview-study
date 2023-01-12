@@ -8,7 +8,7 @@ _\* XHTML(Extensible Hypertext Markup Language)은 HTML과 동등한 표현 능�
 
 ## CSS Rule Set
 
-**Rule Set** 은 어떤 요소에 어떤 스타일링을 할 것인지 브라우저에 알리는 하나의 CSS 문장으로 축약하여 **Set** 이라고도 한다. 말 그대로 Rule의 집합이다.
+**Rule Set** 은 어떤 요소에 어떤 스타일링을 할 것인지 브라우저에 알리는 하나의 CSS 문장으로 축약하여 **Rule** 이라고도 한다. 말 그대로 Rule의 집합이다.
 
 CSS Rule Set은 아래와 같은 형태를 갖는다.
 
