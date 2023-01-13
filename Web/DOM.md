@@ -112,7 +112,7 @@ document.querySelector('.search-input-style')
 ```
 1. document 객체에 접근해서 `p` 태그를 생성
 2. document 객체에 다시 접근해서 TextNode를 생성 후 String을 삽입
-3. appendChil 메소드로 textNode를 자식노드로 추가
+3. appendChild 메소드로 textNode를 자식노드로 추가
 4. document 객체에 있는 `body` 태그에 header를 자식노드로 추가
 
 > JavaScript와 DOM은 엄밀히 다른 개념이다! -> 다른 언어로도 DOM을 다룰 수 있다. </br>
