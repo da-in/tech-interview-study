@@ -85,16 +85,17 @@ document.querySelector('.search-input-style')
 ## 주요 DataTypes
 |||
 |------|----------|
-|document|menber가 document type의 객체를 리턴할 때, 이 객체는 root document object 자체이다. 예를들어 `document.getElementById("myP").ownerDocument`는 해당 프로퍼티가 속해 있는 document를 리턴한다.|
+|document|menber가 document type의 객체를 리턴할 때, 이 객체는 root document object 자체이다. 예를들어 `document.getElementById("myP").ownerDocument`\*는 해당 프로퍼티가 속해 있는 document를 리턴한다.|
 |element|element는 DOM API의 member에 의해 리턴된 element 또는 element type의 node를 의미한다. 즉 `document.createElement()` 메소드가 DOM안에서 생성되는 element를 리턴한다고 할 수 있다.|
 |nodeList|nodeList는 elements의 배열이다.(`document.getElementsByTagName()`의 리턴 값과 같다) nodeList의 item은 인덱스를 통해 접근 가능하다. |
 |attribute|attribute가 member에 의해 리턴되는 것은 attribute에 대한 인터페이스를 노출하는 Object reference이다. 쉽게 말하면 attribute는 elements와 같은 노드이다.(`createAttiribute()`) |
 |namedNodeMap|nameNodeMap은 배열과 유사하지만 각 item은 name이나 인덱스에 의해 접근할 수 있다. nameNodeMap은 item() 메소드가 있고, item을 추가/삭제할 수 있다.|
 
-
 > member란? - 프로퍼티 혹은 메소드 </br>
 > 프로퍼티란? - DOM 객체의 멤버 변수이고,  HTML 태그의 속성을 반영</br>
 > 메소드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
+
+\* _`window.document`와 `node.ownerDocument` 는 일반적인 상황에서는 동일한 document 객체를 리턴할 것이다. 하지만 예외적인 상황도 존재한다. 대표적으로 `iframe(inline frame)`을 이용해 다른 URL 등의 외부 HTML 내용을 보여줄 수 있다. 이때 iframe 내부에서 window.document는 iframe을 가지고 있는 부모 document를, node.ownerDocument는 iframe이 표시하는 내부 document를 가리키게 된다._
 
 </br>
 
