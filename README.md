@@ -66,8 +66,8 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - Data Structure
 
   - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
+  - [Array & List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array&List.md)
   - [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
-  - Array & ArrayList & LinkedList
   - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
   - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
   - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
