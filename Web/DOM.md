@@ -53,8 +53,10 @@ DOM은 HTML이 아니다! 차이점들을 살펴보면
 - 항상 유효한 HTML형식이다.
 - `JavaScript`로 수정될 수 있는 동적 모델이다.
 - 가상 요소를 포함하지 않는다.
-- 보이지 않는 요소를 포함한다. </br>
+> 가상요소란? - 선택한 요소의 일부에만 스타일을 적용하는 것 `::before, ::after`
+- 보이지 않는 요소를 포함한다. 
 
+</br>
 
 
 ## DOM에 접근하는 방법
@@ -86,13 +88,13 @@ document.querySelector('.search-input-style')
 |document|menber가 document type의 객체를 리턴할 때, 이 객체는 root document object 자체이다. 예를들어 `document.getElementById("myP").ownerDocument`는 해당 프로퍼티가 속해 있는 document를 리턴한다.|
 |element|element는 DOM API의 member에 의해 리턴된 element 또는 element type의 node를 의미한다. 즉 `document.createElement()` 메소드가 DOM안에서 생성되는 element를 리턴한다고 할 수 있다.|
 |nodeList|nodeList는 elements의 배열이다.(`document.getElementsByTagName()`의 리턴 값과 같다) nodeList의 item은 인덱스를 통해 접근 가능하다. |
-|attribute|attribute가 member에 의해 리턴되는 것은 attribute에 대한 페이스를 노출하는 Object reference이다. 쉽게 말하면 attribute는 elements와 같은 노드이다.(`createAttiribute()`) |
+|attribute|attribute가 member에 의해 리턴되는 것은 attribute에 대한 인터페이스를 노출하는 Object reference이다. 쉽게 말하면 attribute는 elements와 같은 노드이다.(`createAttiribute()`) |
 |namedNodeMap|nameNodeMap은 배열과 유사하지만 각 item은 name이나 인덱스에 의해 접근할 수 있다. nameNodeMap은 item() 메소드가 있고, item을 추가/삭제할 수 있다.|
 
 
 > member란? - 프로퍼티 혹은 메소드 </br>
 > 프로퍼티란? - DOM 객체의 멤버 변수이고,  HTML 태그의 속성을 반영</br>
-> 메스드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
+> 메드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
 
 </br>
 
@@ -118,6 +120,22 @@ document.querySelector('.search-input-style')
 
 
 </br>
+
+## 인터페이스와 객체
+- 많은 객체들이 여러개의 다른 인터페이스들과 연관되어 있다.
+	- 예를들어, table객체는 여러 메소드들이 포함된 `HTMLTableElement`를 구현함과 동시에 `HTML Element`이기도 하기 때문에 `Element` 인터페이스도 구현한다. 
+
+</br>
+
+
+## DOM의 핵심 인터페이스
+- `document.getElementById(id)`
+- `document.getElementsByTagName(name)`
+- `document.createElement(name)`
+- `parentNode.appendChild(node)`
+- `element.innerHTML`
+- `element.setAttribute`
+- `element.getAttribute`
 
 ----
 ## Referance
