@@ -1,4 +1,4 @@
-# PCB (Process control Block)
+# PCB (Process Control Block)
 구동중인 프로세스가 여러개이기 때문에 CPU 스케줄링을 통해 프로세스들을 관리한다. </br>
 그럼 각각의 프로세스들을 어떻게 구분할까? </br>
 PCB는 OS에 **프로세스의 메타데이터**들를 저장해놓은 곳이다. **하나의 PCB**에는 **하나의 프로세스 정보**가 담긴다. </br>
@@ -57,5 +57,5 @@ PCB는 OS에 **프로세스의 메타데이터**들를 저장해놓은 곳이다
 
 ## Reference
 - https://velog.io/@haero_kim/PCB-%EC%99%80-Context-Switching-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
-- 공룡 책
+- operating system concepts 10th edition
 - https://velog.io/@heetaeheo/PCB-%EC%99%80-Context-Switching
