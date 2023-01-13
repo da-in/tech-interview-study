@@ -125,7 +125,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩
   - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
   - 애자일(Agile) 정리1 / 애자일(Agile) 정리2
-  - 객체 지향 프로그래밍(Object-Oriented Programming)
+  - [객체 지향 프로그래밍(Object-Oriented Programming)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Object-Oriented%20Programming).md)
   - 함수형 프로그래밍(Fuctional Programming)
   - [데브옵스(DevOps)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md>)
   - 서드 파티(3rd party)란?
