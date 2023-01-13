@@ -94,7 +94,7 @@ document.querySelector('.search-input-style')
 
 > member란? - 프로퍼티 혹은 메소드 </br>
 > 프로퍼티란? - DOM 객체의 멤버 변수이고,  HTML 태그의 속성을 반영</br>
-> 메드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
+> 메소드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
 
 </br>
 
@@ -112,7 +112,7 @@ document.querySelector('.search-input-style')
 ```
 1. document 객체에 접근해서 `p` 태그를 생성
 2. document 객체에 다시 접근해서 TextNode를 생성 후 String을 삽입
-3. appendChile 메소드로 textNode를 자식노드로 추가
+3. appendChil 메소드로 textNode를 자식노드로 추가
 4. document 객체에 있는 `body` 태그에 header를 자식노드로 추가
 
 > JavaScript와 DOM은 엄밀히 다른 개념이다! -> 다른 언어로도 DOM을 다룰 수 있다. </br>
