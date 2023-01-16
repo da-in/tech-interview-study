@@ -1,6 +1,7 @@
 # tech-interview-study
 
-스터디는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.
+스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
+각 주제에 대한 깊이있는 학습을 지향합니다.
 
 ### 📢 Rules
 
