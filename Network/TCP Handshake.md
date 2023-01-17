@@ -59,8 +59,12 @@ TCP 헤더는 6bit의 `Control Flag` 필드를 포함한다. 각 플래그의 �
 </table>
 
 <br/>
+<br/>
 
 아래와 같이 `3 way handshake`를 통해 연결을 설정하고 `4 way handshake`를 통해 해제한다.
+
+<img src="https://user-images.githubusercontent.com/66757141/212936124-0627914e-d091-4e7a-9548-a7f2308ec4a7.gif" alt="Image2001"><br/>
+[_img reference_](https://www.cablefree.net/support/radio/software/index.php/Manual:Connection_oriented_communication_%28TCP/IP%29)
 
 <br/>
 
@@ -90,9 +94,6 @@ TCP 3 way handshake는 전송의 신뢰성을 보장하기 위해서 통신 이�
    - `Client`와 `Server`가 `CLOSE` 상태가 된다.
 
 `FIN` 플래그로 종료를 요청하는 시점에, Client가 연결을 바로 종료하지 않고 남은 요청을 기다리는 것을 `Half-Close` 기법 이라고 한다.
-
-<img src="https://user-images.githubusercontent.com/66757141/212936124-0627914e-d091-4e7a-9548-a7f2308ec4a7.gif" alt="Image2001"><br/>
-[_img reference_](https://www.cablefree.net/support/radio/software/index.php/Manual:Connection_oriented_communication_%28TCP/IP%29)
 
 <br/>
 
