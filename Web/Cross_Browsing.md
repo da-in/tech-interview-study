@@ -36,8 +36,9 @@ Cross-browser Compatibility를 보장하기 위해 진행하는 **테스팅 기�
    [https://caniuse.com/](https://caniuse.com/) 등의 사이트에서 확인 가능하다.
 3. Cross Browser Testing을 진행한다.  
    수동으로도 가능하지만, LambdaTest, CrossBrowserTesting.com 등의 온라인 사이트를 이용하는것이 편리하다.
-4. **Reset.css**를 이용하여 CSS 초기화 작업을 수행한다.  
-   `Reset.css`를 검색하면 많은 자료들이 나온다. Reset.css는 모든 속성에 대한 default 값을 한번씩 지정해서 브라우저마다 다른 기본 스타일 값을 초기화해주는 것이다. 그러면 모든 브라우저에서 동일한 스타일 결과를 기대할 수 있다.
+4. `Reset.css`, `Normalize.css`를 사용하여 CSS 초기화 작업을 수행한다. 프로젝트 특성에 맞게 선택하여 사용하면 되며, 공개되어있는 오픈소스를 사용해도, 직접 커스텀하여 사용해도 된다.
+   - `Reset.css`는 브라우저들의 내장된 기본 스타일 값을 초기화(Reset)한다. 국내에서 많이 사용되던 방식이다.
+   - `Normalize.css`는 브라우저가 달라도 최대한 같게 보이도록 속성을 정규화(Normalize)한다. 전체 속성을 초기화 하는 것이 아닌 브라우저별로 정규화가 필요한 속성들만 건드린다. 지속적으로 업데이트가 되고 있는 공동 프로젝트이다.
 5. Vender Prefix  
    CSS 속성 앞에 브라우저 별 접두사(Vender Prefix)를 붙이는 것이다. Vender Prefix는 과거 특정 브라우저에서만 지원되는 속성을 사용하기 위해 제공된 기능이다. 브라우저는 자신의 Vender Prefix가 붙은 속성을 인식하고 적용한다.  
    [autoprefixer.github.io/](autoprefixer.github.io/)는 접두사를 붙인 CSS를 생성해준다.
