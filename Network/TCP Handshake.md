@@ -18,38 +18,43 @@
 
 <br/>
 
-TCP 헤더는 6bit의 `Control Flag` 필드를 포함한다. 각 플래그의 사용을 `0`과 `1`로 나타낸다. 예 `SYN/ACK`는 `010010`.
+TCP 헤더는 6bit의 `Control Flag` 필드를 포함한다. 각 플래그의 사용을 `0`과 `1`로 나타낸다. 예 `SYN/ACK`는 `010010`.  
+`Sequence Number`는 세그먼트\* 현재 응답 데이터의 순서 번호를 의미한다.
+`Acknowledge Number`는 상대방에게 받아야 할 패킷의 번호를 의미한다.
+`Sequence Number`와 `Acknowledge Number`를 통해 통신 순서를 확인한다.
+
+\* 세그먼트는 4계층의 패킷을 의미한다. 계층별 패킷 구분을 위해 4계층은 `세그먼트`, 3계층은 `패킷`, 2계층은 `프레임` 이라고 칭한다.
 
 <table >
   <tr>
     <th align='left'>SYN (Synchronize)</th>
     <td>연결 요청</td>
-    <td>통신 시작을 위해 가장 먼저 보내는 패킷<br/>임의의 초기 `Sequence Number`를 보낸다.</td>
+    <td>통신 시작을 위해 가장 먼저 보내는 패킷<br/>임의의 초기 `Sequence Number` 를 보낸다.</td>
   </tr>
   <tr>
     <th align='left'>ACK (Acknowledgment)</th>
     <td>응답 플래그</td>
-    <td>송신측으로부터 패킷을 잘 받았다는 것을 알려주기 위한 플래그이다.<br/> 받은 `Sequence Number`에 +1 하여 응답한다.</td>
+    <td>송신측으로부터 패킷을 받았다는 것을 알려주기 위한 플래그<br/> 일반적으로 받은 `Sequence Number + 1` 하여 응답한다.</td>
   </tr>
   <tr>
     <th align='left'>Fin (Finish)</th>
     <td>연결 종료</td>
-    <td>더 이상 전송할 데이터가 없고 세션 연결을 종료시키겠다는 플래그이다.</td>
+    <td>남은 전송 데이터가 없으므로 세션 연결을 종료시키는 플래그</td>
   </tr>
   <tr>
     <th align='left'>RST (Reset)</th>
-    <td>연결 재설정</td>
-    <td>비정상적인 세션을 끊기 위해 연결을 재설정하는 과정</td>
+    <td>재연결</td>
+    <td>비정상적인 세션을 끊기 위해 연결을 재설정하는 플래그</td>
   </tr>
   <tr>
     <th align='left'>PSH (Push)</th>
-    <td>넣기</td>
-    <td>버퍼가 채워지기를 기다리지 않고 받는 즉시 전달한다.<br/> 버퍼링 없이 7 Layer Application Layer의 응용프로그램에게 바로 전달하는 플래그</td>
+    <td>밀어넣기</td>
+    <td>빠른 응답을 위해 버퍼링 없이 OSI 7 Layer의 Application 계층으로<br/>바로 전달하도록 하는 플래그</td>
   </tr>
   <tr>
     <th align='left'>URG (Urgent)</th>
     <td>긴급 데이터</td>
-    <td>긴급한 데이터의 우선순위를 다른 데이터의 우선 순위를 높여 긴급하게 전달하는 플래그</td>
+    <td>긴급하게 전해야 할 내용이 있을 경우 사용하는 플래그</td>
   </tr>
 </table>
 
@@ -88,9 +93,7 @@ TCP 3 way handshake는 전송의 신뢰성을 보장하기 위해서 통신 이�
    - `Client`는 바로 세션을 종료시키지 않고 `TIME_WAIT` 상태가 된다. `Server`가 `FIN` 패킷보다 먼저 보냈지만 여러 문제로 상황으로 늦게 도착할 수 있는 잉여 패킷을 기다린다. (default 240초)
    - `Client`와 `Server`가 `CLOSE` 상태가 된다.
 
-서버는 ACK를 받은 이후 소켓을 닫는다 (Closed)
-
-TIME_WAIT 시간이 끝나면 클라이언트도 닫는다 (Closed)
+`FIN` 플래그로 종료를 요청하는 시점에, Client가 연결을 바로 종료하지 않고 남은 요청을 기다리는 것을 `Half-Close` 기법 이라고 한다.
 
 <br/>
 
@@ -102,3 +105,4 @@ TIME_WAIT 시간이 끝나면 클라이언트도 닫는다 (Closed)
 📄https://velog.io/@osk3856/TLS-Handshake  
 📄https://bangu4.tistory.com/74  
 📄https://networkengineering.stackexchange.com/questions/23527/when-does-the-three-way-handshake-take-place-in-relation-to-data-flowing-down-th
+📄https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake
