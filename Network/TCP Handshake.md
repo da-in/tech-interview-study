@@ -4,7 +4,7 @@
 
 **핸드쉐이크(handshake)** 는 본 통신이 시작되기 전에, 두 개체(Client, Server 등)간의 통신 연결 프로토콜 확립을 위한 정보를 교환하는 자동화된 협상 과정이다.
 
-- TCP(Transmission Control Protocol)에서 통신을 연결할 때 `3 way handshake`를 연결 해제할 때 `4 way handshake`를 사용한다.
+- `Transport Layer`의 TCP(Transmission Control Protocol)는 높은 신뢰성을 보장하는 `연결 지향 프로토콜` 이며 `TCP`에서 통신을 연결할 때에는 `3 way handshake`를 연결 해제할 때에는 `4 way handshake`를 사용한다.
 - 암호화 통신 프로토콜인 SSL(Secure Sockets Layer), TSL(Transport Layer Security)는 [TLS/SSL Handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)를 사용한다.
 
 <br/>
@@ -60,13 +60,9 @@ TCP 헤더는 6bit의 `Control Flag` 필드를 포함한다. 각 플래그의 �
 
 <br/>
 
-`Transport Layer`의 `TCP`는 높은 신뢰성을 보장하는 `연결 지향 프로토콜` 이며  
 아래와 같이 `3 way handshake`를 통해 연결을 설정하고 `4 way handshake`를 통해 해제한다.
 
 <br/>
-
-<img src="https://user-images.githubusercontent.com/66757141/212936124-0627914e-d091-4e7a-9548-a7f2308ec4a7.gif" alt="Image2001"><br/>
-[_img reference_](https://www.cablefree.net/support/radio/software/index.php/Manual:Connection_oriented_communication_%28TCP/IP%29)
 
 ## 3 way handshake
 
@@ -95,14 +91,17 @@ TCP 3 way handshake는 전송의 신뢰성을 보장하기 위해서 통신 이�
 
 `FIN` 플래그로 종료를 요청하는 시점에, Client가 연결을 바로 종료하지 않고 남은 요청을 기다리는 것을 `Half-Close` 기법 이라고 한다.
 
+<img src="https://user-images.githubusercontent.com/66757141/212936124-0627914e-d091-4e7a-9548-a7f2308ec4a7.gif" alt="Image2001"><br/>
+[_img reference_](https://www.cablefree.net/support/radio/software/index.php/Manual:Connection_oriented_communication_%28TCP/IP%29)
+
 <br/>
 
 ---
 
 ## Reference
 
+📄https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake
 📄https://en.wikipedia.org/wiki/Handshake_(computing)  
 📄https://velog.io/@osk3856/TLS-Handshake  
 📄https://bangu4.tistory.com/74  
 📄https://networkengineering.stackexchange.com/questions/23527/when-does-the-three-way-handshake-take-place-in-relation-to-data-flowing-down-th
-📄https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake
