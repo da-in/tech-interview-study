@@ -11,8 +11,7 @@
 
 `Transport Layer`의 `TCP`는 높은 신뢰성을 보장하는 `연결 지향 프로토콜` 이며 아래와 같이 `3 way handshake`를 통해 연결을 설정하고 `4 way handshake`를 통해 해제한다.
 
-<img src="" alt="" width="">
-
+<img src="https://user-images.githubusercontent.com/66757141/212936124-0627914e-d091-4e7a-9548-a7f2308ec4a7.gif" alt="Image2001"><br/>
 [_img reference_](https://www.cablefree.net/support/radio/software/index.php/Manual:Connection_oriented_communication_%28TCP/IP%29)
 
 ## 3 way handshake
