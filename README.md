@@ -94,9 +94,9 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - Network
 
   - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
-  - TCP 3 way handshake & 4 way handshake
+  - TCP & UDP
+  - [TCP 3 way handshake & 4 way handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TCP%20Handshake.md)
   - TCP/IP 흐름제어 & 혼잡제어
-  - UDP
   - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
   - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
   - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
