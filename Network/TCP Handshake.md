@@ -101,7 +101,7 @@ TCP 3 way handshake는 전송의 신뢰성을 보장하기 위해서 통신 이�
 
 ## Reference
 
-📄https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake
+📄https://velog.io/@averycode/네트워크-TCPUDP와-3-Way-Handshake4-Way-Handshake  
 📄https://en.wikipedia.org/wiki/Handshake_(computing)  
 📄https://velog.io/@osk3856/TLS-Handshake  
 📄https://bangu4.tistory.com/74  
