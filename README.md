@@ -251,7 +251,6 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 웹 성능 최적화
 - CSS Methodology
 - [CSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSS.md)
-- Normalize.css vs Reset.css
 - 클라우드
 
 ### 📌 Linux
