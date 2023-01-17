@@ -122,13 +122,13 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 파일 시스템
 
 - Software Engineering
-  - 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩
+  - 클린코드(리팩토링 & 시큐어코딩)
   - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
-  - 애자일(Agile) 정리1 / 애자일(Agile) 정리2
+  - 애자일(Agile)
   - [객체 지향 프로그래밍(Object-Oriented Programming)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Object-Oriented%20Programming).md>)
   - 함수형 프로그래밍(Fuctional Programming)
   - [데브옵스(DevOps)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md>)
-  - 서드 파티(3rd party)란?
+  - 서드 파티(3rd party)
   - [마이크로서비스 아키텍처(MSA)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md>)
 
 ### 📌 Algorithm
@@ -166,6 +166,12 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
 ### 📌 Interview
+- OS
+- DB
+- Web
+- Network
+- Algorithm
+- Language
 
 ### 📌 Language
 
