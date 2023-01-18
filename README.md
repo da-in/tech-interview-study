@@ -7,19 +7,20 @@
 
 <table>
   <tr>
-    <td><a href='#pushpin-computer-architecture'>컴퓨터구조</a></td>
-    <td><a href='#pushpin-data-structure'>자료구조</a></td>
-    <td><a href='#pushpin-database'>DB</a></td>
+    <td><a href='#pushpin-computer-architecture'>Computer Architecture</a></td>
+    <td><a href='#pushpin-data-structure'>Data Structure</a></td>
+    <td><a href='#pushpin-database'>Database</a></td>
     <td><a href='#pushpin-network'>Network</a></td>
-    <td><a href='#pushpin-operating-system'>OS</a></td>
+    <td><a href='#pushpin-operating-system'>Operating System</a></td>
     <td><a href='#pushpin-algorithm'>Algorithm</a></td>
   </tr>
   <tr>
     <td><a href='#pushpin-web'>Web</a></td>
-    <td><a href='#pushpin-software-engineering'>소프트웨어 공학</a></td>
-    <td><a href='#pushpin-design-pattern'>디자인패턴</a></td>
+    <td><a href='#pushpin-software-engineering'>Software Engineering</a></td>
+    <td><a href='#pushpin-design-pattern'>Design Pattern</a></td>
     <td><a href='#pushpin-language'>Language</a></td>
     <td><a href='#pushpin-interview'>Interview</a></td>
+    <td></td>
   </tr>
 </table>
 
