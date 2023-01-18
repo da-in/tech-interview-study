@@ -56,6 +56,7 @@ IPC의 두 가지 기본 모델에는 **메세지 패싱** 과 **공유 메모�
 
 ### PIPE
 
+<img src="https://user-images.githubusercontent.com/66757141/213225176-084ea7be-6f0b-4300-9269-3d3770d81e28.jpg" alt="pipe_with_one" /><br/>
 [_img reference_](https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_pipes.htm)
 
 파이프(PIPE)는 두 개의 프로세스를 연결하며, 하나의 프로세스는 쓰기만 가능하고 다른 프로세스는 읽기만 가능한 형태이다. 이러한 특성으로 `반이중(Half-Duplex)통신`이라고 부른다.
