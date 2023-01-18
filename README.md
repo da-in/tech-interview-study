@@ -5,7 +5,7 @@
 
 <table>
   <tr>
-    <td><a href='#📌-computer-architecture'>컴퓨터구조</a></td>
+    <td><a href='#pushpin-computer-architecture'>컴퓨터구조</a></td>
     <td>자료구조</td>
     <td>DB</td>
     <td>Network</td>
@@ -71,7 +71,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 ## 학습 주제
 
-### 📌 Computer Architecture
+### :pushpin: Computer Architecture
 
   - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
   - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
