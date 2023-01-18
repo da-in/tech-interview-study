@@ -5,7 +5,7 @@
 
 <table>
   <tr>
-    <td><a href='#pushpin-computer-science'>컴퓨터구조</a></td>
+    <td><a href='#📌-computer-science'>컴퓨터구조</a></td>
     <td>자료구조</td>
     <td>DB</td>
     <td>Network</td>
