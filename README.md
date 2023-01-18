@@ -2,6 +2,12 @@
 
 스터디는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.
 
+| 컴퓨터구조 | 자료구조 | DB  | Network | OS  | Algorithm |
+| ---------- | -------- | --- | ------- | --- | --------- |
+
+| Web | 소프트웨어 공학 | 디자인패턴 | Language | Interview |
+| --- | --------------- | ---------- | -------- | --------- |
+
 ### 📢 Rules
 
 매일 `오전 10시` 온라인 스터디 _주말, 공휴일 제외_  
