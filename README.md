@@ -10,8 +10,8 @@
     <td><a href='#desktop_computer-computer-computer-architecture'>🖥️ Computer Architecture</a></td>
     <td><a href='#open_file_folder-data-structure'>📂 Data Structure</a></td>
     <td><a href='#package-database'>📦 Database</a></td>
-    <td><a href='#satelitte-network'>📡 Network</a></td>
-    <td><a href='#rotaiting_light-operating-system'>🚨 Operating System</a></td>
+    <td><a href='#satellite-network'>📡 Network</a></td>
+    <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
     <td><a href='#fried_egg-algorithm'>🍳 Algorithm</a></td>
   </tr>
   <tr>
@@ -111,7 +111,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 저장 프로시저(Stored PROCEDURE)
 - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
-### :satelitte: Network
+### :satellite: Network
 
 - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
 - TCP & UDP
@@ -122,7 +122,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
 - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
 
-### :rotaiting_light: Operating System
+### :rotating_light: Operating System
 
 - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
 - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
