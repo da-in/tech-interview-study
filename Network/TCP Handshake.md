@@ -19,8 +19,8 @@
 <br/>
 
 TCP 헤더는 6bit의 `Control Flag` 필드를 포함한다. 각 플래그의 사용을 `0`과 `1`로 나타낸다. 예 `SYN/ACK`는 `010010`.  
-`Sequence Number`는 세그먼트\* 현재 응답 데이터의 순서 번호를 의미한다.
-`Acknowledge Number`는 상대방에게 받아야 할 패킷의 번호를 의미한다.
+`Sequence Number`는 세그먼트\* 현재 응답 데이터의 순서 번호를 의미한다.  
+`Acknowledge Number`는 상대방에게 받아야 할 패킷의 번호를 의미한다.  
 `Sequence Number`와 `Acknowledge Number`를 통해 통신 순서를 확인한다.
 
 \* 세그먼트는 4계층의 패킷을 의미한다. 계층별 패킷 구분을 위해 4계층은 `세그먼트`, 3계층은 `패킷`, 2계층은 `프레임` 이라고 칭한다.
