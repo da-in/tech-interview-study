@@ -7,7 +7,7 @@
 
 <table>
   <tr>
-    <td><a href='#desktop_computer-computer-computer-architecture'>🖥️ Computer Architecture</a></td>
+    <td><a href='#desktop_computer-computer-architecture'>🖥️ Computer Architecture</a></td>
     <td><a href='#open_file_folder-data-structure'>📂 Data Structure</a></td>
     <td><a href='#package-database'>📦 Database</a></td>
     <td><a href='#satellite-network'>📡 Network</a></td>
