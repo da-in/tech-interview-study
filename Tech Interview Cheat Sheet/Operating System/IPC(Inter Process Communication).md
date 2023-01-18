@@ -17,6 +17,9 @@ IPC의 두 가지 기본 모델에는 **메세지 패싱** 과 **공유 메모�
 커널의 개입으로 동기화 문제로부터 안전하다는 장점이 있다.  
 커널이 개입하므로 비교적 많은 시간이 소요된다는 단점이 있다.
 
+<img src="https://user-images.githubusercontent.com/66757141/213210443-4baf6513-8b9f-4f63-8419-a303d529d6a5.png" alt="message passing model" /><br/>
+[_img reference_](https://sepang2.tistory.com/45)
+
 메세지 패싱에는 `direct communication`과 `indirect communication`이 있다.
 
 - direct communication  
@@ -30,6 +33,9 @@ IPC의 두 가지 기본 모델에는 **메세지 패싱** 과 **공유 메모�
 **공유 메모리** 모델은 프로세스 간의 공유 메모리 영역을 설정한 다음 공유 영역에서 데이터를 읽고 쓰는 방식으로 정보를 교환한다.  
 시스템 콜이 공유 메모리 영역을 설정할 때에만 필요하므로 커널의 개입이 적어, 메세지 패싱 모델보다 빠르다는 장점이 있다.  
 동기화 문제를 해결해야한다는 단점이 있다.
+
+<img src="https://user-images.githubusercontent.com/66757141/213210653-10cda272-e938-4783-bd33-e998d776ab2c.png" alt="shared memory model" /><br/>
+[_img reference_](https://sepang2.tistory.com/45)
 
 <br/>
 
