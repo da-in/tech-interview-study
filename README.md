@@ -278,12 +278,12 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 ### :technologist: Interview
 
-- OS
-- DB
-- Web
-- Network
-- Algorithm
-- Language
+- [OS] 면접 질문 모음
+- [DB] 면접 질문 모음
+- [[Web] 면접 질문 모음](https://github.com/da-in/tech-interview-study/blob/main/Interview/[Web]%20면접%20질문%20모음.md)
+- [Network] 면접 질문 모음
+- [Algorithm] 면접 질문 모음
+- [Language] 면접 질문 모음
 
 ### :pushpin: Linux
 
