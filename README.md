@@ -141,7 +141,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
 - [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
 - [힙 정렬(Heap Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md>)
-- 기수 정렬(Radix Sort)
+- [기수 정렬(Radix Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/기수%20정렬(Radix%20Sort).md)
 - 계수 정렬(Count Sort)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md>)
 - 해시 테이블 구현
