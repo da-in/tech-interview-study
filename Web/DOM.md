@@ -1,24 +1,22 @@
 # DOM (Document Object Model)
-DOM은 XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스이다. </br>
-문서의 구조화된 표현을 제공해서 프로그래밍 언어가 DOM구조에 접근해 문서의 콘텐츠 및 구조, 그리고 스타일을 읽고 조작할 수 있도록 API를 제공한다.</br>
-즉, 이를 통해 웹페이지를 스크립트 또는 프로그래밍 언어들에서 사용될 수 있게 연결 시켜주는 역할이다. </br>
+DOM은 XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스이다.  
+문서의 구조화된 표현을 제공해서 프로그래밍 언어가 DOM구조에 접근해 문서의 콘텐츠 및 구조, 그리고 스타일을 읽고 조작할 수 있도록 API를 제공한다.  
+즉, 이를 통해 웹페이지를 스크립트 또는 프로그래밍 언어들에서 사용될 수 있게 연결 시켜주는 역할이다.  
 
-
+<br/>
 
 ## 웹 페이지 만드는 과정
 - 브라우저가 HTML문서를 **파싱**하여 최종적으로 어떤 내용을 페이지에 렌더링 할지 결정 -> **렌더 트리**를 만든다!
    - 렌더 트리를 만들기 위해 `DOM`이 필요하다.
-- 렌더 트리를 통해 브라우저가 **렌더링** 수행 </br>
-
+- 렌더 트리를 통해 브라우저가 **렌더링** 수행  
 
 > 파싱이란? - 텍스트 문자의 문자열을 토큰으로 분해하고, 문법적 의미와 구조를 반영해서 **Parse Tree**를 생성하는 과정 </br>
 > 토큰이란? - 문법적으로 의미가 있는 최소 단위 </br>
 > 렌더링이란? - `HTML, CSS`로 작성된 문서를 파싱하여 브라우저에 **시각적**으로 출력하는 것 </br>
 
-<img src="https://user-images.githubusercontent.com/102718303/211845835-ee645f78-8ef6-4e9a-9e28-f58c72d30cf3.png">
+<img src="https://user-images.githubusercontent.com/102718303/211845835-ee645f78-8ef6-4e9a-9e28-f58c72d30cf3.png" alt="dom" width="600px">
 
-
-
+<br/>
 
 ## DOM의 구조
 - DOM의 구조를 보면 단순 텍스트로 구성된 HTML 문서의 내용과 구조가 **객체 모델**로 변환되어 다양한 프로그램에서 사용 가능하다. </br>
@@ -26,12 +24,11 @@ DOM은 XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스이
 - `<HTML>`은 **루트**, 그 안의 `Tag`들은 **자식**, 태그 안의 컨텐츠는 **잎**에 해당한다. </br>
 - 이를 통해 자바 스크립트같은 언어를 이용해서 DOM에 접근해 수정할 수 있다. </br>
 
-<img width="639" alt="HTML DOM" src="https://user-images.githubusercontent.com/102718303/211846015-15728956-d8ee-4fd8-882c-5414d53a5d4f.png">
+<img width="500" alt="HTML DOM" src="https://user-images.githubusercontent.com/102718303/211846015-15728956-d8ee-4fd8-882c-5414d53a5d4f.png">
 
+<br/>
 
-
-
-## 구성요소
+## DOM의 구성요소
 - `document node (문서 노드)`
     - DOM 트리에서 최상위 루트 노드이고, document 객체를 가리킨다.
     - `window.document`,`document` 로 참조해 사용 가능
@@ -44,20 +41,20 @@ DOM은 XML이나 HTML 문서에 접근하기 위한 일종의 인터페이스이
     - 부모 노드가 아닌 해당 노드와 연결되어 있다.
 - `text node (텍스트 노드)`
     - 정보를 나타내는 노드 (리프 노드라고 하기도 한다,,)
-</br>    
-    
-    
-    
-## 그럼 DOM이랑 HTML이랑 같나요?
-DOM은 HTML이 아니다! 차이점들을 살펴보면
-- 항상 유효한 HTML형식이다.
-- `JavaScript`로 수정될 수 있는 동적 모델이다.
-- 가상 요소를 포함하지 않는다.
-> 가상요소란? - 선택한 요소의 일부에만 스타일을 적용하는 것 `::before, ::after`
-- 보이지 않는 요소를 포함한다. 
 
 </br>
+    
+## 그럼 DOM이랑 HTML이랑 같나요?
+DOM은 HTML이 아니다. 차이점들을 살펴보면
+- 항상 유효한 HTML형식이다.
+- `JavaScript`로 수정될 수 있는 동적 모델이다.
+- 가상 요소\*를 포함하지 않는다.
+- 보이지 않는\* 요소를 포함한다. 
 
+\* 가상요소란 선택한 요소의 일부에만 스타일을 적용하는 것 `::before, ::after`을 말한다.  
+\* `display: none` 속성의 요소는 DOM에 포함되지 않고, `visibility: hidden` 속성의 요소는 보이지 않지만 DOM에는 포함된다.
+
+</br>
 
 ## DOM에 접근하는 방법
 - 단수 객체 접근 : `getElementByxx()`,`querySelector()` 사용
@@ -78,27 +75,43 @@ document.getElementsByClassName('search-input-style')
 // CSSSeletor로 찾기
 document.querySelector('.search-input-style')
 ```
+
 </br>
-
-
 
 ## 주요 DataTypes
-|||
-|------|----------|
-|document|menber가 document type의 객체를 리턴할 때, 이 객체는 root document object 자체이다. 예를들어 `document.getElementById("myP").ownerDocument`는 해당 프로퍼티가 속해 있는 document를 리턴한다.|
-|element|element는 DOM API의 member에 의해 리턴된 element 또는 element type의 node를 의미한다. 즉 `document.createElement()` 메소드가 DOM안에서 생성되는 element를 리턴한다고 할 수 있다.|
-|nodeList|nodeList는 elements의 배열이다.(`document.getElementsByTagName()`의 리턴 값과 같다) nodeList의 item은 인덱스를 통해 접근 가능하다. |
-|attribute|attribute가 member에 의해 리턴되는 것은 attribute에 대한 인터페이스를 노출하는 Object reference이다. 쉽게 말하면 attribute는 elements와 같은 노드이다.(`createAttiribute()`) |
-|namedNodeMap|nameNodeMap은 배열과 유사하지만 각 item은 name이나 인덱스에 의해 접근할 수 있다. nameNodeMap은 item() 메소드가 있고, item을 추가/삭제할 수 있다.|
 
+<table>
+    <tr>
+    	<th>document</th>
+	<td>member*가 document type의 객체를 리턴할 때, 이 객체는 root document object 자체이다. 예를들어 `document.getElementById("myP").ownerDocument`*는 해당 프로퍼티*가 속해 있는 document를 리턴한다.</td>
+    </tr>
+    <tr>
+    	<th>element</th>
+	<td>element는 DOM API의 member에 의해 리턴된 element 또는 element type의 node를 의미한다. 즉 `document.createElement()` 메소드*가 DOM안에서 생성되는 element를 리턴한다고 할 수 있다.</td>
+    </tr>
+    <tr>
+    	<th>nodeList</th>
+	<td>nodeList는 elements의 배열이다. `document.getElementsByTagName()`의 리턴 값도 nodeList 형태이다. nodeList의 item은 인덱스를 통해 접근 가능하다.</td>
+    </tr>
+    <tr>
+    	<th>attribute</th>
+	<td>attribute가 member에 의해 리턴되는 것은 attribute에 대한 인터페이스를 노출하는 Object reference이다. 쉽게 말하면 attribute는 elements와 같은 노드이다. `createAttiribute()`를 사용해 생성한다.</td>
+    </tr>
+    <tr>
+    	<th>namedNodeMap</th>
+	<td>nameNodeMap은 배열과 유사하지만 각 item은 name이나 인덱스에 의해 접근할 수 있다. nameNodeMap은 item() 메소드가 있고, item을 추가/삭제할 수 있다.</td>
+    </tr>
+</table>
 
-> member란? - 프로퍼티 혹은 메소드 </br>
-> 프로퍼티란? - DOM 객체의 멤버 변수이고,  HTML 태그의 속성을 반영</br>
-> 메드란? - DOM 객체의 멤버 함수이고, HTML 태그를 제어</br>
+\* 멤버(member)는 프로퍼티 혹은 메소드를 말한다.  
+\* 프로퍼티란(property)는 DOM 객체의 멤버 변수이고,  HTML 태그의 속성을 반영한다.  
+\* 메소드란(method)는 DOM 객체가 갖는 멤버 함수로, HTML 태그를 제어한다.  
+
+\* _`window.document`와 `node.ownerDocument` 는 일반적인 상황에서는 동일한 document 객체를 리턴할 것이다. 하지만 예외적인 상황도 존재한다. 대표적으로 `iframe(inline frame)`을 이용해 다른 URL 등의 외부 HTML 내용을 보여줄 수 있다. 이때 iframe 내부에서 window.document는 iframe을 가지고 있는 부모 document를, node.ownerDocument는 iframe이 표시하는 내부 document를 가리키게 된다._
 
 </br>
 
-## DOM 사용예시 (JavaScript)
+## DOM 사용예시(JavaScript)
 
 ```JavaScript
 <script type="text/javascript">
@@ -110,20 +123,20 @@ document.querySelector('.search-input-style')
 	};
 </script>
 ```
+
 1. document 객체에 접근해서 `p` 태그를 생성
 2. document 객체에 다시 접근해서 TextNode를 생성 후 String을 삽입
-3. appendChile 메소드로 textNode를 자식노드로 추가
+3. appendChild 메소드로 textNode를 자식노드로 추가
 4. document 객체에 있는 `body` 태그에 header를 자식노드로 추가
 
-> JavaScript와 DOM은 엄밀히 다른 개념이다! -> 다른 언어로도 DOM을 다룰 수 있다. </br>
-> 현재 웹 브라우저에서 DOM을 조작하는 언어는 JavaScript뿐,, </br>
-
+> JavaScript와 DOM은 엄밀히 다른 개념이다. 다른 언어로도 DOM을 다룰 수 있다.  
+> 웹 브라우저상에서 DOM을 조작하는 언어는 JavaScript 뿐이므로 주로 사용되는 것이다.  
 
 </br>
 
-## 인터페이스와 객체
-- 많은 객체들이 여러개의 다른 인터페이스들과 연관되어 있다.
-	- 예를들어, table객체는 여러 메소드들이 포함된 `HTMLTableElement`를 구현함과 동시에 `HTML Element`이기도 하기 때문에 `Element` 인터페이스도 구현한다. 
+## 인터페이스와 객체 형태
+DOM의 많은 객체들은 여러개의 다른 인터페이스들과 연관되어 있다.  
+예를들어, table객체는 여러 메소드들이 포함된 `HTMLTableElement`를 구현함과 동시에 `HTML Element`이기도 하기 때문에 `Element` 인터페이스도 구현한다.
 
 </br>
 
@@ -136,6 +149,8 @@ document.querySelector('.search-input-style')
 - `element.innerHTML`
 - `element.setAttribute`
 - `element.getAttribute`
+
+<br/>
 
 ----
 ## Referance

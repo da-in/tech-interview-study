@@ -1,6 +1,7 @@
 # tech-interview-study
 
-스터디는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.
+스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
+각 주제에 대한 깊이있는 학습을 지향합니다.
 
 | 컴퓨터구조 | 자료구조 | DB  | Network | OS  | Algorithm |
 | ---------- | -------- | --- | ------- | --- | --------- |
@@ -15,7 +16,8 @@
 `Wiki History`에 주제 기록  
 선택한 주제를 학습한 후 `주제.md` 파일 생성, 다음 날 스터디 전까지 `PR 생성`하기
 
-> 🚨 5일 이상 실패 시 퇴출
+> 🚨 5일 이상 실패 시 퇴출.  
+> 유고 사유 | 익일 코딩테스트 및 면접, 질병(인증 필요)
 
 ### 🌈 Convention Rule
 
@@ -61,7 +63,6 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 - Computer Architecture
 
-  - 컴퓨터 구조 기초
   - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
   - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
   - 캐시 메모리
@@ -128,13 +129,13 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 파일 시스템
 
 - Software Engineering
-  - 클린코드 & 리팩토링 / 클린코드 & 시큐어코딩
+  - 클린코드(리팩토링 & 시큐어코딩)
   - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
-  - 애자일(Agile) 정리1 / 애자일(Agile) 정리2
+  - 애자일(Agile)
   - [객체 지향 프로그래밍(Object-Oriented Programming)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Object-Oriented%20Programming).md>)
   - 함수형 프로그래밍(Fuctional Programming)
   - [데브옵스(DevOps)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md>)
-  - 서드 파티(3rd party)란?
+  - 서드 파티(3rd party)
   - [마이크로서비스 아키텍처(MSA)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md>)
 
 ### 📌 Algorithm
@@ -146,7 +147,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
 - [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
 - [힙 정렬(Heap Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md>)
-- 기수 정렬(Radix Sort)
+- [기수 정렬(Radix Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/기수%20정렬(Radix%20Sort).md)
 - 계수 정렬(Count Sort)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md>)
 - 해시 테이블 구현
@@ -168,10 +169,16 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [어댑터 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Adapter%20Pattern.md)
 - [컴포지트 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Composite%20Pattern.md)
 - [옵저버 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/옵저버%20패턴.md)
-- 스트레티지 패턴
+- [스트레티지 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/스트래티지%20패턴.md)
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
 ### 📌 Interview
+- OS
+- DB
+- Web
+- Network
+- Algorithm
+- Language
 
 ### 📌 Language
 
