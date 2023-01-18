@@ -3,7 +3,7 @@
 스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
 각 주제에 대한 깊이있는 학습을 지향합니다.
 
-### 📌 Contents
+## 📌 Contents
 
 <table>
   <tr>
@@ -26,26 +26,9 @@
   </tr>
 </table>
 
-### 📢 Rules
+<br/>
 
-매일 `오전 10시` 온라인 스터디 _주말, 공휴일 제외_  
-스터디에서는 전 날 `학습 내용 공유` 및 오늘 `주제 선정`  
-`Wiki History`에 주제 기록  
-선택한 주제를 학습한 후 `주제.md` 파일 생성, 다음 날 스터디 전까지 `PR 생성`하기
-
-> 🚨 5일 이상 실패 시 퇴출.  
-> 유고 사유 | 익일 코딩테스트 및 면접, 질병(인증 필요)
-
-### 🌈 Convention Rule
-
-**PR** | `[카테고리] 주제`  
-ex) [Algorithm] DFS&BFS
-
-**Commit** | `[카테고리] {커밋내용} 파일명.md`  
-ex) [Algorithm] Create DFS&BFS.md  
-ex) [Algorithm] Add Diagram DFS&BFS.md
-
-### 😊 Collaborator
+## 😊 Collaborator
 
 <div>
   <a href="https://github.com/da-in">
@@ -62,8 +45,6 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   </a>
 </div>
 
-<br/>
-
 ### Contributer
 
 Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
@@ -74,7 +55,28 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 <br/>
 
-## 학습 주제
+### Rules
+
+매일 `오전 10시` 온라인 스터디 _주말, 공휴일 제외_  
+스터디에서는 전 날 `학습 내용 공유` 및 오늘 `주제 선정`  
+`Wiki History`에 주제 기록  
+선택한 주제를 학습한 후 `주제.md` 파일 생성, 다음 날 스터디 전까지 `PR 생성`하기
+
+> 🚨 5일 이상 실패 시 퇴출.  
+> 유고 사유 | 익일 코딩테스트 및 면접, 질병(인증 필요)
+
+### Convention Rule
+
+**PR** | `[카테고리] 주제`  
+ex) [Algorithm] DFS&BFS
+
+**Commit** | `[카테고리] {커밋내용} 파일명.md`  
+ex) [Algorithm] Create DFS&BFS.md  
+ex) [Algorithm] Add Diagram DFS&BFS.md
+
+<br/>
+
+## 📌 학습 주제
 
 ### :desktop_computer: Computer Architecture
 
