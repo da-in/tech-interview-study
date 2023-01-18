@@ -3,21 +3,23 @@
 스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
 각 주제에 대한 깊이있는 학습을 지향합니다.
 
+### 📌 Contents
+
 <table>
   <tr>
     <td><a href='#pushpin-computer-architecture'>컴퓨터구조</a></td>
-    <td>자료구조</td>
-    <td>DB</td>
-    <td>Network</td>
-    <td>OS</td>
-    <td>Algorithm</td>
+    <td><a href='#pushpin-data-structure'>자료구조</a></td>
+    <td><a href='#pushpin-database'>DB</a></td>
+    <td><a href='#pushpin-network'>Network</a></td>
+    <td><a href='#pushpin-operating-system'>OS</a></td>
+    <td><a href='#pushpin-algorithm'>Algorithm</a></td>
   </tr>
   <tr>
-    <td><a href="#">Web</a></td>
-    <td>소프트웨어 공학</td>
-    <td>디자인패턴</td>
-    <td>Language</td>
-    <td>Interview</td>
+    <td><a href='#pushpin-web'>Web</a></td>
+    <td><a href='#pushpin-software-engineering'>소프트웨어 공학</a></td>
+    <td><a href='#pushpin-design-pattern'>디자인패턴</a></td>
+    <td><a href='#pushpin-language'>Language</a></td>
+    <td><a href='#pushpin-interview'>Interview</a></td>
   </tr>
 </table>
 
@@ -73,82 +75,72 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 ### :pushpin: Computer Architecture
 
-  - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
-  - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
-  - 캐시 메모리
-  - [실수 표현(고정소수점&부동 소수점)](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84.md)
-  - 패리티 비트 & 해밍 코드
-  - ARM 프로세서
+- [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
+- [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
+- 캐시 메모리
+- [실수 표현(고정소수점&부동 소수점)](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84.md)
+- 패리티 비트 & 해밍 코드
+- ARM 프로세서
 
-### 📌 Data Structure
+### :pushpin: Data Structure
 
-  - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
-  - [Array & List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array&List.md)
-  - [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
-  - [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
-  - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
-  - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
-  - [이진탐색트리(Binary Search Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/이진탐색트리(Binary Search Tree).md>)
-  - 레드-블랙트리(Red-Black Tree)
-  - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
-  - [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Trie.md)
-  - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
+- [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
+- [Array & List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array&List.md)
+- [Linked List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Linked%20List.md)
+- [스택(Stack) & 큐(Queue) & 덱(Deque)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Stack&Queue&Deque.md)
+- [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Heap.md)
+- [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/트리(Tree).md>)
+- [이진탐색트리(Binary Search Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/이진탐색트리(Binary Search Tree).md>)
+- 레드-블랙트리(Red-Black Tree)
+- [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Hash.md)
+- [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Trie.md)
+- [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
 
-### 📌 Database
+### :pushpin: Database
 
-  - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
-  - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
-  - SQL Injection
-  - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
-  - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
-  - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
-  - [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
-  - 트랜잭션(Transaction)
-  - 트랜잭션 격리 수준(Transaction Isolation Level)
-  - 저장 프로시저(Stored PROCEDURE)
-  - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
+- [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
+- [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
+- SQL Injection
+- [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Database/SQL%20vs%20NoSQL.md)
+- [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
+- [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Database/이상_Anomaly.md)
+- [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
+- 트랜잭션(Transaction)
+- 트랜잭션 격리 수준(Transaction Isolation Level)
+- 저장 프로시저(Stored PROCEDURE)
+- [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
-### 📌 Network
+### :pushpin: Network
 
-  - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
-  - TCP & UDP
-  - [TCP 3 way handshake & 4 way handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TCP%20Handshake.md)
-  - TCP/IP 흐름제어 & 혼잡제어
-  - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
-  - [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
-  - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
-  - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
+- [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
+- TCP & UDP
+- [TCP 3 way handshake & 4 way handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TCP%20Handshake.md)
+- TCP/IP 흐름제어 & 혼잡제어
+- [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Network/대칭키%20&%20공개키.md)
+- [HTTP & HTTPS](https://github.com/da-in/tech-interview-study/blob/main/Network/HTTP%26HTTPS.md)
+- [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
+- [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
 
-### 📌 Operating System
+### :pushpin: Operating System
 
-  - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
-  - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
-  - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
-  - [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/안터럽트(Interrupt).md>)
-  - 시스템 콜(System Call)
-  - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
-  - IPC(Inter Process Communication)
-  - CPU 스케줄링
-  - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/데드락(Dead%20Lock).md>)
-  - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Race%20Condition.md)
-  - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
-  - [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/페이징%20세그먼테이션(PDF).md>)
-  - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
-  - 페이지 교체 알고리즘
-  - 메모리(Memory)
-  - 파일 시스템
+- [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
+- [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
+- [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20주소%20공간.md)
+- [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/안터럽트(Interrupt).md>)
+- 시스템 콜(System Call)
+- [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/PCB%20&%20Context%20Switching.md)
+- IPC(Inter Process Communication)
+- CPU 스케줄링
+- [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/데드락(Dead%20Lock).md>)
+- [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Race%20Condition.md)
+- [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
+- [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/페이징%20세그먼테이션(PDF).md>)
+- [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
+- 페이지 교체 알고리즘
+- 메모리(Memory)
+- 파일 시스템
 
-### 📌 Software Engineering
-  - 클린코드(리팩토링 & 시큐어코딩)
-  - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
-  - 애자일(Agile)
-  - [객체 지향 프로그래밍(Object-Oriented Programming)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Object-Oriented%20Programming).md>)
-  - 함수형 프로그래밍(Fuctional Programming)
-  - [데브옵스(DevOps)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md>)
-  - 서드 파티(3rd party)
-  - [마이크로서비스 아키텍처(MSA)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md>)
-
-### 📌 Algorithm
+### :pushpin: Algorithm
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
@@ -168,7 +160,45 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 다익스트라(Dijkstra) 알고리즘
 - 비트마스크(BitMask)
 
-### 📌 Design Pattern
+### :pushpin: Web
+
+- [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%99%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)
+- [DOM](https://github.com/da-in/tech-interview-study/blob/main/Web/DOM.md)
+- Reflow&Repaint
+- [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/Web/Cookie%26Session.md)
+- [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
+- [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
+- [CORS](https://github.com/da-in/tech-interview-study/blob/main/Web/CORS.md)
+- [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
+- [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
+- [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
+- [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
+- [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
+- [로그레벨](https://github.com/da-in/tech-interview-study/blob/main/Web/로그레벨.md)
+- [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
+- [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
+- [Cross Browsing](https://github.com/da-in/tech-interview-study/blob/main/Web/Cross_Browsing.md)
+- Vue.js vs React
+- 네이티브 앱 & 웹 앱 & 하이브리드 앱
+- PWA(Progressive Web App)
+- [CSRF & XSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSRF%26XSS.md)
+- 웹 성능 최적화
+- CSS Methodology
+- [CSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSS.md)
+- 클라우드
+
+### :pushpin: Software Engineering
+
+- 클린코드(리팩토링 & 시큐어코딩)
+- [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
+- 애자일(Agile)
+- [객체 지향 프로그래밍(Object-Oriented Programming)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(Object-Oriented%20Programming).md>)
+- 함수형 프로그래밍(Fuctional Programming)
+- [데브옵스(DevOps)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4(DevOps).md>)
+- 서드 파티(3rd party)
+- [마이크로서비스 아키텍처(MSA)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md>)
+
+### :pushpin: Design Pattern
 
 - [Design Pattern](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Design%20Pattern.md)
 - [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
@@ -182,16 +212,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [스트레티지 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/스트래티지%20패턴.md)
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
-### 📌 Interview
-
-- OS
-- DB
-- Web
-- Network
-- Algorithm
-- Language
-
-### 📌 Language
+### :pushpin: Language
 
 <details>
   <summary>C</summary>
@@ -250,37 +271,19 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   
 </details>
 
-### 📌 Web
+### :pushpin: Interview
 
-- [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%99%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)
-- [DOM](https://github.com/da-in/tech-interview-study/blob/main/Web/DOM.md)
-- Reflow&Repaint
-- [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/Web/Cookie%26Session.md)
-- [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP_Request_Method.md)
-- [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/Web/HTTP%20Status%20Code.md)
-- [CORS](https://github.com/da-in/tech-interview-study/blob/main/Web/CORS.md)
-- [REST API](https://github.com/da-in/tech-interview-study/blob/main/Web/REST%20API.md)
-- [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/Web/웹서버와%20WAS.md)
-- [OAuth](https://github.com/da-in/tech-interview-study/blob/main/Web/OAuth.md)
-- [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/Web/JWT.md)
-- [Authentication and Authorization](https://github.com/da-in/tech-interview-study/blob/main/Web/Authentication%26Authorization.md)
-- [로그레벨](https://github.com/da-in/tech-interview-study/blob/main/Web/로그레벨.md)
-- [UI/UX](https://github.com/da-in/tech-interview-study/blob/main/Web/UI_UX.md)
-- [CSR & SSR](https://github.com/da-in/tech-interview-study/blob/main/Web/CSR&SSR.md)
-- [Cross Browsing](https://github.com/da-in/tech-interview-study/blob/main/Web/Cross_Browsing.md)
-- Vue.js vs React
-- 네이티브 앱 & 웹 앱 & 하이브리드 앱
-- PWA(Progressive Web App)
-- [CSRF & XSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSRF%26XSS.md)
-- 웹 성능 최적화
-- CSS Methodology
-- [CSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSS.md)
-- 클라우드
+- OS
+- DB
+- Web
+- Network
+- Algorithm
+- Language
 
-### 📌 Linux
+### :pushpin: Linux
 
-### 📌 New Technology
+### :pushpin: New Technology
 
-### 📌 Seminar
+### :pushpin: Seminar
 
-### 📌 ETC
+### :pushpin: ETC
