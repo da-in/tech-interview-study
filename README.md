@@ -5,7 +5,7 @@
 
 <table>
   <tr>
-    <td><a href='#pin-computer-science'>컴퓨터구조</a></td>
+    <td><a href='#pushpin-computer-science'>컴퓨터구조</a></td>
     <td>자료구조</td>
     <td>DB</td>
     <td>Network</td>
@@ -71,9 +71,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 ## 학습 주제
 
-### 📌 Computer Science
-
-- Computer Architecture
+### 📌 Computer Architecture
 
   - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
   - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
@@ -82,7 +80,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 패리티 비트 & 해밍 코드
   - ARM 프로세서
 
-- Data Structure
+### 📌 Data Structure
 
   - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
   - [Array & List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array&List.md)
@@ -96,7 +94,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Trie.md)
   - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
 
-- Database
+### 📌 Database
 
   - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
   - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
@@ -110,7 +108,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 저장 프로시저(Stored PROCEDURE)
   - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
-- Network
+### 📌 Network
 
   - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
   - TCP & UDP
@@ -121,7 +119,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
   - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
 
-- Operating System
+### 📌 Operating System
 
   - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
   - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
@@ -140,7 +138,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   - 메모리(Memory)
   - 파일 시스템
 
-- Software Engineering
+### 📌 Software Engineering
   - 클린코드(리팩토링 & 시큐어코딩)
   - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
   - 애자일(Agile)
