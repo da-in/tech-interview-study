@@ -15,6 +15,6 @@
 ## 🔗 면접 질문 아카이브 자료
 
 - **실제로 받은 프론트엔드 개발자 면접 질문 모음**  
-  TAG | `CS`, `JS`, `React`, `Redux`, `Frontend`, `HTML`, `CSS`, `ETC`  
+  `CS`, `JS`, `React`, `Redux`, `Frontend`, `HTML`, `CSS`, `ETC`  
    [https://xiubindev.tistory.com/119](https://xiubindev.tistory.com/119)
 - ...
