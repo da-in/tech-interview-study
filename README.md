@@ -155,7 +155,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
 - [힙 정렬(Heap Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md>)
 - [기수 정렬(Radix Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/기수%20정렬(Radix%20Sort).md>)
-- 계수 정렬(Count Sort)
+- [계수 정렬(Count Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/계수%20정렬(Count%20Sort).md>)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/이분%20탐색(Binary%20Search).md>)
 - 해시 테이블 구현
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/BFS%26DFS.md)
