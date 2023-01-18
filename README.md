@@ -3,11 +3,23 @@
 스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
 각 주제에 대한 깊이있는 학습을 지향합니다.
 
-| 컴퓨터구조 | 자료구조 | DB  | Network | OS  | Algorithm |
-| ---------- | -------- | --- | ------- | --- | --------- |
-
-| Web | 소프트웨어 공학 | 디자인패턴 | Language | Interview |
-| --- | --------------- | ---------- | -------- | --------- |
+<table>
+  <tr>
+    <td><a href='📌 Computer Science'>컴퓨터구조</a></td>
+    <td>자료구조</td>
+    <td>DB</td>
+    <td>Network</td>
+    <td>OS</td>
+    <td>Algorithm</td>
+  </tr>
+  <tr>
+    <td><a href="#">Web</a></td>
+    <td>소프트웨어 공학</td>
+    <td>디자인패턴</td>
+    <td>Language</td>
+    <td>Interview</td>
+  </tr>
+</table>
 
 ### 📢 Rules
 
@@ -147,7 +159,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [퀵 정렬(Quick Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md>)
 - [병합 정렬(Merge Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md>)
 - [힙 정렬(Heap Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md>)
-- [기수 정렬(Radix Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/기수%20정렬(Radix%20Sort).md)
+- [기수 정렬(Radix Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/기수%20정렬(Radix%20Sort).md>)
 - 계수 정렬(Count Sort)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Algorithm/이분%20탐색(Binary%20Search).md>)
 - 해시 테이블 구현
@@ -173,6 +185,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
 ### 📌 Interview
+
 - OS
 - DB
 - Web
