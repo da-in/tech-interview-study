@@ -18,11 +18,11 @@
 </br>
 
 ## 예시
-<img width="600" src="https://user-images.githubusercontent.com/102718303/212923011-3168738c-5bf6-402e-b157-64eb1d12d663.png">
+<img width="400" src="https://user-images.githubusercontent.com/102718303/212923011-3168738c-5bf6-402e-b157-64eb1d12d663.png">
 
 - 현재 데이터들 중 가장 큰 자릿수는 100 자릿수이다. </br>
 
-<img width="600" src="https://user-images.githubusercontent.com/102718303/212923182-ebd71f51-00c5-4e3b-ae32-b75e4efbcb37.png">
+<img width="500" src="https://user-images.githubusercontent.com/102718303/212923182-ebd71f51-00c5-4e3b-ae32-b75e4efbcb37.png">
 
 - 1의 자릿수부터 비교하여 버켓에 오름차순으로 정렬한다.
 - 만약 동일 자릿수가 존재한다면 원래 배열에 담긴 순으로 정렬한다. </br>
