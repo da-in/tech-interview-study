@@ -7,19 +7,19 @@
 
 <table>
   <tr>
-    <td><a href='#pushpin-computer-architecture'>Computer Architecture</a></td>
-    <td><a href='#pushpin-data-structure'>Data Structure</a></td>
-    <td><a href='#pushpin-database'>Database</a></td>
-    <td><a href='#pushpin-network'>Network</a></td>
-    <td><a href='#pushpin-operating-system'>Operating System</a></td>
-    <td><a href='#pushpin-algorithm'>Algorithm</a></td>
+    <td><a href='#desktop_computer-computer-computer-architecture'>🖥️ Computer Architecture</a></td>
+    <td><a href='#open_file_folder-data-structure'>📂 Data Structure</a></td>
+    <td><a href='#package-database'>📦 Database</a></td>
+    <td><a href='#satelitte-network'>📡 Network</a></td>
+    <td><a href='#rotaiting_light-operating-system'>🚨 Operating System</a></td>
+    <td><a href='#fried_egg-algorithm'>🍳 Algorithm</a></td>
   </tr>
   <tr>
-    <td><a href='#pushpin-web'>Web</a></td>
-    <td><a href='#pushpin-software-engineering'>Software Engineering</a></td>
-    <td><a href='#pushpin-design-pattern'>Design Pattern</a></td>
-    <td><a href='#pushpin-language'>Language</a></td>
-    <td><a href='#pushpin-interview'>Interview</a></td>
+    <td><a href='#globe_with_meridians-web'>🌐 Web</a></td>
+    <td><a href='#gear-software-engineering'>⚙️ Software Engineering</a></td>
+    <td><a href='#art-design-pattern'>🎨 Design Pattern</a></td>
+    <td><a href='#speaking_head-language'>🗣️ Language</a></td>
+    <td><a href='#technologist-interview'>👩‍💻 Interview</a></td>
     <td></td>
   </tr>
 </table>
@@ -74,7 +74,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 
 ## 학습 주제
 
-### :pushpin: Computer Architecture
+### :desktop_computer: Computer Architecture
 
 - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/컴퓨터의%20구성.md)
 - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
@@ -83,7 +83,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 패리티 비트 & 해밍 코드
 - ARM 프로세서
 
-### :pushpin: Data Structure
+### :open_file_folder: Data Structure
 
 - [Array](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md)
 - [Array & List](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array&List.md)
@@ -97,7 +97,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Trie.md)
 - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
 
-### :pushpin: Database
+### :package: Database
 
 - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
 - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Database/JOIN.md)
@@ -111,7 +111,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 저장 프로시저(Stored PROCEDURE)
 - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
-### :pushpin: Network
+### :satelitte: Network
 
 - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
 - TCP & UDP
@@ -122,7 +122,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [TLS/SSL handshake](https://github.com/da-in/tech-interview-study/blob/main/Network/TLS%20%26%20SSL%20Handshake.md)
 - [로드 밸런싱(Load Balancing)](<https://github.com/da-in/tech-interview-study/blob/main/Network/%EB%A1%9C%EB%93%9C%20%EB%B0%B8%EB%9F%B0%EC%8B%B1(Load%20Balancing).md>)
 
-### :pushpin: Operating System
+### :rotaiting_light: Operating System
 
 - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/운영체제란.md)
 - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/Operating%20System/프로세스%20&%20스레드.md)
@@ -141,7 +141,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 메모리(Memory)
 - 파일 시스템
 
-### :pushpin: Algorithm
+### :fried_egg: Algorithm
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
@@ -161,7 +161,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 다익스트라(Dijkstra) 알고리즘
 - 비트마스크(BitMask)
 
-### :pushpin: Web
+### :globe_with_meridians: Web
 
 - [브라우저와 렌더링](https://github.com/da-in/tech-interview-study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EC%99%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)
 - [DOM](https://github.com/da-in/tech-interview-study/blob/main/Web/DOM.md)
@@ -188,7 +188,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [CSS](https://github.com/da-in/tech-interview-study/blob/main/Web/CSS.md)
 - 클라우드
 
-### :pushpin: Software Engineering
+### :gear: Software Engineering
 
 - 클린코드(리팩토링 & 시큐어코딩)
 - [TDD(Test Driven Development)](https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/TDD.md)
@@ -199,7 +199,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - 서드 파티(3rd party)
 - [마이크로서비스 아키텍처(MSA)](<https://github.com/da-in/tech-interview-study/blob/main/Software%20Engineering/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(MSA).md>)
 
-### :pushpin: Design Pattern
+### :art: Design Pattern
 
 - [Design Pattern](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Design%20Pattern.md)
 - [SOLID](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/SOLID.md)
@@ -213,7 +213,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [스트레티지 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/스트래티지%20패턴.md)
 - [탬플릿 메소드 패턴](https://github.com/da-in/tech-interview-study/blob/main/Design%20Pattern/Template%20Method%20Pattern.md)
 
-### :pushpin: Language
+### :speaking_head: Language
 
 <details>
   <summary>C</summary>
@@ -272,7 +272,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
   
 </details>
 
-### :pushpin: Interview
+### :technologist: Interview
 
 - OS
 - DB
