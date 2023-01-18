@@ -11,12 +11,14 @@
     <td><a href='#open_file_folder-data-structure'>📂 Data Structure</a></td>
     <td><a href='#package-database'>📦 Database</a></td>
     <td><a href='#satellite-network'>📡 Network</a></td>
-    <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
-    <td><a href='#fried_egg-algorithm'>🍳 Algorithm</a></td>
   </tr>
   <tr>
+    <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
+    <td><a href='#fried_egg-algorithm'>🍳 Algorithm</a></td>
     <td><a href='#globe_with_meridians-web'>🌐 Web</a></td>
     <td><a href='#gear-software-engineering'>⚙️ Software Engineering</a></td>
+  </tr>
+  <tr>
     <td><a href='#art-design-pattern'>🎨 Design Pattern</a></td>
     <td><a href='#speaking_head-language'>🗣️ Language</a></td>
     <td><a href='#technologist-interview'>👩‍💻 Interview</a></td>
