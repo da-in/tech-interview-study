@@ -105,7 +105,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - [키(Key) 정리](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%ED%82%A4(Key)%EC%A0%95%EB%A6%AC.md>)
 - [JOIN](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/JOIN.md)
-- SQL Injection
+- [SQL Injection](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/SQL%20Injection.md)
 - [SQL vs NoSQL](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/SQL%20vs%20NoSQL.md)
 - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
 - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/이상_Anomaly.md)
@@ -240,7 +240,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 <details>
   <summary>Java</summary>
 
-- [Java] Java 컴파일 과정
+- [[Java] Java 컴파일 과정](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Language/Java/Java%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)
 - [Java] Call by Value vs Call by Reference
 - [Java] String & StringBuffer & StringBuilder
 - [Java] 자바 가상 머신(Java Virtual Machine)
