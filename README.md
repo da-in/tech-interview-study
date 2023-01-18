@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
-    <td><a href='#fried_egg-algorithm'>🍳 Algorithm</a></td>
+    <td><a href='#hatching_chick-algorithm'>🐣 Algorithm</a></td>
     <td><a href='#globe_with_meridians-web'>🌐 Web</a></td>
     <td><a href='#gear-software-engineering'>⚙️ Software Engineering</a></td>
   </tr>
@@ -145,7 +145,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 메모리(Memory)
 - 파일 시스템
 
-### :fried_egg: Algorithm
+### :hatching_chick: Algorithm
 
 - [시간복잡도와 공간복잡도](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/시간복잡도와%20공간복잡도.md)
 - [거품 정렬(Bubble Sort)](https://github.com/da-in/tech-interview-study/blob/main/Algorithm/Bubble%20Sort.md)
