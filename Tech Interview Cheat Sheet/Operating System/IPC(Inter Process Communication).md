@@ -31,7 +31,7 @@ IPC의 두 가지 기본 모델에는 **메세지 패싱** 과 **공유 메모�
 3. **Buffering**
    - `Zero Capacity` : 송신측은 무조건 수신자를 기다린다.
    - `Bounded Capacity` : 송신측은 link가 꽉차면 기다린다.
-   - `Unbounded capacity` : 송신측은 기자리지 않는다.
+   - `Unbounded capacity` : 송신측은 기다리지 않는다.
 
 ### 2. 공유 메모리 모델(Shared-memory Model)
 
