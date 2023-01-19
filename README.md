@@ -134,7 +134,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/안터럽트(Interrupt).md>)
 - 시스템 콜(System Call)
 - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/PCB%20&%20Context%20Switching.md)
-- [IPC(Inter Process Communication)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/IPC(Inter Process Communication).md)
+- [IPC(Inter Process Communication)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/IPC(Inter%20Process%20Communication).md)
 - CPU 스케줄링
 - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/데드락(Dead%20Lock).md>)
 - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Race%20Condition.md)
