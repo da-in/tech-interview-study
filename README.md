@@ -112,7 +112,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
 - 트랜잭션(Transaction)
 - 트랜잭션 격리 수준(Transaction Isolation Level)
-- 저장 프로시저(Stored PROCEDURE)
+- [저장 프로시저(Stroed Procedure)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/저장%20프로시저.md)
 - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
 ### :satellite: Network
@@ -134,7 +134,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/안터럽트(Interrupt).md>)
 - [시스템 콜(System Call)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/시스템%20콜(System%20Call).md>)
 - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/PCB%20&%20Context%20Switching.md)
-- [IPC(Inter Process Communication)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/IPC(Inter%20Process%20Communication).md)
+- [IPC(Inter Process Communication)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/IPC(Inter%20Process%20Communication).md>)
 - CPU 스케줄링
 - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/데드락(Dead%20Lock).md>)
 - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Race%20Condition.md)
