@@ -118,7 +118,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 ### :satellite: Network
 
 - [OSI 7 계층](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Network/OSI%207%20%EA%B3%84%EC%B8%B5.md)
-- TCP & UDP
+- [TCP & UDP](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Network/TCP%20%26%20UDP.md)
 - [TCP 3 way handshake & 4 way handshake](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Network/TCP%20Handshake.md)
 - TCP/IP 흐름제어 & 혼잡제어
 - [대칭키 & 공개키](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Network/대칭키%20&%20공개키.md)
