@@ -82,7 +82,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 
 - [컴퓨터의 구성](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/컴퓨터의%20구성.md)
 - [중앙처리장치(CPU) 작동 원리](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md>)
-- 캐시 메모리
+- [캐시 메모리](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 - [실수 표현(고정소수점&부동 소수점)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84.md)
 - 패리티 비트 & 해밍 코드
 - ARM 프로세서
