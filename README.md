@@ -162,8 +162,8 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - 최장 증가 수열(LIS)
 - 최소 공통 조상(LCA)
 - [동적 계획법(Dynamic Programming)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/%EB%8F%99%EC%A0%81%20%EA%B3%84%ED%9A%8D%EB%B2%95(Dynamic%20Programming).md>)
-- [다익스트라(Dijkstra)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BC(Dijkstra).md)
-- 비트마스크(BitMask)
+- [다익스트라(Dijkstra)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/다익스트라(Dijkstra).md>)
+- [비트마스크(BitMask)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/비트마스크.md)
 
 ### :globe_with_meridians: Web
 
