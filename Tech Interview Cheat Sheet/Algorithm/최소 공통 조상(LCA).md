@@ -87,17 +87,17 @@ print(lca(a, b))
 4. 높이가 같은 두 노드에서 반복해서 부모 방향으로 거슬러 올라간다.
    > 11과 13을 가리킨 상태에서 공통 부모를 향해 거슬러 올라간다.
 
+<img src="https://user-images.githubusercontent.com/66757141/214862797-7668c52a-6a9c-43f3-baea-8f397aa17f06.PNG" alt="Improved LCA" width="550px">
+
 3번과 4번 과정에서 부모 노드로 올라갈 때, 사전에 저장해놓은 부모에 대한 정보를 사용한다.
 
 - 최소 공통 조상보다 먼 부모 노드들은 항상 값이 같다
 - 그러므로 값이 다르고 가장 먼 부모를 반복해서 찾으면 최소 공통 조상에 가까워질 수 있다.
-  <img src="" alt="LCA" width="600px">
+  <img src="https://user-images.githubusercontent.com/66757141/214888710-fd7f7462-a901-42f7-878e-69cfcbed6eab.png" alt="LCA" width="500px">  
   > 11 부모 노드 정보 : `[5, 2, 0, 0...]`  
   > 13 부모 노드 정보 : `[7, 3, 0, 0...]`  
   > 값이 다르고 가장 먼 부모는 2, 3 이다.  
   > 2와 3의 부모를 리턴한다.
-
-<img src="https://user-images.githubusercontent.com/66757141/214862797-7668c52a-6a9c-43f3-baea-8f397aa17f06.PNG" alt="Improved LCA" width="550px">
 
 ### 개선된 최소 공통 조상(LCA) 알고리즘 시간복잡도
 
