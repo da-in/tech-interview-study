@@ -191,6 +191,10 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - CSS Methodology
 - [CSS](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Web/CSS.md)
 - 클라우드
+- 모노레포
+- Storybook
+- RSC
+- Suspense
 
 ### :gear: Software Engineering
 
