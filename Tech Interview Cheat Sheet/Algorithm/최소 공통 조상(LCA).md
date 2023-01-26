@@ -2,15 +2,17 @@
 
 **최소 공통 조상(LCA)** 문제는 두 노드의 공통된 조상 중에서 가장 가까운 조상을 찾는 문제이다.
 
-ex) `LCA(3, 5) = 1`
+ex) `LCA(8, 15) = 2`
 
-<img src="" alt="" width="">
+<img src="https://user-images.githubusercontent.com/66757141/214862314-5a0a5437-9ab7-48cb-932d-c271353c9c4a.PNG" alt="LCA" width="550px">
 
 ## 기본 최소 공통 조상(LCA) 알고리즘
 
 1. 모든 노드에 대한 깊이(depth)를 계산한다.
 2. 두 타켓 노드를 확인하고, 높은 노드와 깊이가 같아질 때 까지 낮은 노드의 부모로 거슬러올라간다.
 3. 높이가 같은 두 노드에서 반복해서 부모 방향으로 거슬러 올라간다.
+
+<img src="https://user-images.githubusercontent.com/66757141/214862679-d6c6b021-8579-42ea-8788-5f96585b893b.PNG" alt="Basic LCA" width="550px">
 
 ### 기본 최소 공통 조상(LCA) 알고리즘 시간복잡도
 
@@ -61,6 +63,8 @@ a, b = map(int, input().split())
 print(lca(a, b))
 ```
 
+<br/>
+
 ## 개선된 최소 공통 조상(LCA) 알고리즘
 
 기본 LCA 알고리즘에서 부모 노드로 거슬러 올라가는 단계를 빠르게 개선한 방법이다.
@@ -74,6 +78,8 @@ print(lca(a, b))
    - $2^i$ 중 가능한 가장 큰 값 만큼 먼저 올라간다.
 4. 높이가 같은 두 노드에서 반복해서 부모 방향으로 거슬러 올라간다.
    - $2^i$ 중 가능한 가장 큰 값 만큼 먼저 올라간다.
+
+<img src="https://user-images.githubusercontent.com/66757141/214862797-7668c52a-6a9c-43f3-baea-8f397aa17f06.PNG" alt="Improved LCA" width="550px">
 
 ### 개선된 최소 공통 조상(LCA) 알고리즘 시간복잡도
 
@@ -135,11 +141,14 @@ def lca(a, b):
 set_parent()
 a, b = map(int, input().split())
 print(lca(a, b))
+```
+
+<br/>
 
 ---
 
 ## Reference
 
-▶️ [Youtube 동빈나 최소 공통 조상(Lowest Common Ancestor, LCA) 알고리즘 10분 정복](https://www.youtube.com/watch?v=O895NbxirM8)
+▶️ [Youtube 동빈나 최소 공통 조상(Lowest Common Ancestor, LCA) 알고리즘 10분 정복](https://www.youtube.com/watch?v=O895NbxirM8)  
 📄 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solutions/194159/official-solution/
 ```
