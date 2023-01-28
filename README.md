@@ -85,7 +85,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [캐시 메모리](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 - [실수 표현(고정소수점&부동 소수점)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%EC%8B%A4%EC%88%98%20%ED%91%9C%ED%98%84.md)
 - [패리티 비트 & 해밍 코드](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/%ED%8C%A8%EB%A6%AC%ED%8B%B0%20%EB%B9%84%ED%8A%B8&%ED%95%B4%EB%B0%8D%20%EC%BD%94%EB%93%9C.md)
-- ARM 프로세서
+- [ARM 프로세서](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Computer%20Architecture/ARM%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C.md)
 
 ### :open_file_folder: Data Structure
 
