@@ -27,7 +27,8 @@
 90년도 아콘 컴퓨터 내 ARM이 자회사로 독립, ARM Holdings로 상장하며 "Advanced RISC Machine"로 명칭이 바뀌었다.
 
 ## ARM 구조
-[ARM 사진]
+![ARM](https://user-images.githubusercontent.com/70997596/215261749-3c38405a-db74-422b-b70f-22b1f29e4816.png)
+
 
 현재 ARM Holdings는 칩 자체가 아닌 설계 구조를 판매하기 때문에 실제 기능 추가나 최적화는 개별 반도체 제조사의 영역으로 맡겨두고 있다. 제조업체는 더 작은 크기, 고성능 및 에너지 효율성을 유지하며 특정 요구사항에 맞게 개조할 수 있다.
 
