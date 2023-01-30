@@ -122,7 +122,6 @@
 
 **레드-블랙 시물레이터**
 - https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
-
 - https://code-lab1.tistory.com/62
 - https://dev-game-standalone.tistory.com/94
 
