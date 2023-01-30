@@ -49,11 +49,29 @@ COMMIT TRAN
 
 <br/>
 
-## 트랜잭션 연산
+## TCL(Transaction Control Language) 트랜잭션 연산
 
-- 커밋(Commit)
-- 롤백(Rollback)
-- 세이브포인트(Savepoint)
+<img src="" alt="" width="">
+
+[_img reference_](https://www.scaler.com/topics/Rollback-in-sql/)
+
+- **커밋(Commit)**
+  - 모든 작업들을 정상적으로 처리했다고 확정하는 명령어이다.
+  - 처리 과정을 데이터베이스에 영구적으로 저장한다.
+  - 커밋 이후 트랜잭션이 종료된다.
+- **롤백(Rollback)**
+  - 작업 중 문제 발생으로 인해 트랜젝션의 처리 과정에서 발생한 변경사항을 취소한다.
+  - 트랜잭션이 시작되기 이전의 마지막 커밋 시점으로 돌아간다.
+  - 롤백 이후 해당 트랜잭션을 재시작하거나 폐기한다.
+- **세이브포인트(Savepoint)**
+  - 임시저장으로 트랜잭션을 작게 분할하도록 한다.
+  - 여러 SQL문을 실행하는 트랜잭션의 중간 단계에 사용자가 지정 가능하다.
+    ```sql
+    -- Create Savepoint
+    SAVE TRANSACTION savepoint_name ;
+    -- Rollback To Savepoint
+    ROLLBACK TRANSACTION savepoint_name ;
+    ```
 
 <br/>
 
