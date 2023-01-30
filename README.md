@@ -96,7 +96,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [힙(Heap)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/Heap.md)
 - [트리(Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/트리(Tree).md>)
 - [이진탐색트리(Binary Search Tree)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/이진탐색트리(Binary Search Tree).md>)
-- 레드-블랙트리(Red-Black Tree)
+- [레드-블랙트리(Red-Black Tree)](https://github.com/lalabulla/tech-interview-study/edit/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/%EB%A0%88%EB%93%9C-%EB%B8%94%EB%9E%99%ED%8A%B8%EB%A6%AC(Red-Black%20Tree).md)
 - [해시(Hash)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/Hash.md)
 - [트라이(Trie)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/Trie.md)
 - [B-Tree & B+Tree](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Data%20Structure/B-Tree%20%26%20B%2Btree.md)
