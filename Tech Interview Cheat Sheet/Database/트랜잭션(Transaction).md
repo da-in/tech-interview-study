@@ -51,7 +51,7 @@ COMMIT TRAN
 
 ## TCL(Transaction Control Language) 트랜잭션 연산
 
-<img src="" alt="" width="">
+<img src="https://user-images.githubusercontent.com/66757141/215517220-22b7971a-549a-4d0f-891e-e61d0515c84b.png" alt="rollbackin-sql" width="700px">
 
 [_img reference_](https://www.scaler.com/topics/Rollback-in-sql/)
 
@@ -66,6 +66,7 @@ COMMIT TRAN
 - **세이브포인트(Savepoint)**
   - 임시저장으로 트랜잭션을 작게 분할하도록 한다.
   - 여러 SQL문을 실행하는 트랜잭션의 중간 단계에 사용자가 지정 가능하다.
+    
     ```sql
     -- Create Savepoint
     SAVE TRANSACTION savepoint_name ;
