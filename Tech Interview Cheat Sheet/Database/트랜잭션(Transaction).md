@@ -59,7 +59,7 @@ COMMIT TRAN
 
 ## 트랜잭션 상태
 
-<img src="" alt="" width="">
+<img src="https://user-images.githubusercontent.com/66757141/215512756-c09312c9-3180-4048-bd30-979c9fadf704.png" alt="database-transaction-2" width="900px">
 
 - **활성화(Active)**
   - 트랜잭션의 실행중인 첫 상태이다.
