@@ -141,7 +141,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
 - [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/페이징%20세그먼테이션(PDF).md>)
 - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
-- 페이지 교체 알고리즘
+- [페이지 교체 알고리즘](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/페이지%20교체%20알고리즘.md)
 - 메모리(Memory)
 - [파일 시스템](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/%ED%8C%8C%EC%9D%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
 
