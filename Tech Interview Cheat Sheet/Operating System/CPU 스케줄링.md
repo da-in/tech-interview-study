@@ -57,7 +57,8 @@ CPU 이용률을 극대화하기 위해서는 멀티프로그래밍(multiprogram
 - Convoy Effect(호위 효과)가 발생할 수 있다.  
 > Convoy Effect(호위 효과) : CPU 사용시간이 긴 프로세스에 의해 사용시간이 짧은 프로세스들이 오래 기다리는 현상이다. 이로 인해 평균 대기시간이 길어지게 된다.[추가 설명](https://ursidae.tistory.com/31)  
 
-[사진]  
+ ![FCFS](https://user-images.githubusercontent.com/70997596/215697931-dcf7cd3d-2b6a-47dd-8b16-a39e23bb4415.png)
+
 
 P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결과가 나온다. 
 
@@ -70,10 +71,12 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - 하지만 다음 프로세스의 CPU burst time을 예측하는 것이 어렵다는 문제가 존재한다.  
 
 #### **비선점형 SJF 예시**
-[사진]
+![SJF_비선점](https://user-images.githubusercontent.com/70997596/215698049-cf49e55a-66c2-4982-ab37-515eddd21258.png)
+
 
 #### **선점형 SJF 예시**
-[사진] 
+ ![SJF_선점](https://user-images.githubusercontent.com/70997596/215698074-a99328d0-23c6-4f92-8ef8-2bb6bdb88dec.png)
+
 
 선점형 SJF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남은 시간이 짧으면 해당 프로세스로 전환된다.
 ### **Priority 스케줄링**
@@ -84,7 +87,8 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - 기아(Starvation) 문제가 발생할 수 있다. 기아 문제란 낮은 우선순위의 프로세스가 절대 실행되지 않는 문제를 뜻함.
 - 기아문제를 해결하기 위해서 노화(aging)를 사용할 수 있다. 시간이 지날수록 프로세스의 우선순위를 높여주는 식.
 
-[사진]
+![Priority](https://user-images.githubusercontent.com/70997596/215698137-343bdbd6-2688-419b-b912-5706da5c118a.png)
+
 
 모두 0초에 도착했다고 했을 때, 우선순위에 따라 위와 같이 처리된다.
 
@@ -97,7 +101,8 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - q가 커진다면 FCFS처럼 작동한다. 
 - q가 매우 작아지면 process sharing이라고 부른다. 이것은 n개의 프로세스가 프로세서 속도의 1/n 씩으로 작동함을 의미한다.
 
-[사진]
+![RR](https://user-images.githubusercontent.com/70997596/215698153-67325861-aa04-4805-85c1-526636144899.png)
+
 
 모두 0초에 도착했고, 할당 시간 q가 20 초라고 가정하면 위와 같은 결과가 나온다.
 
@@ -111,10 +116,12 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - 일반적으로 Foreground 프로세스들은 Round Robin 방식을 사용하고, Background 프로세스는 FCFS를 사용한다.
 - 기아(Starvation) 문제가 발생할 수 있다.
 - 보통 CPU 시간의 80%는 Foreground의 RR, 20%는 Background의 FCFS에 할당된다.
+![Multilevel_Queue](https://user-images.githubusercontent.com/70997596/215698201-903e2cdf-d31d-4ca2-963a-0524d23954b6.png)
 
 ### **Multilevel Feedback Queue(MFQ)**
 
-[사진]  
+ ![MFQ](https://user-images.githubusercontent.com/70997596/215698214-383241e1-ce23-4bad-a4e8-60f135be4626.png)
+
 Multilevel Queue와 비슷하지만, MFQ는 각 큐 간에 프로세스들이 이동할 수 있다. 
 
 ## 출처
