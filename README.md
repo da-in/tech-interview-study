@@ -143,7 +143,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
 - 페이지 교체 알고리즘
 - 메모리(Memory)
-- 파일 시스템
+- [파일 시스템](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/%ED%8C%8C%EC%9D%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
 
 ### :hatching_chick: Algorithm
 
