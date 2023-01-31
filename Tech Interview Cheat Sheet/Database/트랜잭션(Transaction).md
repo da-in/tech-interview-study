@@ -26,7 +26,7 @@ COMMIT TRAN
 ## 트랜잭션 사용 이유
 
 - 트랜잭션은 **데이터 부정합** 을 방지하기 위해 사용한다.
-- **데이터 부정합** 이란 다수의 클라이언트 접근 혹은 데이터 변경 과정에서의 중단 등으로 데이터 깂이 다른 경우를 말한다.
+- **데이터 부정합** 이란 다수의 클라이언트 접근 혹은 데이터 변경 과정에서의 중단 등으로 데이터 값이 다른 경우를 말한다.
 - 한 번에 하나의 프로세스만 처리하면 데이터부정합을 방지할 수 있지만 이는 효율이 좋지 않으며 트랜잭션이 필요한 것이다.
 
 <br/>
@@ -109,7 +109,9 @@ COMMIT TRAN
 
 트랜잭션의 생명 주기와 커밋 그리고 실패 시점에 따라 REDO, UNDO 등의 수행 여부가 달라진다.
 
-<img src="" alt="" width="">
+<img src="https://user-images.githubusercontent.com/66757141/215523207-13c51b99-4b43-4cad-8986-f821325bc554.jpg" alt="image-17" width="700px">
+
+[_img reference_](https://slidetodoc.com/database-concurrency-control-and-recovery-pessimistic-concurrency-control/)
 
 <br/>
 
@@ -120,4 +122,5 @@ COMMIT TRAN
 📄 https://ko.wikipedia.org/wiki/데이터베이스_트랜잭션  
 📄 https://fauna.com/blog/database-transaction  
 📄 https://code-lab1.tistory.com/51  
-📄 https://velog.io/@yu-jin-song/DB-트랜잭션Transaction
+📄 https://velog.io/@yu-jin-song/DB-트랜잭션Transaction  
+📄 https://slidetodoc.com/database-concurrency-control-and-recovery-pessimistic-concurrency-control/
