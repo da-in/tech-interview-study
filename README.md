@@ -111,7 +111,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/이상_Anomaly.md)
 - [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
 - [트랜잭션(Transaction)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/트랜잭션(Transaction).md>)
-- 트랜잭션 격리 수준(Transaction Isolation Level)
+- [트랜잭션 격리 수준(Transaction Isolation Level)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/트랜잭션%20격리%20수준(Transaction%20Isolation%20Level).md>)
 - [저장 프로시저(Stroed Procedure)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/저장%20프로시저.md)
 - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
 
