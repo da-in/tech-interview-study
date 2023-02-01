@@ -157,7 +157,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [기수 정렬(Radix Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/기수%20정렬(Radix%20Sort).md>)
 - [계수 정렬(Count Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/계수%20정렬(Count%20Sort).md>)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/이분%20탐색(Binary%20Search).md>)
-- [해시 테이블 구현](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/해시%20테이블%20.md)
+- [해시 테이블 구현](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/해시%20테이블%20구현.md)
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/BFS%26DFS.md)
 - [최장 증가 수열(LIS)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/최장%20증가%20수열(LIS).md>)
 - [최소 공통 조상(LCA)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/최소%20공통%20조상(LCA).md>)
