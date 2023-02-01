@@ -36,20 +36,20 @@
 - `Dirty Read`, `NON-REPETABLE READ`, `Phantom Read` 문제가 발생할 수 있다.
 - RDBMS에서는 표준으로 인정하지 않는다.
 
-**READ COMMITTED**
+**2. READ COMMITTED**
 
 - 어떤 트랜잭션의 변경 내용이 `COMMIT` 되어야만 다른 트랜잭션에서 조회할 수 있다.
 - 오라클 DBMS에서 기본으로 사용하고 있고, 온라인 서비스에서 가장 많이 선택되는 격리수준이다.
 - `NON-REPETABLE READ`, `Phantom Read` 문제가 발생할 수 있다.
 
-**REPEATABLE READ**
+**3. REPEATABLE READ**
 
 - 트랜잭션이 시작되기 이전에 커밋된 내용에 대해서만 조회할 수 있는 격리수준이다.
 - MySQL DBMS에서 기본으로 사용하고 있다.
 - 트랜잭션 수행 시간에 따른 멀티 버전을 관리해야 하는 단점이 있다.
 - `Phantom Read` 부정합이 발생할 수 있다.
 
-**SERIALIZABLE**
+**4. SERIALIZABLE**
 
 - 가장 엄격한 격리 수준이다.
 - 트랜잭션이 완료될 때까지 `SELECT` 문장이 사용하는 모든 데이터에 공유잠금`(Shared Lock)`이 걸린다.
