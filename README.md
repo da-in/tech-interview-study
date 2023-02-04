@@ -139,10 +139,10 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/데드락(Dead%20Lock).md>)
 - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Race%20Condition.md)
 - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
-- [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/페이징%20세그먼테이션(PDF).md>)
+- [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/페이징%20세그먼테이션%20(PDF).md>)
 - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
 - [페이지 교체 알고리즘](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/페이지%20교체%20알고리즘.md)
-- 메모리(Memory)
+- [메모리 관리(Memory Management)](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/메모리%20관리.md)
 - [파일 시스템](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Operating%20System/%ED%8C%8C%EC%9D%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)
 
 ### :hatching_chick: Algorithm
@@ -157,7 +157,7 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
 - [기수 정렬(Radix Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/기수%20정렬(Radix%20Sort).md>)
 - [계수 정렬(Count Sort)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/계수%20정렬(Count%20Sort).md>)
 - [이분 탐색(Binary Search)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/이분%20탐색(Binary%20Search).md>)
-- [해시 테이블 구현](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/해시%20테이블%20.md)
+- [해시 테이블 구현](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/해시%20테이블%20구현.md)
 - [DFS & BFS](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/BFS%26DFS.md)
 - [최장 증가 수열(LIS)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/최장%20증가%20수열(LIS).md>)
 - [최소 공통 조상(LCA)](<https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Algorithm/최소%20공통%20조상(LCA).md>)
