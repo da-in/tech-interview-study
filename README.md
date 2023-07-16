@@ -3,7 +3,19 @@
 스터디 목차는 <a href="https://github.com/Songwonseok/CS-Study">Songwonseok/CS-Study</a> 와 <a href="https://github.com/gyoogle/tech-interview-for-developer">gyoogle/tech-interview-for-developer</a> 를 참고하여 구성했습니다.  
 각 주제에 대한 깊이있는 학습을 지향합니다.
 
-## 📌 Contents
+## Part 1. CS 면접 질문/답변 정리
+
+<a href=''>개발 상식</a>  
+<a href=''>컴퓨터 구조</a>  
+<a href=''>자료 구조</a>  
+<a href=''>DB</a>  
+<a href=''>네트워크</a>  
+<a href=''>운영체제</a>  
+<a href=''>알고리즘</a>  
+<a href=''>웹</a>  
+<a href=''>소프트웨어 공학</a>  
+
+## Part 2. CS Deep Dive
 
 <table>
   <tr>
@@ -11,18 +23,14 @@
     <td><a href='#open_file_folder-data-structure'>📂 Data Structure</a></td>
     <td><a href='#package-database'>📦 Database</a></td>
     <td><a href='#satellite-network'>📡 Network</a></td>
+    <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
   </tr>
   <tr>
-    <td><a href='#rotating_light-operating-system'>🚨 Operating System</a></td>
     <td><a href='#hatching_chick-algorithm'>🐣 Algorithm</a></td>
     <td><a href='#globe_with_meridians-web'>🌐 Web</a></td>
     <td><a href='#gear-software-engineering'>⚙️ Software Engineering</a></td>
-  </tr>
-  <tr>
     <td><a href='#art-design-pattern'>🎨 Design Pattern</a></td>
     <td><a href='#speaking_head-language'>🗣️ Language</a></td>
-    <td><a href='#technologist-interview'>👩‍💻 Interview</a></td>
-    <td></td>
   </tr>
 </table>
 
@@ -279,15 +287,6 @@ ex) [Algorithm] Add Diagram DFS&BFS.md
   - [Python] 매크로 사용법
   
 </details>
-
-### :technologist: Interview
-
-- [OS] 면접 질문 모음
-- [DB] 면접 질문 모음
-- [[Web] 면접 질문 모음](https://github.com/da-in/tech-interview-study/blob/main/Tech%20Interview%20Cheat%20Sheet/Interview/[Web]%20면접%20질문%20모음.md)
-- [Network] 면접 질문 모음
-- [Algorithm] 면접 질문 모음
-- [Language] 면접 질문 모음
 
 ### :pushpin: Linux
 
