@@ -45,7 +45,7 @@
 
 ## 😊 Collaborator
 
-CS Deep Dive
+#### CS Deep Dive
 
 <div>
   <a href="https://github.com/da-in">
@@ -62,7 +62,7 @@ CS Deep Dive
   </a>
 </div>
 
-CS 면접 질문/답변 정리
+#### CS 면접 질문/답변 정리
 
 <div>
   <a href="https://github.com/da-in">
