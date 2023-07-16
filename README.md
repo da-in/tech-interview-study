@@ -5,15 +5,16 @@
 
 ## Part 1. CS 면접 질문/답변 정리
 
-<a href=''>개발 상식</a>  
-<a href=''>컴퓨터 구조</a>  
-<a href=''>자료 구조</a>  
-<a href=''>DB</a>  
-<a href=''>네트워크</a>  
-<a href=''>운영체제</a>  
-<a href=''>알고리즘</a>  
-<a href=''>웹</a>  
-<a href=''>소프트웨어 공학</a>  
+- 컴퓨터 구조
+- 자료 구조
+- DB
+- 네트워크
+- 운영체제
+- 알고리즘
+- 웹
+- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Software%20Engineering.md'>소프트웨어 공학</a>  
+
+<br/>
 
 ## Part 2. CS Deep Dive
 
@@ -40,6 +41,8 @@
 
 ## 😊 Collaborator
 
+CS Deep Dive
+
 <div>
   <a href="https://github.com/da-in">
     <img src="https://avatars.githubusercontent.com/u/66757141?v=4" width="100" style="max-width: 100%;">
@@ -52,6 +55,26 @@
   </a>
   <a href="https://github.com/lalabulla">
     <img src="https://avatars.githubusercontent.com/u/102718303?v=4" width="100" style="max-width: 100%;">
+  </a>
+</div>
+
+CS 면접 질문/답변 정리
+
+<div>
+  <a href="https://github.com/da-in">
+    <img src="https://avatars.githubusercontent.com/u/66757141?v=4" width="100" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/lalabulla">
+    <img src="https://avatars.githubusercontent.com/u/102718303?v=4" width="100" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/chs98412">
+    <img src="https://avatars.githubusercontent.com/u/79582366?v=4" width="100" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/jaminleee">
+    <img src="https://avatars.githubusercontent.com/u/91969458?v=4" width="100" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/kimgwon">
+    <img src="https://avatars.githubusercontent.com/u/92065911?v=4" width="100" style="max-width: 100%;">
   </a>
 </div>
 
