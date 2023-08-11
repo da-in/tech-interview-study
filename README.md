@@ -13,7 +13,7 @@
 - 네트워크
 - 운영체제
 - 알고리즘
-- 웹
+- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Web.md'>웹</a>  
 - <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Software%20Engineering.md'>소프트웨어 공학</a>  
 
 <br/>
