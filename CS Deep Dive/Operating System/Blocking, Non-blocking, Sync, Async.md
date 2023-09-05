@@ -32,7 +32,7 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
   - 수행 순서를 보장하기 위해 기존 함수가 호출된 함수의 작업 완료 여부를 확인한다.
 
 - **Asynchronous** <br>
-  - 동기는 수행 순서가 보장되지 않는 것을 의미한다.  
+  - 비동기는 수행 순서가 보장되지 않는 것을 의미한다.  
   - 기존 함수는 수행 순서를 확인하지 않는다. 호출된 함수에게 Callback을 전달해서 작업을 완료하면 실행하도록 하는 등의 방식이다.
   - I/O 작업과 같이 느린 작업이 발생할 때 기다리지 않고 다른 작업을 같이 처리하므로 동시에 처리하는 멀티 작업을 진행할 수 있다. 이는 전반적인 시스템 성능 향상에 도움을 줄 수 있다.
 
@@ -43,7 +43,7 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 <img src="https://user-images.githubusercontent.com/66757141/210782186-d6313700-834a-49ec-bf5d-f00cbe577817.png" alt="Blocking / Non-blocking / Synchronous / Asynchronous" width="700px" />
 
 
-### Sync-Blocking
+### 1. Sync Blocking
 호출한 작업이 진행되는 동안 자신의 작업을 멈추고 호출한 작업이 끝난 후 그 결과를 받으며(Blocking), 호출한 작업의 완료 여부를 받은 후 순차적으로 자신의 작업을 처리(Sync)하는 방식이다.
 * **코드 동작 예시** <br>
   ``` js
@@ -60,7 +60,7 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
   console.log(data3);
   ```
 
-### Sync-Nonblocking
+### 2. Sync Non-blocking
 호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 호출한 작업의 완료 여부를 받은 후 순차적으로 자신의 작업을 처리(Sync)하는 방식이다.
 * **코드 동작 예시** <br>
   동기 + 논블로킹 코드를 표현하는데 적합한 대중적인 언어로 자바를 들 수 있다. 스레드 객체를 만들어 요청 작업을 백그라운드에 돌게 하고, 메인 메서드에서 while문을 통해 스레드가 모두 처리되었는지 끊임없이 확인하고, 처리가 완료되면 다음 메인 작업을 수행한다.
@@ -97,13 +97,13 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
   ```
 
 
-### Async-Blocking
+### 3. Async Blocking
 호출한 작업이 진행되는 동안 자신의 작업을 멈추고 호출한 작업이 끝난 후 그 결과를 받으며(Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다. <br>
 실무에서 잘 마주하지 않아 다룰 일이 거의 없다. <br>
 Sync-blocking과 개념적으로 차이가 있지만, 성능적으로 차이가 없다. 보통 Asnyc-blocking은 개발자가 Async-NonBlocking으로 처리하려다가 실수하는 경우에 발생한다. 그래서 이 방식을 안티 패턴이라고 치부하기도 한다.
 
-### Async-Nonblocking
-호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다.
+### 4. Async Non-blocking
+호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다. <br>
 * **코드 동작 예시**
   Sync Blocking에서 구현한 코드를 Asnyc Non-Blocking 방식으로 구현한 것이다. 차이점은 호출 함수에 콜백 함수를 넣음으로써 작업의 결과를 후처리 할 수 있다.
   ``` js
@@ -154,6 +154,6 @@ Kernel level에서의 입출력에 Blocking과 Non-blocking을 적용하여 생�
 📄https://jaehoney.tistory.com/242  
 📄https://steady-coding.tistory.com/531  
 📄https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Network/%5BNetwork%5D%20Blocking%20Non-Blocking%20IO.md  
-📄https://etloveguitar.tistory.com/140
-📄https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC
+📄https://etloveguitar.tistory.com/140  
+📄https://inpa.tistory.com/entry/%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0-%EB%B8%94%EB%A1%9C%ED%82%B9%EB%85%BC%EB%B8%94%EB%A1%9C%ED%82%B9-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC  
 📄https://hamait.tistory.com/m/930
