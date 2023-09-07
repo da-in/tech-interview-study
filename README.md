@@ -13,8 +13,8 @@
 - 네트워크
 - 운영체제
 - 알고리즘
-- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Web.md'>웹</a>  
-- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Software%20Engineering.md'>소프트웨어 공학</a>  
+- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Web.md'>웹</a>
+- <a href='https://github.com/da-in/tech-interview-study/blob/main/Interview%20Cheat%20Sheet/Software%20Engineering.md'>소프트웨어 공학</a>
 
 <br/>
 
@@ -202,7 +202,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/HTTP%20Request%20Method.md)
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/HTTP%20Status%20Code.md)
 - [CORS](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/CORS.md)
-- [REST API](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/REST%20API.md)
+- [REST](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/REST.md)
 - [웹서버와 WAS](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/웹서버와%20WAS.md)
 - [OAuth](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/OAuth.md)
 - [JWT(JSON Web Token)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/JWT.md)
