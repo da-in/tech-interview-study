@@ -48,11 +48,11 @@ OSI 7계층 중 Layer 4 : 전송계층은 프로토콜 내에서 송신자와 �
 
 </br>
 
-### *데이터의 경계란?
+### *데이터의 경계
 
 - 데이터 경계란 데이터를 보낼 때 여러번에 걸쳐 보낼 수 있는지의 여부이다.
 </br>
-<img width="700" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbC7MyJ%2FbtrrdcfQ1Ud%2FAcNHcEKS3kjMGtKZHLXjF0%2Fimg.png">
+<img width="440" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbC7MyJ%2FbtrrdcfQ1Ud%2FAcNHcEKS3kjMGtKZHLXjF0%2Fimg.png">
 
 위의 사진의 첫번째 경우 처럼 송신 함수의 호출 횟수와 수신 함수의 호출 횟수가 일치 해야하는 경우는 **데이터의 경계가 있는 경우**이다. </br>
 반대로 두번째 경우는 송신 함수의 호출 횟수와 수신 함수의 호출 횟수가 일치 하지 않아도 되는 **데이터의 경계가 없는 경우**이다. </br>
