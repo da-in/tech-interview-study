@@ -199,7 +199,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [DOM](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/DOM.md)
 - Reflow&Repaint
 - [쿠키(Cookie) & 세션(Session)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/Cookie%26Session.md)
-- [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/HTTP_Request_Method.md)
+- [HTTP Request Methods](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/HTTP%20Request%20Method.md)
 - [HTTP Status Code](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/HTTP%20Status%20Code.md)
 - [CORS](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/CORS.md)
 - [REST API](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Web/REST%20API.md)
