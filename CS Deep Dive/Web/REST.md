@@ -58,11 +58,11 @@ REST 아키텍처를 이루는 구성은 다음과 같다.
 
 - 대부분은 `XML`이나 `JSON`형태로 리소스들에 대한 정적인 표현으로 응답하게되지만, Application의 일부를 지원하기 위해 `executable code`를 보낼수도 있다.
 
-# REST API란?(사실 여기부터 본론입니다 머쓱;)
+# REST API
 
 ## REST API의 정의
 
-- REST의 특징을 기반으로 서비스 API를 구현한 것
+- REST의 특징을 기반으로 서비스 API를 구현한 것을 말한다.
 
 ## REST API의 특징
 
@@ -94,7 +94,7 @@ REST의 원리를 잘 따르는 시스템 = RESTful하다!
 
 ---
 
-## 출처
+## Reference
 
-https://dev-coco.tistory.com/97#REST%EC%-D%--%--%EC%A-%--%EC%-D%--  
-https://meetup.toast.com/posts/92
+📄 https://dev-coco.tistory.com/97#REST%EC%-D%--%--%EC%A-%--%EC%-D%--  
+📄 https://meetup.toast.com/posts/92
