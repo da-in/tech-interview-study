@@ -36,6 +36,8 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
   - 기존 함수는 수행 순서를 확인하지 않는다. 호출된 함수에게 Callback을 전달해서 작업을 완료하면 실행하도록 하는 등의 방식이다.
   - I/O 작업과 같이 느린 작업이 발생할 때 기다리지 않고 다른 작업을 같이 처리하므로 동시에 처리하는 멀티 작업을 진행할 수 있다. 이는 전반적인 시스템 성능 향상에 도움을 줄 수 있다.
 
+<br/>
+
 ## Blocking / Non-blocking X Synchronous / Asynchronous
 
 `Blocking` / `Non-blocking`과 `Synchronous` / `Asynchronous` 를 조합하면 다음 그림처럼 4가지 방식이 생긴다.
