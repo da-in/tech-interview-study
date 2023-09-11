@@ -37,15 +37,25 @@ COMMIT TRAN
 
 - **원자성(Atomicity)**
   - 트랜잭션의 명령을 부분적으로 실행되거나 중단되지 않는 것을 보장한다.
+  - 트랜잭션은 **성공** 또는 **실패**라는 뜻이다.
   - 트랜잭션 내의 모든 명령이 완벽히 수행되거나, 어느 하나라도 오류가 발생하면 트랜잭션 전부가 취소되어야한다.
+   <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHfFoD%2FbtqCNGRAn4V%2F64cqaUS21rXsmwK9NwG321%2Fimg.png" alt="Atomicity" width="300px">
+
 - **일관성(Consistency)**
   - 트랜잭션이 성공적으로 완료되면 언제나 일관성 있는 데이터베이스 상태를 유지하는 것이다.
   - 트랜잭션 수행 전과 후의 데이터 타입 등 시스템 고정 요소의 상태가 같아야 한다.
+  - 일관성 여부는 사용자가 판단하고 정의해야한다.
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FpTXOL%2FbtqCOyZO4cJ%2FLgQO0edcMxVAm0NBlkpDQK%2Fimg.png" alt="Consistency" width="300px">
 - **독립성(Isolation)**
   - 둘 이상의 트랜잭션이 동시에 실행되는 경우 서로 간섭할 수 없고, 수행 결과를 참조할 수도 없다.
-  - `트랜잭션 격리수준(Transaction Isolation Level)`에 따라 수행 결과 참조 가능 여부가 달라진다.
+  - [트랜잭션 격리수준(Transaction Isolation Level)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80(Transaction%20Isolation%20Level).md)에 따라 수행 결과 참조 가능 여부가 달라진다.
+  
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoorQ1%2FbtqCMnEVYf0%2FPHCFUKzn5woTl7ka2LzCrk%2Fimg.png" alt="Isolation" width="300px">
 - **영구성(Durability)**
   - 성공적으로 완료된 트랜잭션의 결과는 영구적으로 반영된다.
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fz9TOS%2FbtqCLM5Y03y%2FmARr5MJc6CPk2k6BWOoYv0%2Fimg.png" alt="Atomicity" width="300px">
+ 
+  [_img reference_](https://jokerkwu.tistory.com/124)
 
 <br/>
 
@@ -85,7 +95,7 @@ COMMIT TRAN
   - 트랜잭션의 실행중인 첫 상태이다.
   - 트랜잭션은 해당 명령(읽기 또는 쓰기 작업)이 수행되는 한 활성화되어있다.
 - **부분 완료(Partially committed)**
-  - 변경이 실행되었지만 데이터베이스가 아직 디스크에서 변경 내용을 적용하지 않은 상태이다.
+  - **변경이 실행**되었지만 데이터베이스가 아직 디스크에서 **변경 내용을 적용하지 않은 상태**이다.
   - 이 상태에서는 데이터가 메모리 버퍼에 저장되어있고 버퍼가 아직 디스크에 기록되지 않았다.
 - **완료(Committed)**
   - 모든 트랜잭션의 업데이트가 데이터베이스에 영구적으로 저장된다.
