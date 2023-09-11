@@ -9,7 +9,7 @@ _[image reference](https://blog.container-solutions.com/a-guide-to-solving-those
 
 ## CORS
 
-> **CORS(Cross-Origin Resource Sharing)** 는 HTTP 헤더를 전송하는 시스템으로, 프론트엔드 자바스크립트 코드가 교차-출처 요청(cross-origin request)에 대한 응답에 접근하는 것을 브라우저가 차단하는지 여부를 결정한다. [CORS-MDN](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
+> **CORS(Cross-Origin Resource Sharing)** 는 HTTP 헤더를 전송하는 시스템으로, 프론트엔드 자바스크립트 코드가 교차-출처 요청(cross-origin request)에 대한 응답에 접근하는 것을 브라우저가 차단하는지 여부를 결정한다. [MDN Docs | CORS](https://developer.mozilla.org/en-US/docs/Glossary/CORS)
 
 CORS(Cross-Origin Resource Sharing)는 직역하면 교차-출처 리소스 공유이다. 출처가 다른 자원들에 접근하도록 하는 개념이다.
 
@@ -19,14 +19,14 @@ CORS(Cross-Origin Resource Sharing)는 직역하면 교차-출처 리소스 공�
 
 ## 출처(Origin)
 
-동일한 출처란 `protocol`, `port`, `host`가 동일한 URL을 말한다.
+동일한 출처란 `protocol`, `hostname`, `port` 가 동일한 URL을 말한다.
 
 <img src="https://user-images.githubusercontent.com/66757141/211576962-20aee656-5bff-48d5-8de2-c541e8c87048.png" alt="71d250c0-2b41-43b9-8579-0f129e115bc8" width="450px" /><br/>
 _[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9781789349863/6/ch06lvl1sec60/what-s-in-a-url)_
 
 ### 동일 출처 예시
 
-`http://store.company.com/dir/page.html`와 아래 URL들이 동일한 출처인지 확인해본다.
+`http://store.company.com/dir/page.html`와 아래 URL들이 동일한 출처인지 확인한 예시는 아래와 같다.
 
 <!-- prettier-ignore -->
 | URL | 결과 | 이유 |
@@ -72,14 +72,14 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
 
 ## CORS의 세 가지 시나리오
 
-위의 설명은 CORS의 기본적인 흐름이로, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은 [MDN - CORS#functional_overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
+위의 설명은 CORS의 기본적인 흐름이로, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은 [MDN Docs | CORS | Functional Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
 
 ### Simple Request
 
 첫 번째는 `단순 요청(Simple Request)`이다. 아래의 예비 요청을 보내지 않고 바로 본 요청을 보내어, 위의 기본 흐름과 같이 동작한다. Simple Request는 예비 요청 없이 바로 본 요청을 보내기에, 안전하다고 판단되는 아래의 조건들을 만족하는 경우에만 가능하다.
 
 1.  HTTP `GET`, `HEAD`, `POST` 메소드를 사용해야한다.
-2.  `Accept`, `Accept-Language`, `Content-Language`, `Content-Type`, `DPR`, `Downlink`, `Save-Data`, `Viewport-Width`, `Width` 헤더일 경우 에만 적용된다.
+2.  `Accept`, `Accept-Language`, `Content-Language`, `Content-Type`, `DPR`, `Downlink`, `Save-Data`, `Viewport-Width`, `Width` 헤더만을 수동으로 설정 가능하다.
 3.  Content-Type 헤더가 `application/x-www-form-urlencoded`, `multipart/form-data`, `text/plain`중 하나여야한다.
 
 대부분의 API 요청이 `text/xml`, `application/json` Content-Type을 갖는 등 사실상 위 조건을 만족하는 경우가 많지 않기에 대부분의 경우 예비 요청을 보내어 안전성을 확인한다.
@@ -112,20 +112,21 @@ _[image reference](https://ko.wikipedia.org/wiki/%EA%B5%90%EC%B0%A8_%EC%B6%9C%EC
 
 ### Credentialed Request
 
-Client가 보내려는 요청에 `자격 인증 정보(Credential)`이 담겨있는 경우 위의 두 시나리오와는 다른 `인증된 요청(Credentialed Request)`을 전송한다.
+Client가 보내려는 요청에 **\*자격 인증 정보(Credential)** 이 담겨있는 경우 위의 두 시나리오와는 다른 `인증된 요청(Credentialed Request)`을 전송한다.
 
 _\* 자격 인증 정보는 세션 Id가 담긴 쿠키(Cookie), Authorization 헤더의 토큰 값 등을 말한다._
 
-1. Client가 Request에 Credential 옵션을 설정한다.
+1. Client가 Request에 Credential 옵션을 설정하여 요청을 보낸다.
    ```js
    credentials: 'include',
    ```
-   - `same-origin(default)` : 같은 출처의 요청에만 인증 정보를 담을 수 있다.
-   - `include` : 인증 정보를 담는다.
-   - `omit` : 인증 정보를 담지 않는다.
-2. Server가 인증된 요청에 대한 응답 헤더를 설정한다.
+   - `same-origin(default)` : 동일 출처의 요청에만 인증 정보를 담을 수 있다.
+   - `include` : 모든 요청에 인증 정보를 담는다.
+   - `omit` : 모든 요청에 인증 정보를 담지 않는다.
+2. 요청에 Credential이 포함되는 경우에는 Server가 다음과 같이 응답 헤더를 설정한다.
    - `Access-Control-Allow-Credentials`을 `true`로 설정한다.
-   - `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`에 와일드카드 문자" \* "를 사용할 수 없다.
+   - `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, `Access-Control-Allow-Headers`에 와일드카드 문자" \* "를 사용할 수 없으며, 구체적인 도메인을 명시한다.
+3. 위를 만족하지 않은 응답을 브라우저는 무시한다.
 
 <br>
 
