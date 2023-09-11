@@ -47,7 +47,9 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 ### 1. Sync Blocking
 호출한 작업이 진행되는 동안 자신의 작업을 멈추고 호출한 작업이 끝난 후 그 결과를 받으며(Blocking), 호출한 작업의 완료 여부를 받은 후 순차적으로 자신의 작업을 처리(Sync)하는 방식이다.
-* **코드 동작 예시** <br>
+
+* **Sync Blocking 예제** <br>
+
   ``` js
   const fs = require('fs'); // 파일 시스템 모듈 불러오기
 
@@ -64,8 +66,10 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 ### 2. Sync Non-blocking
 호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 호출한 작업의 완료 여부를 받은 후 순차적으로 자신의 작업을 처리(Sync)하는 방식이다.
-* **코드 동작 예시** <br>
-  동기 + 논블로킹 코드를 표현하는데 적합한 대중적인 언어로 자바를 들 수 있다. 스레드 객체를 만들어 요청 작업을 백그라운드에 돌게 하고, 메인 메서드에서 while문을 통해 스레드가 모두 처리되었는지 끊임없이 확인하고, 처리가 완료되면 다음 메인 작업을 수행한다.
+
+* **Sync Non-blocking 예제** <br>
+  Sync Non-blocking 코드를 표현하는데 적합한 대중적인 언어로 자바를 들 수 있다. 스레드 객체를 만들어 요청 작업을 백그라운드에 돌게 하고, 메인 메서드에서 `while`문을 통해 스레드가 모두 처리되었는지 끊임없이 확인하고, 처리가 완료되면 다음 메인 작업을 수행한다.
+
   ``` java
   // Runnable 인터페이스를 구현하는 클래스 정의
   class MyTask implements Runnable {
@@ -100,14 +104,16 @@ Blocking/Non-blocking 과 Synchronous/Asynchronous는 다른 관점의 다른 �
 
 
 ### 3. Async Blocking
-호출한 작업이 진행되는 동안 자신의 작업을 멈추고 호출한 작업이 끝난 후 그 결과를 받으며(Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다. <br>
-실무에서 잘 마주하지 않아 다룰 일이 거의 없다. <br>
-Sync-blocking과 개념적으로 차이가 있지만, 성능적으로 차이가 없다. 보통 Asnyc-blocking은 개발자가 Async-NonBlocking으로 처리하려다가 실수하는 경우에 발생한다. 그래서 이 방식을 안티 패턴이라고 치부하기도 한다.
+호출한 작업이 진행되는 동안 자신의 작업을 멈추고 호출한 작업이 끝난 후 그 결과를 받으며(Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다.
+- 실무에서 잘 마주하지 않아 다룰 일이 거의 없다.
+- Sync-blocking과 개념적으로 차이가 있지만, 성능적으로 차이가 없다. 보통 Asnyc-blocking은 개발자가 Async-NonBlocking으로 처리하려다가 실수하는 경우에 발생한다. 그래서 이 방식을 안티 패턴이라고 치부하기도 한다.
 
 ### 4. Async Non-blocking
-호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다. <br>
-* **코드 동작 예시**
+호출한 작업이 진행되는 동안에도 자신의 작업을 처리하고 호출한 작업의 결과 처리 유무를 바로 받으며(Non-Blocking), 순차적으로 작업이 수행됨을 보장하지 않는(Async) 방식이다.
+
+* **Async Non-blocking 예제** <br>
   Sync Blocking에서 구현한 코드를 Asnyc Non-Blocking 방식으로 구현한 것이다. 차이점은 호출 함수에 콜백 함수를 넣음으로써 작업의 결과를 후처리 할 수 있다.
+
   ``` js
   // 비동기적으로 파일 읽기
   const fs = require('fs'); // 파일 시스템 모듈 불러오기
