@@ -40,7 +40,7 @@ _[image reference](https://subscription.packtpub.com/book/cloud-and-networking/9
 
 ## 동일-출처 정책(same-origin policy, SOP)
 
-다른 출처의 요청에 대한 제약이 존재하지 않는다면 `CSRF(Cross-Site Request Forgery)`나 `XSS(Cross-Site Scripting)`공격을 사용해서 정보를 탈취하고 서버에 요청을 보낼 것이다. 동일-출처 정책(SOP)은 다른 출처에서의 접근을 브라우저단에서 차단하여 위와 같은 상황을 방지한다.  
+다른 출처의 요청에 대한 제약이 존재하지 않는다면 `CSRF(Cross-Site Request Forgery)`나 `XSS(Cross-Site Scripting)`공격을 사용해서 정보를 탈취한 후 서버에 요청을 보낼 수 있다. 동일-출처 정책(SOP)은 다른 출처에서의 접근을 브라우저단에서 차단하여 위와 같은 상황을 방지한다.  
 _출처를 비교하여 차단하는 로직은 서버가 아닌 브라우저에 구현되어있다. 그래서 브라우저가 아닌 서버간의 통신 등에는 CORS로부터 자유롭다._
 
 하지만 다른 출처의 리소스 요청이 필요할 경우가 있다. 이 경우 CORS 정책을 준수하여 요청해야 정상적으로 응답을 받을 수 있다.
