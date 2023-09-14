@@ -122,7 +122,12 @@ STCF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남
 대부분의 프로세스는 CPU만을 사용하는게 아니라 입출력 작업을 한다. 따라서 입출력을 진행할 때에는 CPU를 반납하고, 다른 프로세스가 CPU를 사용할 수 있도록 구성하여 효율적인 CPU 사용을 진행하게 된다.
 
 # 사진
+<img width="344" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/6d3897fc-c9a2-46ed-9d37-a2fd253c0158">
+
 - CPU의 비효율적 사용
+
+  
+<img width="358" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/7eec0bcb-b251-45ba-a8c2-fadd69d3bd7a">
 - CPU의 효율적 사용
 
 
@@ -147,10 +152,12 @@ Multilevel Queue와 비슷하지만, MFQ는 각 큐 간에 프로세스들이 �
 다수의 CPU를 이용해서 스케줄링을 하게 된다.
 각각의 CPU는 캐시를 갖게 되고, CPU는 프로세스를 실행하면서 얻은 정보를 캐시에 저장하게 된다. 따라서 한 프로세스는 종료될 때 까지 최대한 동일한 CPU에서 실행되는 것이 캐시 친화성 관점에서 올바른 방법이다.
 
-사진1
+<img width="565" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/bdf5e26f-94ef-434c-8894-31ebdbf4ac94">
+
 올바르지 않은 방법
 
-사진2
+<img width="548" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/41efa899-7699-49c0-9dde-0f6ca64e46cc">
+
 올바른 방법
 
 다만 한 CPU에서 실행하던 프로세스가 일찍 종료되어 CPU를 사용하지 않게 된다면 불균형이 일어나므로, 균형을 이루도록 비교적 바쁜 CPU로부터 프로세스가 옮겨다니게 된다. 또한 이러한 작업은 지속적으로 반복된다.
