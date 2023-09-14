@@ -1,4 +1,4 @@
-# OSI 7계층
+# OSI 7 계층
 OSI 7 계층은 네트워크에서 통신이 일어나는 과정을 7단계로 나눈 것을 말하며, 국제표준화기구(ISO, International Organization for Standardization)에서 네트워크 간의 호환을 위해 OSI 7 계층이라는 표준 네트워크 모델을 만들었다. 개방형 시스템 상호 연결 모델(OSI)의 표준이다.
 
 초기 여러 정보 통신 업체 장비들은 자신의 업체 장비들끼리만 연결이 되어 호환성이 없었다. 모든 시스템들의 상호 연결에 있어 문제없도록 **표준**을 정한것이 OSI 7계층이고, 실제 인터넷에서 사용되는 TCP/IP 4계층\*은 OSI 참조 모델을 기반으로 상업적이고 실무적으로 이용될 수 있도록 단순화 한 것이다.
@@ -21,7 +21,7 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
   - 출발지에서 데이터가 전송될 때 헤더에 추가되는데 2계층에서만 예외적으로 오류 제어를 위해 테일에 추가된다.
   - 하위 계층으로 내려갈수록 PDU\*에는 다양한 프로토콜에 의해 헤더와 테일이 더해진다. 물리 계층에서 PDU는 최종적인 모습으로 변하며, 데이터를 보내는 접점이 된다.
 - **데이터 수신 시**
-  - 1계층에서 7계층으로 헤더를 벗겨내며 이를 디캡슐화 라고 한다.
+  - 1계층에서 7계층으로 헤더를 제거하며 이를 디캡슐화 라고 한다.
   - 응용 계층에 도달하면 원본 데이터만 남는다.
 
 _\*PDU: 프로토콜 데이터 단위이며, OSI 모델의 정보 처리 단위이다._
@@ -69,7 +69,7 @@ _\*MAC주소: xx : xx : xx : xx : xx : xx 의 형식으로 총 6바이트로 전
 - 라우팅\* 알고리즘을 통해 최적 경로(목적지까지 가장 안전하고 빠른 경로)를 선택하여 데이터를 보낸다.
 - 논리 주소인 IP 주소가 정의된다. (데이터 통신을 할 때 MAC 주소와 IP 주소가 사용된다.)
 - PDU(데이터 단위)는 `패킷(Packet)`이다.
-- 헤더에 IP 주소를 추가한다. IP 주소는 패킷이 목적지까지 성공적으로 전달되도록 한다.
+- 헤더에 IP 주소를 추가한다.
 
 _\*라우팅: 네트워크에서 경로를 선택하는 프로세스이다._
 
@@ -163,8 +163,8 @@ HTTP, SMTP, STUN, FTP, TELNET
 
 ▶️ [우아한 Tech - 10분 테코톡 영상 추천] https://www.youtube.com/watch?v=1pfTxp25MA8&t=1912s
 📄https://velog.io/@cgotjh/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7-%EA%B3%84%EC%B8%B5-OSI-7-LAYER-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EA%B0%81-%EA%B3%84%EC%B8%B5-%EC%84%A4%EB%AA%85  
-📄https://onecoin-life.com/19
-https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8
-https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5
-https://shlee0882.tistory.com/110
-https://backendcode.tistory.com/167
+📄https://onecoin-life.com/19  
+📄https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8  
+📄https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5
+📄https://shlee0882.tistory.com/110  
+📄https://backendcode.tistory.com/167
