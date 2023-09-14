@@ -9,8 +9,8 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
   - 통신이 일어나는 과정을 단계별로 파악할 수 있다.
   - 통신 과정 중에 특정한 곳에 이상이 생긴 경우, 다른 단계의 장비 및 소프트웨어 등을 건드리지 않고 통신 장애를 일으킨 단계에서 해결할 수 있다.
   
-<img width="754" alt="스크린샷 2022-12-21 오후 7 38 14" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
-<img width="754" alt="스크린샷 2022-12-21 오후 7 38 14" src="https://velog.velcdn.com/images/genius_jihyepark/post/1da3b406-d521-46c3-b2b4-50edc6473dae/image.png">
+<img height="500px" alt="OSI&TCP/IP" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
+<img height="500px" alt="OSI" src="https://velog.velcdn.com/images/genius_jihyepark/post/1da3b406-d521-46c3-b2b4-50edc6473dae/image.png">
 
 <br>
 
@@ -57,7 +57,7 @@ _\*MAC주소: xx : xx : xx : xx : xx : xx 의 형식으로 총 6바이트로 전
 #### 프레임
 상위 계층에서 보낸 전송 데이터에 오류 확인을 위한 체크섬, 송수신 호스트의 주소, 기타 프로토콜에서 사용하는 제어 코드 등의 정보가 포함된다.
 
-<img width="754" alt="Frame" src="https://velog.velcdn.com/images/wlsdnjs156/post/2cbd6b57-207c-4362-b802-aef87743b4f7/image.JPG">
+<img width="754px" alt="Frame" src="https://velog.velcdn.com/images/wlsdnjs156/post/2cbd6b57-207c-4362-b802-aef87743b4f7/image.JPG">
 
 <br>
 
@@ -144,7 +144,7 @@ HTTP, SMTP, STUN, FTP, TELNET
 |응용 계층|HTTP, FTP, TeInet, email 등 다양한 인터넷 서비스 지원|
 
 ## 주요 프로토콜 및 장비
-<img src="https://velog.velcdn.com/images/jsb100800/post/eff03fb6-ce85-4e8d-ab83-a3f049e89e43/image.png" alt="Protocol">
+<img width="754px" src="https://velog.velcdn.com/images/jsb100800/post/eff03fb6-ce85-4e8d-ab83-a3f049e89e43/image.png" alt="Protocol">
 
 
 ---
