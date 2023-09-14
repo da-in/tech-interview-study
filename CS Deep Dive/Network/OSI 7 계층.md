@@ -8,6 +8,7 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
 * **특징**
   - 통신이 일어나는 과정을 단계별로 파악할 수 있다.
   - 통신 과정 중에 특정한 곳에 이상이 생긴 경우, 다른 단계의 장비 및 소프트웨어 등을 건드리지 않고 통신 장애를 일으킨 단계에서 해결할 수 있다.
+  - 상위 계층의 프로토콜이 제대로 작동하귀 위해서 하위의 모든 계층에 문제가 없어야 한다.
   
 <img height="500px" alt="OSI&TCP/IP" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
 
@@ -25,12 +26,14 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
 
 _\*PDU: 프로토콜 데이터 단위이며, OSI 모델의 정보 처리 단위이다._
 
-<img height="500px" alt="OSI" src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F25303F355755856B02">
+<img weight="500px" alt="OSI" src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F25303F355755856B02">
 
 <br>
 
 ## 7계층
 ### **L1 물리계층(Physical Layer)**
+
+<img width="500px" alt="1layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqeXJk%2FbtrD19TmojQ%2FFAK8VVKwhgBSlauKkYofk1%2Fimg.png">
 
 - 7계층 중 최하위 계층이다.
 - 상위 계층에서 전송된 데이터를 물리 매체(케이블, 허브, 탭, 리피터 등)를 통해 다른 시스템에 전기적 신호(0과 1의 비트열)를 전송한다.
@@ -42,6 +45,8 @@ _\*PDU: 프로토콜 데이터 단위이며, OSI 모델의 정보 처리 단위�
 <br>
 
 ### **L2 데이터링크 계층(Data-Link Layer)**
+
+<img width="500px" alt="2layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcedrlS%2FbtrD1tXvqHh%2FhOkxUgU1Qhr0RDNC6VlVx1%2Fimg.png">
 
 - 물리적인 연결(이더넷, 케이블, 무선 랜 등)을 통하여 인접한 두 장치 간의 신뢰성 있는 정보 전송을 담당한다.(Point-To-Point\* 전송)
 - 데이터에 대한 오류를 감지할 수 있다. 만약 오류가 발생했다면 재전송하여 오류를 해결한다.
@@ -59,6 +64,8 @@ _\*MAC주소: xx : xx : xx : xx : xx : xx 의 형식으로 총 6바이트로 전
 
 ## **L3 네트워크 계층(Network Layer)**
 
+<img width="500px" alt="3layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FNR9Ge%2FbtrD8MPHiQ0%2FkqBNBNRmKWf6Kwdil4mi71%2Fimg.png">
+
 - 라우팅\* 알고리즘을 통해 최적 경로(목적지까지 가장 안전하고 빠른 경로)를 선택하여 데이터를 보낸다.
 - 논리 주소인 IP 주소가 정의된다. (데이터 통신을 할 때 MAC 주소와 IP 주소가 사용된다.)
 - PDU(데이터 단위)는 `패킷(Packet)`이다.
@@ -75,6 +82,8 @@ IP, 라우팅 프로토콜
 
 ## **L4 전송 계층(Transport Layer)**
 
+<img width="500px" alt="4layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoQpWd%2FbtrD5R5gZOF%2FUnuAxRirD1tiZcqEKuSUj1%2Fimg.png">
+
 - 종단 간 신뢰성 있고 정확한 데이터 전송을 담당한다.
 - 송신자와 수신자 간의 신뢰성있고 효율적인 데이터를 전송하기 위하여 오류 검출 및 복구, 흐름 제어와 중복 검사 등을 수행한다.
   - 데이터링크 계층과 유사하게 오류 제어, 흐름 제어 등을 제공하지만, 데이터링크 계층은 물리적으로 1:1 연결된 호스트 사이의 전송을 담당하고, 전송 계층은 논리적으로(네트워크 상에서) 1:1 연결된 호스트 사이의 전송을 제공한다.
@@ -89,6 +98,8 @@ TCP, UDP
 <br>
 
 ## **L5 세션 계층(Session Layer)**
+
+<img width="500px" alt="5layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdz1Eix%2FbtrD9F3TOJl%2FSVMQIgJmLDK3J7yUpeSiFK%2Fimg.png">
 
 - 통신 장치 간 상호 작용 및 동기화를 제공한다.
 - 세션 관리를 한다. 연결된 세션에서 데이터 교환과 에러 발생 시의 복구와 재전송를 관리한다.
@@ -107,6 +118,8 @@ RPC, RTCP, SSH
 
 ## **L6 표현 계층(Presentation Layer)**
 
+<img width="500px" alt="6layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fn2Uho%2FbtrD2IH47et%2FQpbPHsQRxlhXdQTkKNdDRK%2Fimg.png">
+
 - 데이터의 형식(png,jpg,...)을 정해준다.
 - 받은 데이터를 압축, 암복호화 등의 과정을 통해 부호화\*한다.
   - MIME 인코딩이나 암호화 등의 동작이 표현계층에서 이루어짐. EBCDIC로 인코딩된 파일을 ASCII 로 인코딩된 파일로 바꿔주는 것이 한가지 예이다.
@@ -118,6 +131,8 @@ TLS, SSH
 <br>
 
 ## **L7 응용 계층(Application Layer)**
+
+<img width="500px" alt="7layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeTEj5v%2FbtrD6xFx2fb%2FgJtnwbky9prdKQG2ZHOJDK%2Fimg.png">
 
 - 사용자와 가장 밀접한 계층으로 인터페이스 역할을 한다. 즉, 사용자로부터 정보를 입력받아 하위 계층으로 전달하고 하위 계층에서 전송한 데이터를 사용자에게 전달한다.
 - 응용 프로세스 간의 정보 교환을 담당한다.  
@@ -134,9 +149,9 @@ HTTP, SMTP, STUN, FTP, TELNET
 |데이터 링크 계층|물리적 1대 1통신으로 프레임 단위로 물리 계층의 물리적 전송 오류 문제를 해결한다.|
 |네트워크 계층|데이터의 전송 경로를 결정(라우팅)한다. (IP)|
 |전송 계층|송수신 프로세스 사이의 1:1 통신 기능을 지원한다. (TCP, UDP)|
-|세션 계층|송수신자 사이 상위적 연결 개념인 세션을 지원|
-|표현 계층|데이터의 의미와 표현 방법을 처리하며 암호화 압축 기능도 처리|
-|응용 계층|HTTP, FTP, TeInet, email 등 다양한 인터넷 서비스 지원|
+|세션 계층|송수신자 사이 상위적 연결 개념인 세션을 지원한다.|
+|표현 계층|데이터의 의미와 표현 방법을 처리하며 암호화 압축 기능도 처리한다.|
+|응용 계층|HTTP, FTP, TeInet, email 등 다양한 인터넷 서비스 지원한다.|
 
 ## 주요 프로토콜 및 장비
 <img width="754px" src="https://velog.velcdn.com/images/jsb100800/post/eff03fb6-ce85-4e8d-ab83-a3f049e89e43/image.png" alt="Protocol">
@@ -150,3 +165,6 @@ HTTP, SMTP, STUN, FTP, TELNET
 📄https://velog.io/@cgotjh/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7-%EA%B3%84%EC%B8%B5-OSI-7-LAYER-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EA%B0%81-%EA%B3%84%EC%B8%B5-%EC%84%A4%EB%AA%85  
 📄https://onecoin-life.com/19
 https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8
+https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5
+https://shlee0882.tistory.com/110
+https://backendcode.tistory.com/167
