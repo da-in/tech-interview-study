@@ -72,7 +72,7 @@ _[image reference](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)_
 
 ## CORS의 세 가지 시나리오
 
-위의 설명은 CORS의 기본적인 흐름이로, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은 [MDN Docs | CORS | Functional Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
+위의 설명은 CORS의 기본적인 흐름으로, 실제로 CORS는 상황에 따른 세 가지 구체적인 시나리오를 갖는다. 각 시나리오의 자세한 내용은 [MDN Docs | CORS | Functional Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#functional_overview) 에서 확인할 수 있다.
 
 ### Simple Request
 
