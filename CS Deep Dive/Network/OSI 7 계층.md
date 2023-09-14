@@ -10,7 +10,7 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
   - 통신 과정 중에 특정한 곳에 이상이 생긴 경우, 다른 단계의 장비 및 소프트웨어 등을 건드리지 않고 통신 장애를 일으킨 단계에서 해결할 수 있다.
   
 <img height="500px" alt="OSI&TCP/IP" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
-<img height="500px" alt="OSI" src="https://velog.velcdn.com/images/genius_jihyepark/post/1da3b406-d521-46c3-b2b4-50edc6473dae/image.png">
+<img height="300px" alt="OSI" src="https://velog.velcdn.com/images/genius_jihyepark/post/1da3b406-d521-46c3-b2b4-50edc6473dae/image.png">
 
 <br>
 
