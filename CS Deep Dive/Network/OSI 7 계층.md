@@ -119,7 +119,7 @@ RPC, RTCP, SSH
 
 ## **L6 표현 계층(Presentation Layer)**
 
-<img width="500px" alt="6layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fn2Uho%2FbtrD2IH47et%2FQpbPHsQRxlhXdQTkKNdDRK%2Fimg.png">
+<img width="500px" alt="6layer" src="https://img1.daumcdn.net/thumb/R1920x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fn2Uho%2FbtrD2IH47et%2FQpbPHsQRxlhXdQTkKNdDRK%2Fimg.png">
 
 - 데이터의 형식(png,jpg,...)을 정해준다.
 - 받은 데이터를 압축, 암복호화 등의 과정을 통해 부호화\*한다.
@@ -166,6 +166,6 @@ HTTP, SMTP, STUN, FTP, TELNET
 📄https://velog.io/@cgotjh/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7-%EA%B3%84%EC%B8%B5-OSI-7-LAYER-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EA%B0%81-%EA%B3%84%EC%B8%B5-%EC%84%A4%EB%AA%85  
 📄https://onecoin-life.com/19  
 📄https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8  
-📄https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5
+📄https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5  
 📄https://shlee0882.tistory.com/110  
 📄https://backendcode.tistory.com/167
