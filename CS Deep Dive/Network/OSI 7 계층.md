@@ -8,7 +8,7 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
 * **특징**
   - 통신이 일어나는 과정을 단계별로 파악할 수 있다.
   - 통신 과정 중에 특정한 곳에 이상이 생긴 경우, 다른 단계의 장비 및 소프트웨어 등을 건드리지 않고 통신 장애를 일으킨 단계에서 해결할 수 있다.
-  - 상위 계층의 프로토콜이 제대로 작동하귀 위해서 하위의 모든 계층에 문제가 없어야 한다.
+  - 상위 계층의 프로토콜이 제대로 작동하기 위해서는 하위의 모든 계층에 문제가 없어야 한다.
   
 <img width="500px" alt="OSI & TCP/IP" src="https://user-images.githubusercontent.com/70997596/208899170-46385a19-003d-4c50-a2bf-97b96bfcea1a.png">
 
@@ -180,7 +180,7 @@ HTTP, SMTP, STUN, FTP, TELNET
 ## Reference
 
 ▶️ [우아한 Tech - 10분 테코톡 영상 추천] https://www.youtube.com/watch?v=1pfTxp25MA8&t=1912s
-📄https://velog.io/@cgotjh/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7-%EA%B3%84%EC%B8%B5-OSI-7-LAYER-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EA%B0%81-%EA%B3%84%EC%B8%B5-%EC%84%A4%EB%AA%85  
+📄https://velog.io/@cgotjh/네트워크-OSI-7-계층-OSI-7-LAYER-기본-개념-각-계층-설명  
 📄https://onecoin-life.com/19  
 📄https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8  
 📄https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5  
