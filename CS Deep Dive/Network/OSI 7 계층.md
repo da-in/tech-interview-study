@@ -172,7 +172,7 @@ HTTP, SMTP, STUN, FTP, TELNET
 <br>
 
 ## 주요 프로토콜 및 장비
-<img width="754px" src="https://velog.velcdn.com/images/jsb100800/post/eff03fb6-ce85-4e8d-ab83-a3f049e89e43/image.png" alt="Protocol">
+<img width="754px" src="https://velog.velcdn.com/images%2Fcgotjh%2Fpost%2F52907c8c-c149-4943-ad21-3996f44f912f%2F995EFF355B74179035.jpg" alt="Protocol">
 
 
 ---
