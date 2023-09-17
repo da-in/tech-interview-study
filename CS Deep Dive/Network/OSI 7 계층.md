@@ -182,7 +182,7 @@ HTTP, SMTP, STUN, FTP, TELNET
 ▶️ [우아한 Tech - 10분 테코톡 영상 추천] https://www.youtube.com/watch?v=1pfTxp25MA8&t=1912s
 📄https://velog.io/@cgotjh/네트워크-OSI-7-계층-OSI-7-LAYER-기본-개념-각-계층-설명  
 📄https://onecoin-life.com/19  
-📄https://velog.io/@hidaehyunlee/%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EC%A0%84%EB%8B%AC%EB%90%98%EB%8A%94-%EC%9B%90%EB%A6%AC-OSI-7%EA%B3%84%EC%B8%B5-%EB%AA%A8%EB%8D%B8%EA%B3%BC-TCPIP-%EB%AA%A8%EB%8D%B8  
+📄https://velog.io/@hidaehyunlee/데이터가-전달되는-원리-OSI-7계층-모델과-TCPIP-모델
 📄https://velog.io/@jsb100800/CS-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-OSI-7%EA%B3%84%EC%B8%B5  
 📄https://shlee0882.tistory.com/110  
 📄https://backendcode.tistory.com/167
