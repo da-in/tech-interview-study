@@ -26,9 +26,7 @@ _\* TCP/IP 4계층: L1 네트워크 액세스 계층(물리 계층 + 데이터�
 
 _\*PDU: 프로토콜 데이터 단위이며, OSI 모델의 정보 처리 단위이다._
 
-<img weight="500px" alt="OSI" src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F25303F355755856B02">
-
-<br>
+<img weight="500px" alt="OSI" src="https://img1.daumcdn.net/thumb/R800x0/?scode%253Dmtistory2%2526fname%253Dhttps%253A%252F%252Ft1.daumcdn.net%252Fcfile%252Ftistory%252F25303F355755856B02">
 
 ## 7계층
 ### **L1 물리계층(Physical Layer)**
