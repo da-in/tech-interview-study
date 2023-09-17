@@ -138,7 +138,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [정규화(Nomalization)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)
 - [이상(Anomaly)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/이상_Anomaly.md)
 - [인덱스(INDEX)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4(INDEX).md>)
-- [트랜잭션(Transaction)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/트랜잭션(Transaction).md>)
+- [트랜잭션(Transaction)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/트랜잭션(Transaction).md)
 - [트랜잭션 격리 수준(Transaction Isolation Level)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/트랜잭션%20격리%20수준(Transaction%20Isolation%20Level).md>)
 - [저장 프로시저(Stroed Procedure)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/저장%20프로시저.md)
 - [레디스(Redis)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Database/%EB%A0%88%EB%94%94%EC%8A%A4(Redis).md>)
