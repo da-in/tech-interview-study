@@ -33,7 +33,7 @@ _\*PDU: 프로토콜 데이터 단위이며, OSI 모델의 정보 처리 단위�
 ## 7계층
 ### **L1 물리계층(Physical Layer)**
 
-<img width="500px" alt="1layer" src="https://img1.daumcdn.net/thumb/R1600x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FqeXJk%2FbtrD19TmojQ%2FFAK8VVKwhgBSlauKkYofk1%2Fimg.png">
+<img width="500px" alt="1layer" src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https://t1.daumcdn.net/cfile/tistory/25303F355755856B02">
 
 - 7계층 중 최하위 계층이다.
 - 상위 계층에서 전송된 데이터를 통신 매체(케이블, 허브, 탭, 리피터 등)를 통해 다른 시스템에 전기적 신호(0과 1의 비트열)를 전송한다.
@@ -168,6 +168,8 @@ HTTP, SMTP, STUN, FTP, TELNET
 |세션 계층|송수신자 사이 상위적 연결 개념인 세션을 지원한다.|  
 |표현 계층|데이터의 의미와 표현 방법을 처리하며 암호화 압축 기능도 처리한다.|  
 |응용 계층|HTTP, FTP, TeInet, email 등 다양한 인터넷 서비스 지원한다.|  
+
+<br>
 
 ## 주요 프로토콜 및 장비
 <img width="754px" src="https://velog.velcdn.com/images/jsb100800/post/eff03fb6-ce85-4e8d-ab83-a3f049e89e43/image.png" alt="Protocol">
