@@ -7,9 +7,9 @@
 PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이다. **하나의 PCB**에는 **하나의 프로세스 정보**가 담긴다.
 
 ### PCB의 생성과 제거
-* **생성**
+* **생성**  
 프로세스가 생겨나고, 프로세스 주소 공간에 코드, 데이터, 스택 공간이 생성된 후 PCB가 생성되고 프로세스 정보가 저장된다.
-* **제거**
+* **제거**  
 프로세스가 종료되면 PCB도 제거된다.
 
 ### PCB에 저장되는 프로세스 정보
@@ -21,7 +21,7 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 - `Memory Limits` : 메모리 관리 시스템 정보(페이지 테이블, 세그먼트 테이블 등)
 - `Open File Lists` : 프로세스가 실행 중에 열어놓은 파일에 관한 정보
 
-![PCB](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png)
+<img style="width: 500px" alt="PCB" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png">
 
 
 ### PCB가 필요한 이유
@@ -37,7 +37,7 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 - **연결리스트 방식**으로 관리되기 때문에 **삽입, 삭제가 용이**하다.
 - PCB List Head에 PCB들이 생성될 때마다 이어붙게 된다. </br>
 
-![pcb 연결](https://user-images.githubusercontent.com/102718303/209789493-5c33a99a-11b7-44f1-9c0e-2a47a2988b74.jpg)
+<img style="width: 500px" alt="PCB 연결" src="https://user-images.githubusercontent.com/102718303/209789493-5c33a99a-11b7-44f1-9c0e-2a47a2988b74.jpg">
 
 >프로세스가 생성되면 `Ready Queue`에 들어가는데, 실제론 PCB가 연결리스트로 연결되어 있다. </br>
  
@@ -46,7 +46,7 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 - 원래 실행중이던 프로세스의 정보를 PCB에 저장하고, 바뀌는 프로세스의 정보를 PCB에 저장된 내용을 토대로 레지스터에 적재하는 과정이다. </br>
 - 여러 프로세스들을 동시에 수행하는 것처럼 보이게 하기 위해 사용한다.
 
-<img width="665" alt="컨택스 스위칭" src="https://user-images.githubusercontent.com/102718303/209789540-eb83853d-1615-40ce-bdb5-cacb13518303.png">
+<img width="width: 500px" alt="Context Switching" src="https://user-images.githubusercontent.com/102718303/209789540-eb83853d-1615-40ce-bdb5-cacb13518303.png">
 
 
 ### 발생하는 경우
