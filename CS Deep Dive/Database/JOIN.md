@@ -136,6 +136,8 @@ SELECT
 A.NAME, B.AGE
 FROM EX_TABLE A, EX_TABLE B
 ```
+### 사용 예시
+학생 테이블에 (학교, 학년, 나이)가 존재하고 같은 학교 같은 학년에 다니는 학생들의 나이를 비교하고 싶은 경우, 학교와 학년을 기준으로 SELF JOIN을 이용.
 
 <br/>
 
