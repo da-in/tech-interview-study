@@ -59,7 +59,8 @@ LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ### 사용 예시2
 사용 예시1과 동일한 상황에서 사진이 없는 게시물들만 불러오는 경우
 
-사진
+<img width="180" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/5639bceb-f1fc-4271-998b-5b3b24cc1ef9" >
+
 위 사진과 같은 상황.
 
 ```sql
