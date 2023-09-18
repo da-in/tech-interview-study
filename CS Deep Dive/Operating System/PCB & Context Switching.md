@@ -12,6 +12,8 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 * **제거**  
 프로세스가 종료되면 PCB도 제거된다.
 
+<br>
+
 ### PCB에 저장되는 프로세스 정보
 - `Pointer` : 프로세스의 현재 위치를 저장
 - `Process State` : 현재 프로세스의 상태 정보(Create, Ready, Running, Waiting, Terminated)
@@ -23,6 +25,7 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 
 <img style="width: 500px" alt="PCB" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png">
 
+<br>
 
 ### PCB가 필요한 이유
 여러 프로세스를 스케줄링 하기 위해 현재 프로세스의 상태가 필요하고, CPU는 이를 토대로 스케줄링 한다. </br>
@@ -39,15 +42,18 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 
 <img style="width: 500px" alt="PCB 연결" src="https://user-images.githubusercontent.com/102718303/209789493-5c33a99a-11b7-44f1-9c0e-2a47a2988b74.jpg">
 
->프로세스가 생성되면 `Ready Queue`에 들어가는데, 실제론 PCB가 연결리스트로 연결되어 있다. </br>
+>프로세스가 생성되면 `Ready Queue`에 들어가는데, 실제론 PCB가 연결리스트로 연결되어 있다. 
+
+<br>
  
 ## Context Switching (문맥 교환)
 - 여러 프로세스들이 CPU 스케줄링에 의해서 실행되는 데, 이 과정에서 프로세스를 바꾸는 행위(갈아끼우는)를 `Context Switching` 이라고 한다. 
 - 원래 실행중이던 프로세스의 정보를 PCB에 저장하고, 바뀌는 프로세스의 정보를 PCB에 저장된 내용을 토대로 레지스터에 적재하는 과정이다. </br>
 - 여러 프로세스들을 동시에 수행하는 것처럼 보이게 하기 위해 사용한다.
 
-<img width="width: 500px" alt="Context Switching" src="https://user-images.githubusercontent.com/102718303/209789540-eb83853d-1615-40ce-bdb5-cacb13518303.png">
+<img style="width: 500px" alt="Context Switching" src="https://user-images.githubusercontent.com/102718303/209789540-eb83853d-1615-40ce-bdb5-cacb13518303.png">
 
+<br>
 
 ### 발생하는 경우
 - 인터럽트 발생
@@ -57,6 +63,7 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 > Context Switching 과정에서 CPU는 아무것도 하지 못하기 때문에 너무 빈번하게 일어나면 성능이 떨어질수 있다. </br>
 > `Context Switching Overhead`를 주의 해야한다.
 
+<br>
 
 ## Reference
 - https://velog.io/@haero_kim/PCB-%EC%99%80-Context-Switching-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
