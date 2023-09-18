@@ -48,6 +48,31 @@ FROM EX_TABLE A
 LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ```
 
+### 사용 예시
+게시물 테이블 **(테이블 A)** 에서 해당 게시물의 사진 데이터 **(테이블 B)** 를 가지고 오는 상황 가정.
+
+게시물들은 사진이 존재하는 게시물들도 있지만 사진이 없는 게시물들 역시 존재하므로 B에서 불러오는 데이터의 값이 없을 수도 있다.
+사진이 없는(B테이블에 데이터가 없는) 게시물도 같이 불러와야 하므로 left join을 사용한다.
+
+평소처럼 Inner Join을 사용하게 되면, 사진이 없는 게시물은 불러와지지 않게 된다.
+
+### 사용 예시2
+사용 예시1과 동일한 상황에서 사진이 없는 게시물들만 불러오는 경우
+
+사진
+위 사진과 같은 상황.
+
+```sql
+SELECT *
+FROM
+	A left join B
+    on A.postId = B.postId
+WHERE B.postId IS NULL;
+```
+이라는 형식으로 쿼리를 짜면 된다
+
+
+
 ## RIGHT OUTER JOIN
 
 <img src="https://user-images.githubusercontent.com/66757141/208738091-c01277ef-59d5-4fe2-9dd2-5b392f282789.png" alt="RIGHT_JOIN" width="180px" />
@@ -61,6 +86,10 @@ FROM EX_TABLE A
 RIGHT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ```
 
+### 사용 예시
+LEFT OUTER JOIN과 테이블 순서가 반대라고 생각하면 된다.
+
+
 ## FULL OUTER JOIN
 
 <img src="https://user-images.githubusercontent.com/66757141/208738130-fc842d97-527a-4dc2-81dc-bc7dbcbde3c6.png" alt="FULL_OUTER_JOIN" width="180px" />
@@ -73,6 +102,8 @@ A.NAME, B.AGE
 FROM EX_TABLE A
 FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ```
+
+모든 RDBMS에서 지원하진 않는다. 예를들어 MYSQL에는 FULL OUTER JOIN를 지원하지 않아서 right join과 left join을 합한것으로 쿼리를 짜야한다.
 
 ## CROSS JOIN
 
