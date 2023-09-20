@@ -37,20 +37,27 @@ ex | `image`, `html`, `css`, `javascript` 파일과 같이 하드웨어에 저�
 
 ![68747470733a2f2f676d6c776a64393430352e6769746875622e696f2f696d616765732f7765622f7765627365727665722d76732d776173312e706e67](https://user-images.githubusercontent.com/66757141/207196948-32b1f31c-1ccc-4a54-a375-6690f49657a9.png)
 
-WAS(Web Application Server)란 DB 조회 혹은 다양한 로직 처리를 요구하는 동적 컨텐츠를 제공하기 위해 만들어진 Application 서버이다.  
-HTTP 프로토콜을 기반으로 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어로서, 주로 데이터베이스 서버와 같이 수행된다.
+WAS(Web Application Server)란 DB 조회 혹은 다양한 로직 처리를 요구하는 동적 컨텐츠를 제공하기 위해 만들어진 Application 서버이다.
 
-WAS는 `Web Server` + `Web Container*` 이다.  
-WAS 별로 다양한 종류의 컨테이너를 내장하고 있으며, 이들 중 서블릿에 관련된 기능을 모아 놓은 것을 서블릿 컨테이너라 부른다.
+- HTTP 프로토콜을 기반으로 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어로서, 주로 데이터베이스 서버와 같이 수행된다.
+- WAS는 `Web Server` + `Web Container`이다.
+- WAS에는 `Tomcat\*`, `WebLogic`, `WebSphere`, `Jeus`, `JBoss` 등이 있다.
 
-_\* **Container**란 JSP, Servlet을 실행시킬 수 있는 소프트웨어를 말한다._  
+### 웹 컨테이너(Web Container)
+
+웹 컨테이너(Web Container)는 Java 서블릿(Servlet)과 상호작용하는 WAS의 구성요소로 서블릿 컨테이너(Servlet Container)라고도 불린다.
+
+- 서블릿의 생명 주기를 관리(초기화, 메소드 호출, 가비지 컬렉션)한다.
+- 서블릿과 웹서버 사이의 통신과 멀티스레딩을 지원한다.
+- 선언적 보안 관리가 가능하게 한다.
+
 _\*\* **JSP**는 Java 언어를 기반으로 하는 Server Side 스크립트 언어이다. HTML에 JAVA 코드를 넣어 동적인 웹을 생성할 수 있도록 하는 웹 어플리케이션 도구이다._  
 _\*\* **Servlet**은 WAS의 서블릿 컨테이너 내에서 관리되며 연산을 담당한다. JSP로 작성된 프로그램은 Servlet으로 변환된다._
 
-_\* **Web Container**는 Java 서블렛과 상호작용하는 WAS의 구성요소이다. 서블릿의 생명 주기를 관리(초기화, 메소드 호출, 가비지 컬렉션)하고, 서블릿과 웹서버의 통신과 멀티스레딩을 지원하며 선언적 보안 관리가 가능하게 한다._  
-_\* Java가 아닌 PHP, Perl, Python등의 언어는 Apache를 통해 CGI(Common Gateway Interface)를 적용시켜 컨테이너의 역할을 수행할 수 있다._
+### WAS의 역할
 
-WAS는 웹 서버의 기능들을 구조적으로 분리하여 처리하고자 하는 목적으로 제시되었으며 주로 다음과 같은 기능을 수행한다.
+WAS는 웹 서버의 기능들을 구조적으로 분리하여 처리하고자 하는 목적으로 제시되었으며 주로 다음과 같은 역할을 수행한다.
+
 - Servlet과 JSP 실행을 통한 동적 관리
 - 웹 어플리케이션의 세션 생성, 저장, 무효화 등의 세션 관리
 - HTTPS 지원, 인증, 데이터 암호화 등의 보안 기능
@@ -58,10 +65,6 @@ WAS는 웹 서버의 기능들을 구조적으로 분리하여 처리하고자 �
 - 클러스터링과 로드 밸런싱
 - 에러와 예외 처리
 - 로깅과 모니터링
-
-WAS에는 Tomcat*, WebLogic, WebSphere, Jeus, JBoss 등이 있다.
-
-_\*Apache Tomcat 은 WAS(Tomcat)가 웹 서버(Apache) 기능을 포함하고 있기 때문에 Apache Tomcat 이라고 부르기도 하고, 실제로 WAS 앞에 웹 서버를 두어서 Apache Tomcat 이라고 부르기도 한다._
 
 <br/>
 
