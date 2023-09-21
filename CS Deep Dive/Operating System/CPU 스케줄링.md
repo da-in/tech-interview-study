@@ -62,8 +62,7 @@ CPU 이용률을 극대화하기 위해서는 멀티프로그래밍(multiprogram
 - Convoy Effect(호위 효과)가 발생할 수 있다.  
 > Convoy Effect(호위 효과) : CPU 사용시간이 긴 프로세스에 의해 사용시간이 짧은 프로세스들이 오래 기다리는 현상이다. 이로 인해 평균 대기시간이 길어지게 된다.[추가 설명](https://ursidae.tistory.com/31)  
 
- ![FCFS](https://user-images.githubusercontent.com/70997596/215697931-dcf7cd3d-2b6a-47dd-8b16-a39e23bb4415.png)
-
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215697931-dcf7cd3d-2b6a-47dd-8b16-a39e23bb4415.png">
 
 P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결과가 나온다. 
 
@@ -73,15 +72,15 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - CPU burst time의 길이를 고려하지만, 늦게 도착하는 프로세스는 이전의 프로세스가 끝날 때 까지 기다려야 하는 convoy 문제가 여전히 존재.
 
 #### **SJF 예시**
-![SJF_비선점](https://user-images.githubusercontent.com/70997596/215698049-cf49e55a-66c2-4982-ab37-515eddd21258.png)
 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215698049-cf49e55a-66c2-4982-ab37-515eddd21258.png">
 
 ### **STCF(Shortest Time-to-Completion First) 스케줄링**
 - 선점형 스케줄러, SJF의 선점형 버전
 - 현재 실행되고 있는 프로세스의 남은 시간보다 도착한 다음 프로세스가 더 빨리 끝날 수 있는 프로세스라면 다음 프로세스를 실행하도록 바꾸게 된다. **SRTF**(Shortest Remaining Time First)라고도 부른다. 
 
- ![SJF_선점](https://user-images.githubusercontent.com/70997596/215698074-a99328d0-23c6-4f92-8ef8-2bb6bdb88dec.png)
 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215698074-a99328d0-23c6-4f92-8ef8-2bb6bdb88dec.png">
 
 STCF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남은 시간이 짧으면 해당 프로세스로 전환된다.
 이러한 과정을 통해 convoy 문제를 해결할 수 있다.
@@ -95,9 +94,8 @@ STCF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남
 - 기아(Starvation) 문제가 발생할 수 있다. 기아 문제란 낮은 우선순위의 프로세스가 절대 실행되지 않는 문제를 뜻함.
 - 기아문제를 해결하기 위해서 노화(aging)를 사용할 수 있다. 시간이 지날수록 프로세스의 우선순위를 높여주는 식.
 
-![Priority](https://user-images.githubusercontent.com/70997596/215698137-343bdbd6-2688-419b-b912-5706da5c118a.png)
 
-
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215698137-343bdbd6-2688-419b-b912-5706da5c118a.png">
 모두 0초에 도착했다고 했을 때, 우선순위에 따라 위와 같이 처리된다.
 
 ### **Round Robin(RR) 스케줄링**
@@ -111,22 +109,22 @@ STCF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남
 - q가 커진다면 FCFS처럼 작동한다. 
 - q가 매우 작아지면 process sharing이라고 부른다. 이것은 n개의 프로세스가 프로세서 속도의 1/n 씩으로 작동함을 의미한다.
 
-![RR](https://user-images.githubusercontent.com/70997596/215698153-67325861-aa04-4805-85c1-526636144899.png)
 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215698153-67325861-aa04-4805-85c1-526636144899.png">
 
 모두 0초에 도착했고, 할당 시간 q가 20 초라고 가정하면 위와 같은 결과가 나온다.
 
 ### **입출력 연산의 고려**
 대부분의 프로세스는 CPU만을 사용하는게 아니라 입출력 작업을 한다. 따라서 입출력을 진행할 때에는 CPU를 반납하고, 다른 프로세스가 CPU를 사용할 수 있도록 구성하여 효율적인 CPU 사용을 진행하게 된다.
 
-# 사진
-<img width="344" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/6d3897fc-c9a2-46ed-9d37-a2fd253c0158">
+<img width="400" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/6d3897fc-c9a2-46ed-9d37-a2fd253c0158">
 
 - CPU의 비효율적 사용
 
   
-<img width="358" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/7eec0bcb-b251-45ba-a8c2-fadd69d3bd7a">
-- CPU의 효율적 사용
+<img width="400" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/7eec0bcb-b251-45ba-a8c2-fadd69d3bd7a">
+
+- 프로세스가 입출력을 위해 CPU를 사용하지 않을 때, 다른 프로세스에게 CPU를 넘겨주는, CPU의 효율적인 사용 예시
 
 
 ### **Multilevel Queue**
@@ -137,11 +135,13 @@ STCF의 경우 실행 중이던 프로세스보다 도착한 프로세스의 남
 - 일반적으로 Foreground 프로세스들은 Round Robin 방식을 사용하고, Background 프로세스는 FCFS를 사용한다.
 - 기아(Starvation) 문제가 발생할 수 있다.
 - 보통 CPU 시간의 80%는 Foreground의 RR, 20%는 Background의 FCFS에 할당된다.
-![Multilevel_Queue](https://user-images.githubusercontent.com/70997596/215698201-903e2cdf-d31d-4ca2-963a-0524d23954b6.png)
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/70997596/215698201-903e2cdf-d31d-4ca2-963a-0524d23954b6.png">
 
 ### **Multilevel Feedback Queue(MFQ)**
 
- ![MFQ](https://user-images.githubusercontent.com/70997596/215698214-383241e1-ce23-4bad-a4e8-60f135be4626.png)
+
+ <img width="300" alt="image" src="https://user-images.githubusercontent.com/70997596/215698214-383241e1-ce23-4bad-a4e8-60f135be4626.png">
 
 Multilevel Queue와 비슷하지만, MFQ는 각 큐 간에 프로세스들이 이동할 수 있다. 
 
@@ -150,11 +150,11 @@ Multilevel Queue와 비슷하지만, MFQ는 각 큐 간에 프로세스들이 �
 다수의 CPU를 이용해서 스케줄링을 하게 된다.
 각각의 CPU는 캐시를 갖게 되고, CPU는 프로세스를 실행하면서 얻은 정보를 캐시에 저장하게 된다. 따라서 한 프로세스는 종료될 때 까지 최대한 동일한 CPU에서 실행되는 것이 캐시 친화성 관점에서 올바른 방법이다.
 
-<img width="565" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/bdf5e26f-94ef-434c-8894-31ebdbf4ac94">
+<img width="300" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/bdf5e26f-94ef-434c-8894-31ebdbf4ac94">
 
 올바르지 않은 방법
 
-<img width="548" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/41efa899-7699-49c0-9dde-0f6ca64e46cc">
+<img width="300" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/41efa899-7699-49c0-9dde-0f6ca64e46cc">
 
 올바른 방법
 
