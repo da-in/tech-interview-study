@@ -71,7 +71,6 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - SJF 스케줄링은 평균 대기 시간을 줄일 수 있다.
 - CPU burst time의 길이를 고려하지만, 늦게 도착하는 프로세스는 이전의 프로세스가 끝날 때 까지 기다려야 하는 convoy 문제가 여전히 존재.
 
-#### **SJF 예시**
 
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/70997596/215698049-cf49e55a-66c2-4982-ab37-515eddd21258.png">
 
