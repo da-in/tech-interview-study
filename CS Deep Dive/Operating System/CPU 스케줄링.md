@@ -37,8 +37,8 @@ CPU 이용률을 극대화하기 위해서는 멀티프로그래밍(multiprogram
 프로세스가 생성된 후 종료되어 사용하던 자원을 모두 반환하는 데까지 걸리는 시간
 작업이 준비 큐(ready queue)에서 기다린 시간부터 CPU에서 실행된 시간, I/O 작업 시간의 합이다.
 
+> T-turnaround = T-completion − T-arrival 
 
-### T-turnaround = T-completion − T-arrival 
 ### 4. 대기시간(Waiting Time)  
 대기열에 들어와 CPU를 할당받기 까지 기다린 시간
 준비 큐에서 기다린 시간의 총합
