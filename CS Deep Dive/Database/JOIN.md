@@ -61,7 +61,6 @@ LEFT OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 
 <img width="180" alt="image" src="https://github.com/da-in/tech-interview-study/assets/79582366/5639bceb-f1fc-4271-998b-5b3b24cc1ef9" >
 
-위 사진과 같은 상황.
 
 ```sql
 SELECT *
