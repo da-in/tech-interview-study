@@ -54,13 +54,13 @@ cp in.txt out.txt
 |범주|기능|Windows|Linux|
 |--|--|--|--|
 |프로세스 컨트롤|프로세스 실행|**CreateProcess()**|execlp(), execv()|
-||프로세스 종료|ExitProcess()|exit(), kill()|
-||프로세스 생성|`CreateProcess()`|`fork()`, clone()|
-||이벤트, 시간동기|`WaitForSingleObject()`|`wait()`|
-|파일 관리|파일 생성/삭제|CreateFile()|`open()`|
+||프로세스 종료|ExitProcess()|**exit()**, kill()|
+||프로세스 생성|**CreateProcess()**|**fork()**, clone()|
+||이벤트, 시간동기|**WaitForSingleObject()**|**wait()**|
+|파일 관리|파일 생성/삭제|CreateFile()|**open()**|
 ||파일 열기/닫기|CloseHandle()|close()|
-||파일 읽기/쓰기|ReadFile()/WriteFile()|`read()`/`write()`|
-|디바이스 관리|장치로 읽기/쓰기|ReadFile()/WriteFile()|`read()`/`write()`|
+||파일 읽기/쓰기|ReadFile()/WriteFile()|**read()**/**write()**|
+|디바이스 관리|장치로 읽기/쓰기|ReadFile()/WriteFile()|**read()**/**write()**|
 |정보 관리|현재 프로세스의 PID 반환|GetCurrentProcessId()|getpid()|
 ||시간 지정|SetTimer()|alarm()|
 ||시간 대기|Sleep()|sleep()|
