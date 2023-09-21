@@ -36,7 +36,7 @@
 </br>
 
 ## 시스템 콜 예시
-```
+```linux
 // in.txt에 있는 파일 내용과 같은 내용을 복사하여 out.txt 파일을 만드는 것
 cp in.txt out.txt
 ```
