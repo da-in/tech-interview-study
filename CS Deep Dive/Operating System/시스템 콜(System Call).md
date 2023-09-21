@@ -53,44 +53,19 @@ cp in.txt out.txt
 
 |범주|기능|Windows|Linux|
 |--|--|--|--|
-|프로세스 컨트롤|프로세스 실행|CreateProcess()|execlp(), execv()|
-||프로세스 종료|ExitProcess()|exit(), kill()|
-||프로세스 생성|CreateProcess()|fork(), clone()|
-|파일 관리|파일 생성/삭제|CreateFile()|open()|
+|프로세스 컨트롤|프로세스 실행|`CreateProcess()`|execlp(), execv()|
+||프로세스 종료|ExitProcess()|`exit()`, kill()|
+||프로세스 생성|`CreateProcess()`|`fork()`, clone()|
+||이벤트, 시간동기|`WaitForSingleObject()`|`wait()`|
+|파일 관리|파일 생성/삭제|CreateFile()|`open()`|
 ||파일 열기/닫기|CloseHandle()|close()|
-||파일 읽기/쓰기|ReadFile()/WriteFile()|read()/write()|
-|디바이스 관리|장치로 읽기/쓰기|ReadFile()/WriteFile()|read()/write()|
-|정보 관리|현재 프로세스의 PID 반환||getpid()|
-|||시간 지정|alarm()|
-|||시간 대기|sleep()|
+||파일 읽기/쓰기|ReadFile()/WriteFile()|`read()`/`write()`|
+|디바이스 관리|장치로 읽기/쓰기|ReadFile()/WriteFile()|`read()`/`write()`|
+|정보 관리|현재 프로세스의 PID 반환|GetCurrentProcessId()|getpid()|
+||시간 지정|SetTimer()|alarm()|
+||시간 대기|Sleep()|sleep()|
 |통신|파이프 생성|CreatePipe()|pipe()|
 |보안|퍼미션 설정|SetFileSecurity()|chmod()|
-
-open(), read(), write(), fork(), exit()
-CrateProcess(), WaitForSingleObject()
-
-- 프로세스 컨트롤 `fork(), wait() 등`
-  - 프로세스 생성 및 종료
-  - 메모리에 로드, 실행
-  - 메모리 할당
-- 파일 관리 `open(), read(), write(), close() 등`
-  - 파일 생성, 파일 삭제
-  - 열기, 닫기
-  - 읽기, 쓰기 
-- 디바이스 관리 `read(), write() 등`
-  - 디바이스 요청 및 해제
-  - 읽기, 쓰기
-  - 다바이스 속성 확인, 지정
-- 정보 관리 `getpid(), alarm(), sleep() 등`
-  - 시간 확인, 시간 지정
-  - 시스템 데이터 확인, 지정
-  - 프로세스, 파일, 디바이스 속성 가져오기/설정하기 
-- 통신 `pipe(), mnap() 등`
-  - 커뮤니케이션 연결 생성 및 삭제
-  - 메세지 송신, 수신
-  - 상태 정보 전달 
-- 보안 `chmod(), umask() 등`
-  - 퍼미션 획득/설정 
 
 </br>
 
