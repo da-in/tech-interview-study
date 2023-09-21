@@ -66,7 +66,6 @@ FROM
     on A.postId = B.postId
 WHERE B.postId IS NULL;
 ```
-이라는 형식으로 쿼리를 짜면 된다
 
 
 
