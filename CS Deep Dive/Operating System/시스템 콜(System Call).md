@@ -105,4 +105,4 @@ cp in.txt out.txt
 - https://velog.io/@nnnyeong/OS-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C-System-Call
 - https://fjvbn2003.tistory.com/306
 - https://velog.io/@klloo/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C
-
+- 교재(명품 운영체제)
