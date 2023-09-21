@@ -53,7 +53,7 @@ cp in.txt out.txt
 
 |범주|기능|Windows|Linux|
 |--|--|--|--|
-|프로세스 컨트롤|프로세스 실행|`CreateProcess()`|execlp(), execv()|
+|프로세스 컨트롤|프로세스 실행|`**CreateProcess()**`|execlp(), execv()|
 ||프로세스 종료|ExitProcess()|`exit()`, kill()|
 ||프로세스 생성|`CreateProcess()`|`fork()`, clone()|
 ||이벤트, 시간동기|`WaitForSingleObject()`|`wait()`|
