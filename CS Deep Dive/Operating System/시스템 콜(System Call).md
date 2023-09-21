@@ -47,8 +47,8 @@
 
 ## 시스템 콜 함수의 유형
 
-|범주|기능||--|--|
-|:--|:--|:--|:--|
+|범주|기능|Windows|Linux|
+|--|--|--|--|
 |프로세스 컨트롤|프로세스 실행|CreateProcess()|execlp(), execv()|
 ||프로세스 종료|ExitProcess()|exit(), kill()|
 ||프로세스 생성|CreateProcess()|fork(), clone()|
