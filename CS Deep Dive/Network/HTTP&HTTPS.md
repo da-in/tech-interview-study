@@ -99,6 +99,7 @@ HTTPS는 HTTP와 다르게 443번 포트를 사용하며, 네트워크 상에서
 ----
 
 ## 출처
+- https://developer.mozilla.org/ko/docs/Glossary/HTTPS
 - https://mangkyu.tistory.com/98  
 - https://fomaios.tistory.com/entry/Network-HTTPS%EC%9D%98-%EB%B3%B4%EC%95%88-%EC%9B%90%EB%A6%ACfeat-SSL%EA%B3%B5%EA%B0%9C%ED%82%A4-%EC%95%94%ED%98%B8%ED%99%94-%EB%B0%A9%EC%8B%9D  
 - https://www.cloudflare.com/ko-kr/learning/ssl/what-is-ssl/  
