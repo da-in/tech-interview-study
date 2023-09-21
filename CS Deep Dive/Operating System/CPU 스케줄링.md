@@ -80,8 +80,6 @@ P1, P2, P3 모두 0초에 순서대로 도착했다고 하면 위와 같은 결�
 - 선점형 스케줄러, SJF의 선점형 버전
 - 현재 실행되고 있는 프로세스의 남은 시간보다 도착한 다음 프로세스가 더 빨리 끝날 수 있는 프로세스라면 다음 프로세스를 실행하도록 바꾸게 된다. **SRTF**(Shortest Remaining Time First)라고도 부른다. 
 
-
-#### **STCF 예시**
  ![SJF_선점](https://user-images.githubusercontent.com/70997596/215698074-a99328d0-23c6-4f92-8ef8-2bb6bdb88dec.png)
 
 
