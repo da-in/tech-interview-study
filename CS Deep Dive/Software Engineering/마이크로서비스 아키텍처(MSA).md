@@ -36,16 +36,33 @@ Monolithic 아키텍처는 소프트웨어의 모든 구성요소가 한 프로�
 
 ## MSA의 구조
 MSA애는 표준이라고 할 수 있는 구조는 없지만 보편적으로 사용되는 형태는 분명히 존재한다.
+
+
+<img width="200" alt="스크린샷 2022-12-24 오후 9 50 35" src="https://github.com/da-in/tech-interview-study/assets/79582366/dce02401-7753-48e7-9014-d9c44977acc1">
+
+msa에 사용되는 수많은 기술이 존재한다.
+
+<br>
+
+<img width="400" alt="스크린샷 2022-12-24 오후 9 50 35" src="https://github.com/da-in/tech-interview-study/assets/79582366/52f493cf-9dd1-40a1-997f-4f1ffad16b90">
+
+일반적으로 사용되는 msa의 구조
+<br>
+<br>
 1. API Gateway
+
 사용자는 하나의 ip로 요청을 보내지만,API Gateway를 통해 각 분산된 어플리케이션에 맞는 IP로 변환된다.
 
 2. Service Discovery
+
 API Gateway를 통해 넘어온 요청을 각 분산된 서비스로 넘겨주는 역할을 한다. 얼핏보면 비슷한 역할이지만, ip가 아닌 이름, ID로도 호출할 수 있고, 관리 측면에서 API Gateway보다 유용하다.
 
 3. Service Mesh
+
 마이크로 서비스 간의 통신(네트워크)를 담당하는 인프라 계층이다. 상호 통신을 위해 Service Discovery,Service Routing,Failure Recovery,Load Balancing,보안 등의 문제를 처리할 기능을 포함하고 있다.
 
-3. Container Management
+4. Container Management
+
 컨테이너 수준에서 각 서비스 어플리케이션이 구동된다. 각자 OS를 갖고 있는 VM과 달리 커널을 공유하고 있으므로 자원 측면에서 이득을 볼 수 있다. MSA 프로젝트는 여러 컨테이너들로 구성되므로 컨테이너 오케스트레이션 기술이 필요하다. (ex.쿠버네티스)
 
 etc.
