@@ -31,12 +31,12 @@
 - 작업이 완료되면 CPU에게 인터럽트를 발생시켜 수행이 완료 되었음을 알린다.
 
 - **open()의 호출**
-<img width="600" src="https://user-images.githubusercontent.com/102718303/213471830-984f5586-9b5c-40de-b3ee-17d6c09c6abb.png">
+<img width="600px" alt="open()" src="https://user-images.githubusercontent.com/102718303/213471830-984f5586-9b5c-40de-b3ee-17d6c09c6abb.png">
 
 </br>
 
 ## 시스템 콜 예시
-```
+```bash
 # in.txt에 있는 파일 내용과 같은 내용을 복사하여 out.txt 파일을 만드는 것
 cp in.txt out.txt
 ```
