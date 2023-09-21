@@ -104,7 +104,7 @@ FROM EX_TABLE A
 FULL OUTER JOIN JOIN_TABLE B ON A.NO_EMP = B.NO_EMP
 ```
 
-모든 RDBMS에서 지원하진 않는다. 예를들어 MYSQL에는 FULL OUTER JOIN를 지원하지 않아서 right join과 left join을 합한것으로 쿼리를 짜야한다.
+모든 RDBMS에서 지원하진 않는다. 예를들어 MYSQL에서는 FULL OUTER JOIN를 지원하지 않아서 right join과 left join을 합한 것으로 쿼리를 작성해야한다.
 
 ## CROSS JOIN
 
