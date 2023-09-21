@@ -36,7 +36,11 @@
 </br>
 
 ## 시스템 콜 예시
-- `cp in.txt out.txt` : in.txt에 있는 파일 내용과 같은 내용을 복사하여 out.txt 파일을 만드는 것
+```
+// in.txt에 있는 파일 내용과 같은 내용을 복사하여 out.txt 파일을 만드는 것
+cp in.txt out.txt
+```
+리눅스 터미널에 위와 같은 명령어를 입력하면, 다음과 같은 시스템 콜이 발생한다.
 
 1. 먼저 사용자로부터 입력을 받는데 이때 **I/O 시스템 콜**이 발생한다.
 2. 이후 'cp' 프로그램을 실행하면 먼저 `in.txt` 파일이 현재 디렉토리에서 접근 가능한지를 확인하기 위한 시스템 콜이 발생한다.
@@ -56,8 +60,11 @@
 ||파일 열기/닫기|CloseHandle()|close()|
 ||파일 읽기/쓰기|ReadFile()/WriteFile()|read()/write()|
 |디바이스 관리|장치로 읽기/쓰기|ReadFile()/WriteFile()|read()/write()|
-|정보 관리|--|--|--|
-|통신|--|--|--|
+|정보 관리|현재 프로세스의 PID 반환||getpid()|
+|||시간 지정|alarm()|
+|||시간 대기|sleep()|
+|통신|파이프 생성|CreatePipe()|pipe()|
+|보안|퍼미션 설정|SetFileSecurity()|chmod()|
 
 open(), read(), write(), fork(), exit()
 CrateProcess(), WaitForSingleObject()
