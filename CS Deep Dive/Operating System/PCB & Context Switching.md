@@ -24,8 +24,8 @@ PCB는 **프로세스 관리의 메타 데이터**들을 저장해놓은 곳이�
 - `Open File Lists` : 프로세스가 실행 중에 열어놓은 파일에 관한 정보
 
 _\*레지스터: 중앙처리 장치 내부에 위치한 고속 데이터 저장소. 매우 빠른 속도로 데이터에 접근이 가능_  
-_\*누산기(Accumulator): 연산 결과를 일시적으로 저장하는 레지스터, 주로 산술 및 논리 연산을 수행하는데 사용_
-_\*범용 레지스터: 다양한 목적으로 사용되는 CPU 내의 레지스터 중 하나. 프로그램 실행 중 필요한 임시 데이터나 주소 저장하는데 유용_
+_\*누산기(Accumulator): 연산 결과를 일시적으로 저장하는 레지스터, 주로 산술 및 논리 연산을 수행하는데 사용_  
+_\*범용 레지스터: 다양한 목적으로 사용되는 CPU 내의 레지스터 중 하나. 프로그램 실행 중 필요한 임시 데이터나 주소 저장하는데 유용_  
 
 <img style="width: 500px" alt="PCB" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5tmZc%2FbtqUnLvQf0W%2FPVZ1TLoN3mEWk5YkjLUd90%2Fimg.png">
 
