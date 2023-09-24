@@ -62,7 +62,7 @@ _\*프로세스 상태: 운영체제 커널 코드에 의해 프로세스의 상
 <br>
 
 ### 발생하는 경우
-- [인터럽트](https://github.com/da-in/tech-interview-study/blob/main/CS Deep Dive/Operating System/안터럽트(Interrupt).md) 발생하는 경우
+- [인터럽트](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/인터럽트(Interrupt).md) 발생하는 경우
 - 프로세스의 선점시간\*이 종료되는 경우
 - 입출력(파일 읽기, 네트워크 수신 등)을 위해 대기하는 경우
 
