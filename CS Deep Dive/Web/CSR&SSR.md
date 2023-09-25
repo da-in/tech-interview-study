@@ -17,7 +17,7 @@
 
 **SPA**(Single Page Application)는 하나의 페이지로 구성된 웹 어플리케이션이다.
 
-- 최초에 한번 전체 페이지 리소스(HTML, CSS, JS...)를 로드하고, 이후부터는 **Ajax\*** 를 통해 비동기적으로 서버에서 필요한 데이터를 받아 **데이터 바인딩(Data Binding)\*** 하고 페이지 일부만을 동적으로 업데이트한다.
+- 최초에 한번 전체 페이지 리소스(HTML, CSS, JS...)를 로드하고, 이후부터는 **Ajax\*** 를 통해 비동기적으로 서버로부터 필요한 데이터를 받아 **데이터 바인딩(Data Binding)\*** 하고 페이지 일부만을 동적으로 업데이트한다.
 - `React.js`, `Vue.js`, `Angular.js` 등의 프레임워크들이 SPA 방식을 사용한다.
 - CSR(Client Side Rendering) 방식으로 렌더링된다.
 
