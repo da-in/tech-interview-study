@@ -1,7 +1,7 @@
 # 이분 탐색(Binary Search)
 
 - `이분 탐색(Binary Search)` 알고리즘은 정렬되어 있는 리스트에서 탐색 범위를 절반씩 줄여가며 데이터를 탐색하는 방법
-- 배열 내부의 데이터가 정렬되어 있어야만 사용할 수 있다.
+- 배열 내부의 데이터가 오름차순으로 정렬되어 있어야만 사용할 수 있다.
 - 변수 3개 `start, end, mid` 를 사용하여 탐색한다. 
 
 ## 동작 방식
@@ -19,7 +19,8 @@
 
 ## 구현
 
-- 반복문으로 구현 [JAVA]
+### 반복문으로 구현
+- [JAVA]
 ```java
 public static boolean BSearch(int[] arr, int n) {
   int left = 0;
@@ -38,8 +39,27 @@ public static boolean BSearch(int[] arr, int n) {
   return false;
 }
 ```
+- [Python]
+```python
+def binary_search(arr, n):
+    left = 0
+    right = len(arr) - 1
 
-- 재귀로 구현 [JAVA]
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] < n:
+            left = mid + 1
+        elif arr[mid] > n:
+            right = mid - 1
+        else:
+            return True
+
+    return False
+
+```
+
+#### 재귀로 구현 
+- [JAVA]
 ```java
 public static boolean BSearch(int[] arr, int n, int left, int right) {
   if(left > right) 
@@ -54,6 +74,21 @@ public static boolean BSearch(int[] arr, int n, int left, int right) {
     else 
       return true;
 }
+```
+- [Python]
+```python
+def binary_search_recursive(arr, n, left, right):
+    if left > right:
+        return False
+
+    mid = (left + right) // 2
+
+    if arr[mid] < n:
+        return binary_search_recursive(arr, n, mid + 1, right)
+    elif arr[mid] > n:
+        return binary_search_recursive(arr, n, left, mid - 1)
+    else:
+        return True
 ```
 
 
