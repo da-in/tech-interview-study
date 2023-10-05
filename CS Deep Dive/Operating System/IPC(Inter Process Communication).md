@@ -16,7 +16,7 @@
 * **차이점**  
 두 라이브러리가 지원하는 IPC 함수의 이름은 조금씩 다르지만, 사용하는 방법에는 큰 차이가 없다.  
 
-||System V|POSIX 표준|
+|종류|System V|POSIX 표준|
 |---|---|---|
 |공유 메모리에 접근하기 위한 공유키|16비트 정수 사용|파일 경로명 사용|
 
@@ -37,6 +37,8 @@ IPC의 두 가지 기본 모델에는 **공유 메모리** 과 **메세지 패�
 
 <img src="https://user-images.githubusercontent.com/66757141/213210653-10cda272-e938-4783-bd33-e998d776ab2c.png" alt="shared memory model" /><br/>
 [_img reference_](https://sepang2.tistory.com/45)
+
+<br>
 
 ### Shared Memory
 공유 메모리는 한 컴퓨터 시스템 내에 있는 프로세스들에 의해서만 공유된다. 프로세스 중 하나가 먼저 공유 메모리를 생성하면 다른 프로세스들이 이 공유 메모리를 읽거나 쓸 수 있다.
@@ -123,5 +125,5 @@ IPC의 두 가지 기본 모델에는 **공유 메모리** 과 **메세지 패�
 📄https://jhnyang.tistory.com/24  
 📄https://code-lab1.tistory.com/42  
 📄https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_pipes.htm  
-📄https://neos518.tistory.com/134
-교재(명품 운영체제)
+📄https://neos518.tistory.com/134  
+📚 교재(명품 운영체제)
