@@ -159,7 +159,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [운영체제란](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/운영체제란.md)
 - [프로세스 & 스레드](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/프로세스%20&%20스레드.md)
 - [프로세스 주소 공간](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/프로세스%20주소%20공간.md)
-- [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/안터럽트(Interrupt).md>)
+- [인터럽트(Interrupt)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/인터럽트(Interrupt).md>)
 - [시스템 콜(System Call)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/시스템%20콜(System%20Call).md>)
 - [PCB와 Context Switching](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/PCB%20&%20Context%20Switching.md)
 - [IPC(Inter Process Communication)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/IPC(Inter%20Process%20Communication).md>)
