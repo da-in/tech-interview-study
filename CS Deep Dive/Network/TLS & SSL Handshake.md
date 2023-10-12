@@ -14,7 +14,7 @@
 
 </br>
 
-*[자세한 SSL/TLS 참고](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Network/HTTP%26HTTPS.md?plain=1)*
+*[자세한 SSL/TLS 참고](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Network/HTTP%26HTTPS.md)*
 
 </br>
 
@@ -30,7 +30,7 @@ TLS/SSL 연결을 하고 클라이언트와 웹서버가 안전하게 데이터�
 
 ## 과정
 
-<img src = "https://user-images.githubusercontent.com/102718303/211181665-6906c3f3-aa1f-426e-a314-780a5a975b67.png">
+<img width = "680" src = "https://user-images.githubusercontent.com/102718303/211181665-6906c3f3-aa1f-426e-a314-780a5a975b67.png">
 
 1. `Client Hello` 요청
    - Client가 특정 주소에 접근하면, 해당 Server에 연결을 시도하며 전송하는 패킷이다.
