@@ -12,7 +12,6 @@
 
 > TLS가 더 보완된 버전이지만 SSL이 일반적으로 사용되는 용어이고, 보안 인증서는 여전히 SSL이라고 한다.  
 
-</br>
 
 *[자세한 SSL/TLS 참고](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Network/HTTP%26HTTPS.md)*
 
