@@ -1,23 +1,25 @@
 # Heap
 
-Heap은 비선형 자료구조이다.
+Heap은 우선 순위 큐를 위하여 만들어진 비선형 자료구조이다.
 
 ## 우선순위 큐(Priority Queue)
 
-우선순위 큐는 FIFO(First In First Out)인 일반 큐와 달리 우선 순위가 높은 요소가 먼저 나가는 추상자료형\*이다. 일반적으로 배열, 연결리스트, 힙 등으로 구현한다.
+우선순위 큐는 FIFO(First In First Out)인 일반 큐와 달리 우선 순위가 높은 요소가 먼저 나가는 추상자료형\*이다.  
 
-\* 추상자료형(Abstract Data Type, ADT)은 구현 방법을 명시하지 않고 자료구조의 특성과 연산을 명시한 것이다. Stack과 Queue 등이 해당한다.
+일반적으로 배열, 연결리스트, 힙 등으로 구현한다.
+
+_\* 추상자료형(Abstract Data Type, ADT): 구현 방법을 명시하지 않고 자료구조의 특성과 연산을 명시한 것이다. `Stack`과 `Queue` 등이 해당한다._
 
 <img src="https://user-images.githubusercontent.com/66757141/208309563-42d5a615-a55e-4f42-be58-97ac82c2e7c9.png" alt="ds-priority-queue2" width="400px">
 
 _[javatpoint - priority queue](https://www.javatpoint.com/ds-priority-queue)_
 
-우선순위 큐는 일반적으로 아래의 연산을 지원한다.  
-`enqueue()` : 새 요소 삽입  
-`dequeue()` : 루트의 요소를 삭제하여 그 값을 반환  
-`peek()` : 루트 요소를 반환
+### 우선 순위 큐의 연산
+1. `enqueue()` : 새 요소 삽입  
+2. `dequeue()` : 루트의 요소를 삭제하여 그 값을 반환  
+3. `peek()` : 루트 요소를 반환
 
-구현 방식에 따른 시간복잡도는 아래와 같다.
+### 시간복잡도 비교
 
 | 자료 구조                               | enqueue() | dequeue() |
 | --------------------------------------- | --------- | --------- |
@@ -31,15 +33,22 @@ _[javatpoint - priority queue](https://www.javatpoint.com/ds-priority-queue)_
 
 ## 힙(Heap)
 
-힙은 **이진 트리** 형태를 가지며 우선순위가 높은 요소를 루트로 배치하고 항상 루트가 먼저 나간다.  
-우선순위가 높은 요소가 먼저 나가기 위해 요소가 삽입 및 삭제 되는 시점에 바로 **정렬**된다.  
-루트가 가장 큰 값이 되는 **최대 힙(Max Heap)** 과 루트가 가장 작은 값이 되는 **최소 힙(Min Heap)** 이 있다.
+힙은 노드가 왼쪽부터 채워지는 **완전 이진 트리** 형태를 가지며 우선순위가 높은 요소를 루트로 배치하고 항상 루트가 먼저 나간다.  
+우선 순위가 높은 요소가 먼저 나가기 위해 요소가 삽입 및 삭제 되는 시점에 바로 **정렬**된다.  
+
+### 종류
+* **최대 힙(Max Heap)**
+  * 루트가 가장 큰 값이 된다.
+  * 부모 노드의 키 값이 자식 노드의 키 값과 같거나 큰 완전 이진 트리이다.
+* **최소 힙(Min Heap)**
+  * 루트가 가장 작은 값이 된다.
+  * 부모 노드의 키 값이 자식 노드의 키 값과 같거나 작은 완전 이진 트리이다.
 
 <img src="https://user-images.githubusercontent.com/66757141/208309574-1446e492-3e63-4bc6-a6c2-2c197bb07d21.png" alt="Min-Max-Heap" width="600px">
 
 <br/>
 
-## 힙 요소 추가 push()
+### 힙 요소 추가 push()
 
 1. 추가할 요소를 트리의 가장 마지막 정점에 입력한다.
 2. 추가한 요소가 부모 요소보다 우선순위가 높다면 부모와 순서를 바꾼다.
@@ -51,7 +60,7 @@ _[javatpoint - priority queue](https://www.javatpoint.com/ds-priority-queue)_
 
 <br/>
 
-## 힙 요소 제거 pop()
+### 힙 요소 제거 pop()
 
 1. 루트 정점의 요소를 제거한다.
 2. 가장 마지막 정점의 요소를 루트로 올린다.
@@ -64,13 +73,12 @@ _[javatpoint - priority queue](https://www.javatpoint.com/ds-priority-queue)_
 
 <br/>
 
-## Heap의 응용
-
-힙은 최대 최소 값을 반복적으로 구하는 경우, `Dijkstra`의 **최단 경로 알고리즘**, 최소 신장 트리의 **Prim 알고리즘** 등의 그래프 알고리즘에서 유용하다. 또한 Heapsort 정렬 알고리즘과 Huffman 코딩(데이터 압축 기술)에도 사용된다.
+### Heap의 응용
+힙은 최대 최소 값을 빠르게 찾기를 원하거나 반복적으로 구하는 경우, `Dijkstra`의 **최단 경로 알고리즘**, 최소 신장 트리의 **Prim 알고리즘** 등의 그래프 알고리즘에서 유용하다. 또한 Heapsort 정렬 알고리즘과 Huffman 코딩(데이터 압축 기술)에도 사용된다.
 
 <br/>
 
-## Heap 구현
+### Heap 구현
 
 <img src="https://user-images.githubusercontent.com/66757141/208309585-fa8fc066-558d-4987-baa3-3ecda5d4a260.png" alt="Min-Heap" width="500px">
 
@@ -145,3 +153,4 @@ class MaxHeap {
 🎨https://www.techiedelight.com/introduction-priority-queues-using-binary-heaps/  
 📄https://yoongrammer.tistory.com/81  
 📄https://www.javatpoint.com/ds-priority-queue
+📄https://gmlwjd9405.github.io/2018/05/10/data-structure-heap.html
