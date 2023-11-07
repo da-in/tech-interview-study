@@ -7,6 +7,16 @@
 
 ![image](https://raw.githubusercontent.com/GimunLee/tech-refrigerator/master/Algorithm/resources/selection-sort-001.gif)
 
+### **예제**
+| 패스 | 테이블 | 최솟값 |
+|---|---|---|
+|0|[9,1,6,8,4,0]|0|
+|1|[0,**1,6,8,4,9**]|1|
+|2|[0,1,**6,8,4,9**]|4|
+|3|[0,1,4,**8,6,9**]|6|
+|4|[0,1,4,6,**8,9**]|8|
+
+
 ### **시간 복잡도** 
 
 데이터의 개수가 n개라고 했을 때,
@@ -103,5 +113,17 @@ public class Selection_Sort {
 	}
 	
 }
+```
+**[python]**  
+```python
+def selectionSort(x):
+	length = len(x)
+	for i in range(length-1):
+	    indexMin = i
+		for j in range(i+1, length):
+			if x[indexMin] > x[j]:
+				indexMin = j
+		x[i], x[indexMin] = x[indexMin], x[i]
+	return x
 ```
 
