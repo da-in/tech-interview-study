@@ -42,11 +42,8 @@ _\* 추상자료형(Abstract Data Type, ADT): 구현 방법을 명시하지 않�
 ## Queue(큐)
 
 **Queue** 라는 이름은 '대기열'을 의미한다. 줄을 서서 기다리는 사람들과 유사하다.  
-
 Queue는 한 쪽에서 삽입, 반대 쪽에서 삭제가 이루어진다. 삽입이 이루어지는 쪽을 `rear`, 데이터가 삭제되는 쪽은 `front`라고 한다.  
-
-Queue는 `front` 또는 `rear`에서 접근이 가능하다.
-
+Queue는 `front` 또는 `rear`에서 접근이 가능하다.  
 **선입선출(First-In-First-Out, FIFO)** 방식의 선형 자료구조이다.  
 
 <img width="400px" src="https://user-images.githubusercontent.com/66757141/208432243-3b54920f-2305-463a-9f4e-248b127b2252.png" alt="difference-between-stack-and-queue2" />
