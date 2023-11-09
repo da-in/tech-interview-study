@@ -53,7 +53,7 @@ Queue는 `front` 또는 `rear`에서 접근이 가능하다.
 
 ### ADT Queue의 연산
 
-1. `enqueue(item)` : queue에 item을 삽입한다. (queue size를 초과한다면 overflow가 발생한다.)`O(1)`
+1. `enqueue(item)` : queue에 item을 삽입한다. (queue size를 초과하면 overflow가 발생한다.)`O(1)`
 2. `dequeue()` : queue의 front에 위치한 item을 반환하고 삭제한다. (queue에 자료가 없다면 underflow가 발생한다.)`O(1), O(N)`
 3. `peek()` : queue의 front에 위치한 item을 삭제 없이 반환한다. `O(1)`
 4. `ifFull()` : queue이 가득 차있다면 true, 아니라면 false를 반환한다. `O(1)`
