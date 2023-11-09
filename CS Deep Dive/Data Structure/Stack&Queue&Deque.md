@@ -8,13 +8,10 @@ _\* 추상자료형(Abstract Data Type, ADT): 구현 방법을 명시하지 않�
 
 ## Stack(스택)
 
-**Stack** 이라는 이름은 '쌓아올린다'는 의미를 가지고 있다. 그래서 Stack은 쌓아올린 형태의 자료구조를 의미한다.  
-
-Stack은 한 쪽 방향에만 자료를 추가 및 삭제 할 수 있으며 가장 마지막에 삽입된 자료의 위치를 `top`이라 한다.  
-
-Stack은 `top`에만 접근이 가능하기 때문에 그 외의 위치에 대한 데이터 추가 및 삭제가 불가능하다.  
-
-**후입선출(Last-In-First-Out, LIFO)** 방식의 선형 자료구조이다.  
+- **Stack** 이라는 이름은 '쌓아올린다'는 의미를 가지고 있다. 그래서 Stack은 쌓아올린 형태의 자료구조를 의미한다.
+- Stack은 한 쪽 방향에만 자료를 추가 및 삭제 할 수 있으며 가장 마지막에 삽입된 자료의 위치를 `top`이라 한다.
+- Stack은 `top`에만 접근이 가능하기 때문에 그 외의 위치에 대한 데이터 추가 및 삭제가 불가능하다.
+- **후입선출(Last-In-First-Out, LIFO)** 방식의 선형 자료구조이다.
 
 
 <img width="330px" src="https://user-images.githubusercontent.com/66757141/208432228-d060964a-44ff-4c77-860e-dda2b7b8a873.png" alt="difference-between-stack-and-queue1" />
