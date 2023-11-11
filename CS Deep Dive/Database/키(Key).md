@@ -8,7 +8,7 @@
 - 대체 키 (Alternate Key)
 - 외래 키 (Foreign Key)
 
-<img width="500" src="https://github.com/da-in/tech-interview-study/assets/102718303/9cba7363-f166-4263-ac4f-629856937143">
+<img width="400" src="https://github.com/da-in/tech-interview-study/assets/102718303/9cba7363-f166-4263-ac4f-629856937143">
 
 
 ## 슈퍼 키(super key)
@@ -17,7 +17,7 @@
 - 유일성만 만족하면 슈퍼키가 될 수 있다.
 >**유일성** : 하나의 키로 특정 행을 바로 찾아낼수 있는 고유한 데이터 속성을 말한다. 예를 들어 전국에서 나를 구별할 수 있는 유일하고 고유한 속성은 주민번호이다. 주민번호는 전국민이 모두 겹치지 않아 유일하고 고유한 구별 방법으로 쓰인다.
 
-<img width="555" alt="스크린샷 2022-12-20 오후 11 59 16" src="https://user-images.githubusercontent.com/70997596/208697678-30243be3-9426-4b37-9890-fa0e9ddaf030.png">
+<img width="450" alt="스크린샷 2022-12-20 오후 11 59 16" src="https://user-images.githubusercontent.com/70997596/208697678-30243be3-9426-4b37-9890-fa0e9ddaf030.png">
 
 </br>
 
@@ -27,7 +27,7 @@
 - 슈퍼키들 중에서 속성의 수가 최소가 되는 슈퍼키가 후보키가 된다.
 >**최소성** : 키를 구성하는 속성들 중 가장 최소로 필요한 속성들로만 키를 구성하는 성질을 말한다.
 
-<img width="564" alt="스크린샷 2022-12-20 오후 11 59 25" src="https://user-images.githubusercontent.com/70997596/208697710-db5f1094-cb5e-498a-88f4-379dd633e029.png">
+<img width="450" alt="스크린샷 2022-12-20 오후 11 59 25" src="https://user-images.githubusercontent.com/70997596/208697710-db5f1094-cb5e-498a-88f4-379dd633e029.png">
 
 >이름 + 나이 슈퍼키는 속성의 개수가 다른 것보다 많기 때문에 최소성을 만족하지 못해서 후보키가 될 수 없다.
 
@@ -40,7 +40,7 @@
 - 기본키는 **NULL** 값을 절대 가질수 없고, 중복된 값을 가질 수 없다.
 - 각 행들을 구별하려면 값이 없어선 안되고, 중복 되어서도 안되기 때문이다.
 
-<img width="483" alt="스크린샷 2022-12-21 오전 12 01 10" src="https://user-images.githubusercontent.com/70997596/208697761-39c2cdcf-d6d2-4424-b650-ea31ff0e032a.png">
+<img width="450" alt="스크린샷 2022-12-21 오전 12 01 10" src="https://user-images.githubusercontent.com/70997596/208697761-39c2cdcf-d6d2-4424-b650-ea31ff0e032a.png">
 
 </br>
 
@@ -48,7 +48,7 @@
 - 후보키가 두 개 이상일 경우 그 중에서 하나를 기본키로 지정하고 남은 후보키들을 대체키라고 한다.
 - 따라서 대체키는 기본키로 선정되지 않은 후보키이다.
 
-<img width="502" alt="스크린샷 2022-12-21 오전 12 01 21" src="https://user-images.githubusercontent.com/70997596/208697798-33f44263-ff61-4e2d-a05d-8c82fabffa9d.png">
+<img width="450" alt="스크린샷 2022-12-21 오전 12 01 21" src="https://user-images.githubusercontent.com/70997596/208697798-33f44263-ff61-4e2d-a05d-8c82fabffa9d.png">
 
 >학번이 기본키가 되고 남은 후보키인 주민번호는 대체키가 된다. 만약 학번 기본키가 없어지게 되면 주민번호는 없어진 기본키를 대체할 수 있게된다.
 
@@ -71,7 +71,7 @@
   - 부모테이블을 참조하는데 부모테이블이 삭제되면 자식테이블은 참조하는 것이 없어지기 때문에 외래키 오류가 생긴다.
 - 외래키 관계에서 부모테이블을 삭제하려면 자식테이블 먼저 삭제한 후 부모테이블을 삭제 해야한다.
 
-<img width="555" alt="스크린샷 2022-12-20 오후 11 55 27" src="https://user-images.githubusercontent.com/70997596/208697831-10e2cdf7-0c83-440e-a441-afd7fa4daa33.png">
+<img width="450" alt="스크린샷 2022-12-20 오후 11 55 27" src="https://user-images.githubusercontent.com/70997596/208697831-10e2cdf7-0c83-440e-a441-afd7fa4daa33.png">
 
 >부모 테이블은 학생 테이블, 자식 테이블은 수강 테이블일 때, 학생테이블은 학번이 **기본키이자 참조되는 참조키**이다. 반면 수강테이블은 학번이 **참조하는 키이자 외래키**이다.
 
