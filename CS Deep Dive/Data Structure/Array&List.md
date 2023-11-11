@@ -6,7 +6,7 @@
 
 ## 배열(Array)
 
-[**배열(Array)**](https://github.com/da-in/tech-interview-study/blob/main/Data%20Structure/Array.md) 은 일반적으로 같은 자료형의 데이터들이 연속적으로 저장 되어있는 자료구조이다.
+[**배열(Array)**](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Data%20Structure/Array.md) 은 일반적으로 같은 자료형의 데이터들이 연속적으로 저장 되어있는 자료구조이다.
 
 ### 배열의 특징
 
