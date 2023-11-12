@@ -167,7 +167,7 @@ Issue와 PR로 오탈자 및 잘못된 내용을 알려주세요🙂
 - [데드락(DeadLock)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/데드락(Dead%20Lock).md>)
 - [Race Condition](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/Race%20Condition.md)
 - [세마포어(Semaphore) & 뮤텍스(Mutex)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4(Semaphore)%20%26%20%EB%AE%A4%ED%85%8D%EC%8A%A4(Mutex).md>)
-- [페이징 & 세그먼테이션 (PDF)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/페이징%20세그먼테이션%20(PDF).md>)
+- [페이징 & 세그먼테이션(PDF)](<https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/페이징%20&%20세그먼테이션(PDF).md>)
 - [Blocking, Non-blocking, Synchronous, Asynchronous](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/Blocking,%20Non-blocking,%20Sync,%20Async.md)
 - [페이지 교체 알고리즘](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/페이지%20교체%20알고리즘.md)
 - [메모리 관리(Memory Management)](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/메모리%20관리.md)
