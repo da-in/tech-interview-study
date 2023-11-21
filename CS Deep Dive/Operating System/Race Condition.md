@@ -32,6 +32,10 @@
 - **Wait-Signal 방식**
   - `Semaphore(세마포어)` : n개의 자원을 다수의 스레드가 공유하여 사용하도록 돕는 자원 관리 기법으로, counter 변수를 사용하여 여러 스레드가 `Critical Section`에 접근하는 것을 원할하게 관리한다.
 
+<br>
+
+\*[Semaphore & Mutex 자세히 보기](https://github.com/da-in/tech-interview-study/blob/main/CS%20Deep%20Dive/Operating%20System/세마포어(Semaphore)%20&%20뮤텍스(Mutex).md)  
+
 ----
 ## Reference
 - https://iredays.tistory.com/125
