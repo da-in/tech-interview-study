@@ -107,7 +107,7 @@ _\*세그먼트 : 프로세스 내에서 하나의 단위로 다룰 수 있는 �
 ## Reference
 - https://steady-coding.tistory.com/524
 - https://kyoun.tistory.com/31
-- 명품 운영체제
+- 명품 운영체제, 황기태 저, 생능출판사, 2023 
 
 
 
