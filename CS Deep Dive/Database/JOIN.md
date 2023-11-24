@@ -173,5 +173,5 @@ FROM EX_TABLE A, EX_TABLE B
 📄https://advenoh.tistory.com/23  
 📄https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins  
 📄https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/%5BDatabase%20SQL%5D%20JOIN.md  
-📄https://coding-factory.tistory.com/87
+📄https://coding-factory.tistory.com/87  
 📄https://parkmuhyeun.github.io/etc/database/2022-06-27-Join/
