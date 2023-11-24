@@ -39,7 +39,7 @@
 ----
 ## Reference
 - https://iredays.tistory.com/125
-- https://velog.io/@klloo/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B2%BD%EC%9F%81-%EC%83%81%ED%83%9C-Race-Condition
--https://systorage.tistory.com/entry/CS-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8F%99%EA%B8%B0%ED%99%94
+- https://velog.io/@klloo/운영체제-경쟁-상태-Race-Condition
+- https://systorage.tistory.com/entry/CS-운영체제-프로세스-동기화
 - https://rebro.kr/176
 - 명품 운영체제, 황기태 저, 생능출판사, 2023 
